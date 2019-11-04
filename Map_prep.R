@@ -83,3 +83,36 @@ with(metadata1, plot(precip, precipPCA1)) #highly correlated
 writeRaster(tempPCA$map$PC1, "./formatted_data/tempPC1.grd", overwrite=T)
 writeRaster(precipPCA$map$PC1, "./formatted_data/precipPC1.grd", overwrite=T)
 
+
+
+
+# Net Primary Productivity  -----------------------------------------------
+
+### I tried many methods to create a raster of NPP that were all fairly
+### complicated and a pain in the ass. I tried using the MODIS package but
+### ran into GDAL programs (issues recognizing the .hdf format). I also tried to
+### use the MODIS subset website but the extent was limited to downloading 100 km
+### x 100 km blocks (too small!). I downloaded .hdf files by hand and processed
+### them using HEG (also a pain!) but they looked super weird. The LAADS DAAC
+### website is super unhelpful. Then I sort of realized that the NPP data
+### maybe are not on the LAADS website because of "cloud contamination" issues.
+### Eventually I found a good link to the U Montana http://files.ntsg.umt.edu/
+### Website that has a different filtering process for NPP and managed to download
+### average from 2000 through 2015 NPP.
+### IMPORTANT: this file is too big to sync to github, so you will have to
+### download it yourself:
+### download.file("http://files.ntsg.umt.edu/data/NTSG_Products/MOD17/GeoTIFF/MOD17A3/GeoTIFF_30arcsec/MOD17A3_Science_NPP_mean_00_15.tif", destfile = "./raw_data/namethefile")
+
+npp <- raster("./raw_data/MOD17A3_Science_NPP_mean_00_15.tif")
+npp <- crop(npp, peru) # Mask and crop first because tif is of whole world
+npp <- mask(npp, peru)
+npp[is.na(npp[])] <- 0 # Turn Nas into 0s
+npp <- crop(npp, peru) # Mask and crop again
+npp <- mask(npp, peru)
+
+plot(npp, col=viridis(100)) ### NPP are in kg carbon /m2 *10000
+
+
+metadata1$npp.raster <- extract(npp, CommunitySpatial) #pull vals for communities
+writeRaster(npp, "./formatted_data/npp.grd", overwrite=T)
+
