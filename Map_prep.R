@@ -1,6 +1,6 @@
-# This script pulls map and bioclim rasters for our climatic predictors
-#
-#
+# This script formats spatial data, pulls climatic and npp values for each
+# community, and creates maps of temperature, precip, elevation, and NPP.
+# **Don't forget to download NPP file, it's not in the Github repo (too big).**
 #
 library(raster)
 library(rgdal)
@@ -82,8 +82,6 @@ with(metadata1, plot(precip, precipPCA1)) #highly correlated
 
 writeRaster(tempPCA$map$PC1, "./formatted_data/tempPC1.grd", overwrite=T)
 writeRaster(precipPCA$map$PC1, "./formatted_data/precipPC1.grd", overwrite=T)
-
-
 
 
 # Net Primary Productivity  -----------------------------------------------

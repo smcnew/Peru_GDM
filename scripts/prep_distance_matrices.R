@@ -12,7 +12,7 @@ library(GUniFrac) #for calculating unifrac distance
 library(ape) #for reading phylogeny
 library(dplyr) #for data organization
 
-# Input Data ----------------------------------------------------------------
+# Input data ----------------------------------------------------------------
 
 # Parasite data: csv list of parasites, each row is an infection
 # includes lat long for each record, the community number it was collected from
@@ -61,14 +61,9 @@ hostUnifrac <- GUniFrac(inputhosts, hosttree, alpha=c(0, 0.5, 1)) %>%
 hostj <- as.matrix(vegdist(inputhosts, method="jaccard", binary=T, diag=T)) %>%
   as.data.frame()
 
-
-#some host plots!
-heatmap.2(hostUnifrac, trace="none", main="Host Unifrac")
-heatmap.2(as.matrix(hostj), trace="none", main="Host Jaccard")
-
 #write out files
-write.csv(hostj, "formatted_data/hostjaccard.csv", row.names = F)
-write.csv(hostUnifrac, "formatted_data/hostUnifrac.csv", row.names = F)
+write.csv(hostj, "formatted_data/hostjaccard.csv")
+write.csv(hostUnifrac, "formatted_data/hostUnifrac.csv")
 
 #
 # Rarefy parasites --------------------------------------------------------
@@ -266,7 +261,7 @@ sapply(1:3, function (x) write.csv(braycurtis[[x]],
                                               "csv", sep="."), row.names = F))
 
 
-# Parasite community richness & EXPORT METADATA ------------
+# Estimate parasite community richness & EXPORT METADATA ------------
 # Use the parasite abundance matrix to estimate parasite species richness
 # for our communities (one of our GDM predictors) using iNEXT package.
 
@@ -279,3 +274,18 @@ write.csv(metadata1, file = "./formatted_data/GDM_metadata.csv",
           row.names=F)
 
 
+
+# Heatmaps of distance matrices -----------------------------------------------------------
+
+pdf("./output_plots/heat_map_HostU.pdf")
+heatmap.2(as.matrix(hostunifs[,-1]),  main="Host UniFracs", trace="none")
+dev.off()
+pdf("./output_plots/heat_map_HostJ.pdf")
+heatmap.2(as.matrix(hostJ[,-1]),  main="Host Jaccard", trace="none")
+dev.off()
+pdf("./output_plots/heat_map_ParGd.pdf")
+heatmap.2(as.matrix(parGunifracs[,-1]),  main="Parasite Unifracs", trace="none")
+dev.off()
+pdf("./output_plots/heat_map_ParBC.pdf")
+heatmap.2(as.matrix(parBC[,-1]),  main="Parasite Bray Curtis", trace="none")
+dev.off()
