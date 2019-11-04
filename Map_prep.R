@@ -116,3 +116,25 @@ plot(npp, col=viridis(100)) ### NPP are in kg carbon /m2 *10000
 metadata1$npp.raster <- extract(npp, CommunitySpatial) #pull vals for communities
 writeRaster(npp, "./formatted_data/npp.grd", overwrite=T)
 
+
+# Maps for figures --------------------------------------------------------
+
+#Make a nice map of sampling locations
+pdf("./output_plots/samplingmap.pdf", useDingbats = F)
+plot(perualt2, col= viridis(100))
+plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+#with(CommunitySpatial, text(CommunitySpatial,
+#  labels=CommunitySpatial$ID, pos=4, cex=1.3))
+
+dev.off()
+
+
+#plot our abiotic maps for export
+pdf("./output_plots/elev_temp_precip_npp_raster.pdf", height=7, width=7)
+par(mfcol=c(2,2))
+plot(perualt2, col= viridis(100), cex.axis=1.5, main="Elevation (m)")
+plot(tempPCA$map$PC1, col=viridis(100), cex.axis=1.5, main= "Temperature index")
+plot(precipPCA$map$PC1, col=viridis(100), cex.axis=1.5, main="Precipitation index")
+plot(npp/10000, col=viridis(100), cex.axis=1.5, main="Net Primary Productivity\n(kg C/m2)")
+dev.off()
+
