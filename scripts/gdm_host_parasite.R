@@ -19,41 +19,31 @@ library(scales) #for alpha of colors
 library(vegan) #distance matrices
 set.seed(1987)
 
-# Read in data ------------------------------------------------------------
+# Data ------------------------------------------------------------
 community.number <- 1:18
 
 #Metadata
 metadata <- read.csv("./formatted_data/GDM_metadata.csv")
 
-#Parasite distance matrices
-parBC <- read.csv("./formatted_data/parasitebraycurtis.csv") %>% rename(., community.number=X)
-parGunifracs <- read.csv("./formatted_data/malaria.generalized.unifracs.csv") %>%
-  rename(., community.number=X)
-
-
-#HPL distance matrices
-hplWunifs <- as.list(sapply(1:3, function(x)
-  read.csv(file=paste("./formatted_data/wunifs", x, "csv",sep="."))))
-
-hplUunifs <- as.list(sapply(1:3, function(x)
-  read.csv(file=paste("./formatted_data/uunifs", x, "csv",sep="."))))
-
-hplGunifs <- as.list(sapply(1:3, function(x)
-  read.csv(file=paste("./formatted_data/gunifs", x, "csv",sep="."))))
-
-hplJaccard<- as.list(sapply(1:3, function(x)
-  read.csv(file=paste("./formatted_data/jaccards", x, "csv",sep="."))))
-
-hplBC<- as.list(sapply(1:3, function(x)
-  read.csv(file=paste("./formatted_data/braycurtis", x, "csv",sep="."))))
-
-
 #Host distance matrices
-hostJ <- read.csv("./formatted_data/hostjaccard.csv") %>%
+host_ja <- read.csv("./formatted_data/hostjaccard.csv") %>%
   rename(community.number = X) %>% mutate(community.number = 1:18) #Jaccard
 
-hostunifs <- read.csv("./formatted_data/hostUnifrac.csv") %>%
-  rename(community.number = X) %>% mutate(community.number = 1:18) #Unifracs
+host_unifs <- read.csv("./formatted_data/hostUnifrac.csv") %>%
+  rename(community.number = X) %>% mutate(community.number = 1:18) #Unifracs (unweighted)
+
+#Parasite distance matrices
+par_bc <- read.csv("./formatted_data/parasitebraycurtis.csv") %>% rename(., community.number=X) #Bray curtis
+par_unifs <- read.csv("./formatted_data/malaria.generalized.unifracs.csv") %>%
+  rename(., community.number=X) #Unifracs (generalized)
+
+#HPL distance matrices
+hpl_unifs <- as.list(sapply(1:3, function(x)
+  read.csv(file=paste("./formatted_data/gunifs", x, "csv",sep="."))))
+
+hpl_bc<- as.list(sapply(1:3, function(x)
+  read.csv(file=paste("./formatted_data/braycurtis", x, "csv",sep="."))))
+
 
 #Spatial data
 #birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster
@@ -120,44 +110,204 @@ modsel <- function(model){
   best <- (model[[1]][2,] - sort(1:ncol(model[[1]]), decreasing=T)) %>% which.max #best model
   na.omit(model[[2]][,best])
 }
-modsel(pb) %>% names()
-modsel(gdmgU) %>% round(digits=2) %>% scale() %>% rownames()
 
 
-
-
+#
 # Parasite GDMs -----------------------------------------------------------
 
-# Distance matrices: parWunifracs (phylo turnover) parBC (species turnover)
+# Distance matrices: par_unifs (phylo turnover) par_bc (species turnover)
 # Variables of interest: elevation, distance (lat/long), temp, precip, NPP,
 # host richness and host turnover
-# format input vars
+# Function Arguments:
+# r, response dissimilarity matrix, either host or parasite,
+# e, vector of abiotic variables we care about
+# d, predictor distance matrices, i.e. host turnover and parasite turnover
+
 pe <- c("community.number", "community.Lat", "community.Long",
         "tempPCA1", "precipPCA1","community.elev","total.host",
         "npp.raster")
-pd <- list(hostJ, hostunifs)
+pd <- list(host_ja, host_unifs)
 
-plot(gdm.fun(parBC, e=pe, d=pd), plot.layout = c(2,4)) #visualize full species model
-plot(gdm.fun(parGunifracs, e=pe, d=pd), plot.layout = c(2,4)) #visualize full phylo model
+plot(gdm.fun(r = par_bc, e = pe, d = pd), plot.layout = c(2,4)) #visualize full species model
+plot(gdm.fun(r = par_unifs, e = pe, d = pd), plot.layout = c(2,4)) #visualize full phylo model
 
 # Permute model to test importance of predictor variables
 
-gdm_p_bc <- p.gdm.fun(parBC, pe, pd) #full model Bray-Curtis
-gdm_p_uf <- p.gdm.fun(parGunifracs, pe, pd) #full model generalized unifracs
+gdm_p_bc <- p.gdm.fun(r = par_bc, e = pe, d = pd) #full model Bray-Curtis
+gdm_p_uf <- p.gdm.fun(r = par_unifs, e = pe, d = pd) #full model generalized unifracs
 
 # Save models as R objects because they took a long ass time to run
 sapply(c("gdm_p_bc", "gdm_p_uf"), function (x)
   saveRDS(get(x), file=paste("./GDM_results/", x, ".Rdata", sep="")))
 
-# Select best model
+# What factors are in the best models?
 modsel(gdm_p_bc) #Distance, Precip, Host turnover
 modsel(gdm_p_uf) #Distance, Precip, Host richness, Elevation
 
 
 # Best models; model select and then just run the GDM with the predictors we care about.
-gdm_b_par_spp <- gdm.fun(parBC, e= c("community.number", "community.Lat", "community.Long", "precipPCA1"), d=pd)
+gdm_b_par_spp <- gdm.fun(r = par_bc,
+                         e = c("community.number", "community.Lat", "community.Long", "precipPCA1"), d=pd)
 
 # Host turnover not important for phylogenetic turnover so we use gdm.fun.e (no distance matrix predictor)
-gdm_b_par_phy <- gdm.fun.e(parGunifracs, e= c("community.number", "community.Lat", "community.Long", names(modsel(gdm_p_uf))[-1]))
+gdm_b_par_phy <- gdm.fun.e(r = par_unifs,
+                           e = c("community.number", "community.Lat", "community.Long",
+                                 names(modsel(gdm_p_uf))[-1]))
 
-summary(gdm_b_par_phy)
+#
+# GDM host turnover -------------------------------------------------------------
+# Distance matrices: host_unifs (phylo turnover) and host_ja (species turnover)
+# Function Arguments:
+# r, response dissimilarity matrix, either host or parasite,
+# e, vector of abiotic variables we care about
+# d, predictor distance matrices, i.e. host turnover and parasite turnover
+
+hd <- list(par_unifs, par_bc)
+he <- c("community.number", "community.Lat", "community.Long",
+        "tempPCA1", "precipPCA1","community.elev","parasite.richness",
+        "npp.raster")
+
+plot(gdm.fun(host_ja, e=he, d=hd), plot.layout = c(3,4)) #visualize full models
+plot(gdm.fun(host_unifs, e=he, d=hd), plot.layout = c(3,4))
+
+#Permute models to id most important variables
+gdm_h_ja  <- p.gdm.fun(host_ja, he, hd)
+gdm_h_uf <- p.gdm.fun(host_unifs, he, hd)
+
+sapply(c("gdm_h_uf", "gdm_h_ja"), function (x) #save models bc permutations take so long
+  saveRDS(get(x), file=paste("./GDM_results/", x, ".Rdata", sep="")))
+
+
+#Best models (after selection)
+gdm_b_host_spp <-  gdm.fun.e(host_ja, e = c("community.number",
+                                           "community.Lat",
+                                           "community.Long",
+                                           names(modsel(gdm_h_ja))[-1]))
+gdm_b_host_phy <-  gdm.fun(hostunifs, e = c("community.number",
+                                            "community.Lat",
+                                            "community.Long",
+                                            names(modsel(gdm_h_uf))[-c(1,6)]), d=hd)
+
+
+#
+
+# GDM parasites by genus  -------------------------------------------------
+# Separate analyses for Haemo, Leuco and Plasmo:
+# Response vars: unifracs (phylo turnover) and bray curtis (species turnover)
+# Minor challenge: because not all communities are represented in each genus
+# we have to subset metadata for just the communities we're modeling.
+
+#format data to have community number in front of all columns
+h <- 1:18
+l <- c(4,5,6,7,9,10,15,16)
+p <- c(1,3,4,8,9,11,13)
+community.numbers <- list(h,l,p)
+community.numbers
+names(community.numbers) <-c(rep("community.number",3))
+
+#minimum sampling for for H,P,L
+gunifs_genera <- mapply(cbind, community.numbers, hpl_unifs)
+gunifs_genera <- lapply(gunifs_genera, setNames, "community.number")
+
+braycurtis_genera <- mapply(cbind, community.numbers, hpl_bc)
+braycurtis_genera <- lapply(braycurtis_genera, setNames,"community.number")
+
+#Functions that include subsetting metadata
+#r = response matrix, e = enviro variables
+#d = distance (host) matrix. g = genus: 1 = haemo, 2 = leuco, 3 = plasmo
+gdm.fun.hpl <- function (r, e, d, g) {
+  dplyr::select(metadata, e) %>%
+    filter(community.number %in% community.numbers[[g]]) %>%
+    as.data.frame(.) %>%
+    mutate(., community.number=community.numbers[[g]]) -> e.formatted  # select predictor vars
+    d.formatted <- lapply(d, function(x) filter(x, community.number %in% community.numbers[[g]]))
+    e.r.sitepair <- formatsitepair(bioData = r, bioFormat = 3, #response = matrix
+                                 XColumn= "community.Long", YColumn = "community.Lat", #required: lat and long columns (in one or both response/predictors)
+                                 siteColumn = "community.number", #required: community (site) ID, should be same in both matrices
+                                 distPreds = d.formatted,
+                                 predData = e.formatted, weightType="equal") #predictor data = scaled metadata
+  dplyr::select(e.r.sitepair, -s1.matrix_2, -s2.matrix_2) -> e.r.sitepair #remove second matrix
+  gdm(e.r.sitepair, geo=T)
+}
+
+#Permutation function
+p.gdm.fun.hpl <- function (r, e, d, g) { #function takes r, response variables i.e. dissim matrix, e, vector of ecol variables we care about.
+  dplyr::select(metadata, e) %>% filter(community.number %in%
+                                          community.numbers[[g]]) %>% as.data.frame(.) %>%
+  mutate(., community.number=community.numbers[[g]]) -> e.formatted # select predictor vars
+  d.formatted <- lapply(d, function(x) filter(x, community.number %in% community.numbers[[g]]))
+  e.r.sitepair <- formatsitepair(bioData = r, bioFormat = 3, #response = matrix
+                                 XColumn= "community.Long", YColumn = "community.Lat", #required: lat and long columns (in one or both response/predictors)
+                                 siteColumn = "community.number", #required: community (site) ID, should be same in both matrices
+                                 distPreds = d.formatted,
+                                 predData = e.formatted, weightType="equal") #predictor data = scaled metadata
+  dplyr::select(e.r.sitepair, -s1.matrix_2, -s2.matrix_2) -> e.r.sitepair #remove second matrix  gdm.varImp(e.r.sitepair, geo=T, parallel=T, nPerm = 100)
+  gdm.varImp(e.r.sitepair, geo=T, parallel=T, nPerm=1000)
+}
+
+# HAEMOPROTEUS
+pe <- c("community.number", "community.elev", "community.Lat", "community.Long",
+        "tempPCA1", "precipPCA1","total.host", "npp.raster", "shannonD")
+pd <- list(host_ja, host_unifs)
+
+#plot(gdm.fun(wunifs_genera[[1]], e=pe, d=pd, g=1), plot.layout=c(2,4))
+#plot(gdm.fun(uunifs_genera[[1]], e=pe, d=pd, g=1), plot.layout=c(2,4))
+#plot(gdm.fun(jaccard_genera[[1]], e=pe, d=pd, g=1), plot.layout=c(2,4))
+#plot(gdm.fun(braycurtis_genera[[1]], e=pe, d=pd, g=1), plot.layout=c(2,4))
+gdm.fun.hpl(braycurtis_genera[[1]], e=pe, d=pd, g=1) %>% summary()
+
+#hw <- p.gdm.funHPL(wunifs_genera[[1]], pe, pd, 1) #full model wUnifs
+hg <- p.gdm.funHPL(gunifs_genera[[1]], pe, pd, 1) #full model gUnifs
+hu <- p.gdm.funHPL(uunifs_genera[[1]], pe, pd, 1) #full model uUnifs
+hj <- p.gdm.funHPL(jaccard_genera[[1]], pe, pd, 1) #full model jaccard
+hb <- p.gdm.funHPL(braycurtis_genera[[1]], pe, pd, 1) #full model bc
+hemoresults <- list(hg, hb, hu, hj)
+names(hemoresults) <- c("H-gunifs", "H-braycurtis", "H-uunifs", "H-jaccard")
+
+#save results
+sapply(c("hg", "hu", "hj", "hb"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results",x,".Rdata", sep="")))
+
+#LEUCO
+#lw <- p.gdm.funHPL(wunifs_genera[[2]], pe, pd, 2) #full model wUnifs
+lg <- p.gdm.funHPL(gunifs_genera[[2]], pe, pd, 2) #full model gUnifs
+lu <- p.gdm.funHPL(uunifs_genera[[2]], pe, pd, 2) #full model uunifs
+lj <- p.gdm.funHPL(jaccard_genera[[2]], pe, pd, 2) #full model jaccard
+lb <- p.gdm.funHPL(braycurtis_genera[[2]], pe, pd, 2) #full model bc
+leucoresults <- list(lg,lb,lu,lj)
+names(leucoresults) <- c("L-gunifs", "L-braycurtis", "L-uunifs", "L-jaccard")
+sapply(c("lg", "lu", "lj", "lb"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results",x,".Rdata", sep="")))
+
+
+#PLASMO
+#pw <- p.gdm.funHPL(wunifs_genera[[3]], pe, pd, 3)
+pg <- p.gdm.funHPL(gunifs_genera[[3]], pe, pd, 3) #full model gUnifs
+pu <- p.gdm.funHPL(uunifs_genera[[3]], pe, pd, 3)
+pj <- p.gdm.funHPL(jaccard_genera[[3]], pe, pd, 3)
+pb <- p.gdm.funHPL(braycurtis_genera[[3]], pe, pd, 3)
+plasmoresults <- list(pg,pb,pu,pj)
+names(plasmoresults) <- c("H-gunifs", "H-braycurtis", "H-uunifs", "H-jaccard")
+sapply(c("pg", "pu", "pj", "pb"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results",x,".Rdata", sep="")))
+
+
+#PLOT RESULTS
+
+names1 <- c("wunifs", "braycurtis", "uunifs", "jaccard")
+
+pdf("./output_plots/Haemoproteus-pcatemp-pcaprecip-npp1000.pdf", onefile=T, width=7, height=9)
+par(mfrow=c(2,2), mar=c(7,4,4,4))
+sapply(1:4, function(x) gbarplot(hemoresults[[x]], paste("H-",names1[x])))
+dev.off()
+
+pdf("./output_plots/Leuco-pcatemp-pcaprecip-npp1000.pdf", onefile=T, width=7, height=9)
+par(mfrow=c(2,2), mar=c(7,4,4,4))
+sapply(1:4, function(x) gbarplot(leucoresults[[x]], paste("L-",names1[x])))
+dev.off()
+
+pdf("./output_plots/Plasmo-pcatemp-pcaprecip-npp1000.pdf", onefile=T, width=7, height=9)
+par(mfrow=c(2,2), mar=c(7,4,4,4))
+sapply(1:4, function(x) gbarplot(plasmoresults[[x]], paste("P-",names1[x])))
+dev.off()
+
