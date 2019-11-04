@@ -4,11 +4,12 @@
 #
 library(raster)
 library(rgdal)
+library(RStoolbox)
 set.seed(1987)
 
 # Load spatial data-------------------------------------------------------
 
-#Load saved spatial data
+# Load saved spatial data
 peru <- raster::getData("GADM", country="PER", level=0) #download country shape
 projection(peru) <- CRS("+init=epsg:4326")
 perualt2 <- raster("./raw_data/peru_alt.grd") #read elevation raster
@@ -18,6 +19,8 @@ plot(climate2$bio1) #check and make sure they look as they should (bio1 is temp 
 plot(perualt2)
 plot(peru,add=T)
 
+# Metadata
+metadata1 <- read.csv(file = "./formatted_data/GDM_metadata.csv")
 
 # How to download data if we don't have it saved
 
@@ -39,9 +42,7 @@ plot(peru,add=T)
 
 
 
-# Extract spatial data ----------------------------------------------------
-
-
+# Process spatial data ----------------------------------------------------
 
 #Create a spatial data frame that has our community localities
 CommunitySpatial <- SpatialPointsDataFrame(
@@ -56,31 +57,26 @@ metadata1$precip <-raster::extract(climate2$bio12, CommunitySpatial)
 metadata1$temp_var <- raster::extract(climate2$bio4, CommunitySpatial)
 metadata1$precip_var <- raster::extract(climate2$bio15, CommunitySpatial)
 
-#does this make sense? By comparing map and extracted values, yes
-plot(climate2$bio1) #temp in C * 10
-max(metadata$community.elev)-min(metadata$community.elev)
-
-
 #PCA and scale raster data for temp variables and precip variables
-#temp
-tempPCA <- rasterPCA(subset(climate2, 1:11), spca = T)
-tempPCA$model$loadings
-lm(temp ~ tempPCA1, metadata) %>% summary()
+#temp: using BioClim vars 1 - 11
+tempPCA <- rasterPCA(subset(climate2, 1:11), spca = T) #creates a raster of PCAd temp vals
+summary(tempPCA$model) #PC1 has 82% of variation
+tempPCA$model$loadings #if you care about these things
 
-
-
+#Pull PC1 and PC2 values for each community and add to metadata.
 metadata1$tempPCA1 <- raster::extract(tempPCA$map$PC1, CommunitySpatial)
 metadata1$tempPCA2 <- raster::extract(tempPCA$map$PC2, CommunitySpatial)
+
+plot(temp ~ tempPCA1, metadata1) #PC1 is highly correlated with mean temp
+
+
 #precip
 precipPCA <- rasterPCA(subset(climate2, 12:19), spca = T)
-summary(precipPCA$model)
+summary(precipPCA$model) #PC1 has 84% of variation
 
-head(metadata)
 metadata1$precipPCA1 <- raster::extract(precipPCA$map$PC1, CommunitySpatial)
 metadata1$precipPCA2 <- raster::extract(precipPCA$map$PC2, CommunitySpatial)
-
 with(metadata1, plot(precip, precipPCA1)) #highly correlated
-with(metadata1, plot(temp, tempPCA1)) #really correlated
 
 #Write out our PCA rasters for later map generation:
 

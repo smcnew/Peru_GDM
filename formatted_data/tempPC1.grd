@@ -1,0 +1,26 @@
+[general]
+creator=R package 'raster'
+created=2019-11-04 09:22:05
+[georeference]
+nrows=439
+ncols=304
+xmin=-81.3333333333333
+ymin=-18.3333333333333
+xmax=-68.6666666666667
+ymax=-0.0416666666666679
+projection=+init=epsg:4326 +proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0
+[data]
+datatype=FLT4S
+byteorder=little
+nbands=1
+bandorder=BIL
+categorical=FALSE
+minvalue=-8.06892929165329
+maxvalue=3.22315135695779
+nodatavalue=-3.4e+38
+[legend]
+legendtype=
+values=
+color=
+[description]
+layername=PC1
