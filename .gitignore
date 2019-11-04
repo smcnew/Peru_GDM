@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+output_plots/
+formatted_data/
+raw_data/MOD17A3_Science_NPP_mean_00_15.tif
