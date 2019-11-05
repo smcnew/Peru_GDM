@@ -5,6 +5,7 @@ library(raster) # for map data
 library(tools) # for quick reading in of models
 library(stringr) # for replacing string names
 library(gdm) #to extract splines
+library(scales) #for alpha of colors
 library(dplyr)
 
 set.seed(1987)
@@ -179,7 +180,7 @@ dev.off()
 
 
 # Spline plot  ------------------------------------------------------------
-# Stupid long and not very elegant code to create splines from best models
+# Code to create splines from best models
 # Challenge: Best models for different measures of turnover include different
 # combos of variables. So we need to plot splines sometimes, but not always.
 
@@ -346,5 +347,37 @@ legend(
 dev.off()
 
 
+#
+
+# Host vs. parasite plots  ------------------------------------------------
+# Plot total turnover as a function of "ecological distance" and compare
+# hosts vs. parasites and spp. vs. phylo turnover
+
+#plots of best models (post model selection)
+pdf("./output_plots/parasites_vs_hosts_bestmodel.pdf", width=10, height=5, useDingbats = F)
+par(mfrow=c(1,2), mar=c(5,5,4,4))
+alph=0.7
+plot(gdm_b_par_spp$ecological, gdm_b_par_spp$observed, pch=24, cex=1.2, bg=alpha(varcols[7], alph),
+     xlab="Predicted ecological distance", cex.axis=1.3, cex.lab=1.5,
+     ylab="Observed compositional dissimilarity", ylim=c(0,1),
+     main="Species dissimilarity", cex.main=1.8, xlim=c(0.5, 4.5))
+points(gdm_b_host_spp$ecological, gdm_b_host_spp$observed, pch=21, cex=1.2, bg=alpha(varcols[4],alph))
+lines(smooth.spline(gdm_b_par_spp$ecological, gdm_b_par_spp$observed, spar=1.2), lwd=3, col=varcols[7])
+lines(smooth.spline(gdm_b_host_spp$ecological, gdm_b_host_spp$observed, spar=1.1), lwd=3, col=varcols[4], lty=2)
+legend("bottomright", pch=c(21,24), pt.bg=varcols[c(4,7)], cex=1,
+       legend=c("Hosts", "Parasites"))
+
+
+plot(gdm_b_par_phy$ecological, gdm_b_par_phy$observed, pch=21, cex=1.2, bg=alpha(varcols[4], alph),
+     xlab="Predicted ecological distance", cex.axis=1.3, cex.lab=1.5,
+     ylab="Observed compositional dissimilarity", ylim=c(0,1),
+     main="Phylogenetic dissimilarity", cex.main=1.8, xlim=c(0.2,1.8))
+points(gdm_b_host_phy$ecological, gdm_b_host_phy$observed, pch=24, cex=1.2, bg=alpha(varcols[7], alph))
+lines(smooth.spline(gdm_b_host_phy$ecological, gdm_b_host_phy$observed), col=varcols[4], lwd=3, lty=2)
+lines(smooth.spline(gdm_b_par_phy$ecological, gdm_b_par_phy$observed, spar=1.2), lwd=3, col=varcols[7])
+legend("bottomright", pch=c(21,24), pt.bg=varcols[c(4,7)], cex=1,
+       legend=c("Hosts", "Parasites"))
+
+dev.off()
 #
 # Maps --------------------------------------------------------------------
