@@ -4,6 +4,7 @@
 library(raster) # for map data
 library(tools) # for quick reading in of models
 library(stringr) # for replacing string names
+library(gdm) #to extract splines
 library(dplyr)
 
 set.seed(1987)
@@ -141,14 +142,17 @@ dev.off()
 
 # Spline plot  ------------------------------------------------------------
 # Stupid long and not very elegant code to create splines from best models
+# Challenge: Best models for different measures of turnover include different
+# combos of variables. So we need to plot splines sometimes, but not always.
 
-haplo.splines1 <- isplineExtract(modbp1) #extract x and y val splines
-haplo.splines2 <- isplineExtract(modbp2)
-haplo.splines3 <- isplineExtract(modbh1)
-haplo.splines4 <- isplineExtract(modbh2)
 
-head(haplo.splines1$x)
+haplo.splines1 <- isplineExtract(gdm_b_par_spp) # extract x and y val splines
+haplo.splines2 <- isplineExtract(gdm_b_par_phy)
+haplo.splines3 <- isplineExtract(gdm_b_host_spp)
+haplo.splines4 <- isplineExtract(gdm_b_host_phy)
 
+
+# Rename columns to be consistent and clean
 rename_fun <- function (frame) {
   str_replace_all(
     colnames(frame),
@@ -169,6 +173,7 @@ rename_fun <- function (frame) {
   )
 }
 
+# Rename columns and then turn into data frames
 colnames(haplo.splines1$x) <- rename_fun(haplo.splines1$x)
 colnames(haplo.splines1$y) <- rename_fun(haplo.splines1$y)
 colnames(haplo.splines2$x) <- rename_fun(haplo.splines2$x)
@@ -187,15 +192,21 @@ haplo.splines4$x <-as.data.frame(haplo.splines4$x)
 haplo.splines4$y <-as.data.frame(haplo.splines4$y)
 
 
-variables <- c("Dist", "Temp", "Precip", "Elev", "Symb_rich", "Symb_turn",
-               "NPP")
+variables <- c("Dist", "Temp", "Precip", "Elev", "Symb_rich", "Symb_turn", "NPP")
+
+# This is a nightmare. Basically, we need to go through each data frame and add
+# dummy columns of 0s for all the variables that weren't in the best model.
+# That way we can plot all variables in the same order, with the same color.
+# If they have values in the best model, great. If they weren't, they'll just be
+# plotted as 0s and will be invisible.
+# ETA this is actually pretty clever, I just need to comment better.
 
 fncols <- function(data, cname) {
-  add <-cname[!cname%in%names(data$x)]
-  if(length(add)!=0) data$x[add] <- 0 #data$x["Dist"]
-  data$x <- select(data$x, variables)
-  add <-cname[!cname%in%names(data$y)]
-  if(length(add)!=0) data$y[add] <- 0
+  add <-cname[!cname %in% names(data$x)] # variables not in best model
+  if(length(add)!= 0) data$x[add] <- 0 # add 0s as vals for dummy vars
+  data$x <- select(data$x, variables) # Reorder everything so it's consistent
+  add <-cname[!cname %in% names(data$y)] # do same for y vals.
+  if(length(add)!= 0) data$y[add] <- 0
   data$y <- select(data$y, variables)
   data
 }
@@ -205,12 +216,16 @@ haplo.splines2 <- fncols(haplo.splines2, variables)
 haplo.splines3 <- fncols(haplo.splines3, variables)
 haplo.splines4 <- fncols(haplo.splines4, variables)
 
-colnames(haplo.splines4$x)
+colnames(haplo.splines3$x) #colnames should all be the same now for all dfs
+head(haplo.splines4$x) # factors not in best model will have 0s
 
 
-pdf("./output_plots/spline_bestmodels", height=11, width=7)
-par(mfrow=c(4,2), mar=c(4.5,4.5,2,2))
+# oo boy.
+
+
+pdf("./output_plots/spline_bestmodels.pdf", height=11, width=7)
 namestring <- colnames(haplo.splines1$x)
+par(mfrow=c(4,2), mar=c(4.5,4.5,2,2))
 for (i in 1:ncol(haplo.splines1$x)) {
   ymaxs <- lapply(list(haplo.splines1,haplo.splines2,haplo.splines3,haplo.splines4),
                   function (x) apply(x[[2]], 2, max)) %>% as.data.frame() %>% t()
@@ -218,11 +233,11 @@ for (i in 1:ncol(haplo.splines1$x)) {
                   function (x) apply(x[[1]], 2, max)) %>% as.data.frame() %>% t()
   xmins <- lapply(list(haplo.splines1,haplo.splines2,haplo.splines3,haplo.splines4),
                   function (x) apply(x[[1]], 2, min)) %>% as.data.frame() %>% t()
-  plot(haplo.splines1$x[,i], haplo.splines1$y[,i], type="l", lwd=3, col=varcols[1],
-       xlab=paste(namestring[i], "dissimilarity"), ylab=paste("f(",namestring[i],")",sep=""),
+  plot(haplo.splines1$x[,i], haplo.splines1$y[,i], type="l", lwd=3, col=varcols[7],
+       xlab=paste("Dissimilarity in", namestring[i]), ylab=paste("f(",namestring[i],")",sep=""),
        ylim=c(0, 1.1*max(ymaxs[,i])), xlim=c(min(xmins[,i]), max(xmaxs[,i])),
        cex.axis=1.2, cex.lab=1.4)
-  lines(haplo.splines2$x[,i], haplo.splines2$y[,i], lwd=3, col=varcols[1], lty=2)
+  lines(haplo.splines2$x[,i], haplo.splines2$y[,i], lwd=3, col=varcols[7], lty=2)
   lines(haplo.splines3$x[,i], haplo.splines3$y[,i], lwd=3, col=varcols[4])
   lines(haplo.splines4$x[,i], haplo.splines4$y[,i], lwd=3, col=varcols[4], lty=2)
   #for (j in 1:4){
@@ -231,10 +246,11 @@ for (i in 1:ncol(haplo.splines1$x)) {
   #    labels = names[j], cex=1)
 }
 plot(NA, NA, xlim=c(1,1), ylim=c(1,1), axes=F, ylab="", xlab="")
-legend("center", legend = c("Parasite species", "Parasite phylogenetic", "Host species","Host phylogenetic"), col = varcols[c(1,1,4,4)], lwd=3, cex=1.5,
+legend("center", legend = c("Parasite species", "Parasite phylogenetic",
+                            "Host species","Host phylogenetic"),
+       col = varcols[c(7,7,4,4)], lwd=3, cex=1.5,
        title="Turnover model", lty=c(1,2,1,2))
 dev.off()
-
 
 
 #
