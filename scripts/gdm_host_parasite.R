@@ -45,14 +45,6 @@ hpl_bc<- as.list(sapply(1:3, function(x)
   read.csv(file=paste("./formatted_data/braycurtis", x, "csv",sep="."))))
 
 
-#Spatial data
-#birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster
-precipPC1 <- raster("./formatted_data/precipPC1.grd") #precip PCA raster
-tempPC1 <- raster("./formatted_data/tempPC1.grd") #temp PCA raster
-peru_alt <- raster("./raw_data/peru_alt.grd") #read elevation raster
-npp <- raster("./formatted_data/npp.grd")
-
-
 # Functions ---------------------------------------------------------------
 # Create functions to run GDMs because we'll need to run many different models.
 # Basic form of GDM:
@@ -90,7 +82,7 @@ p.gdm.fun <- function (r, e, d) {
                                  distPreds = d,
                                  predData = e.formatted, weightType="equal") #predictor data = scaled metadata
   dplyr::select(e.r.sitepair, -s1.matrix_2, -s2.matrix_2) -> e.r.sitepair #remove second matrix  gdm.varImp(e.r.sitepair, geo=T, parallel=T, nPerm = 100)
-  gdm.varImp(e.r.sitepair, geo=T, parallel=T, nPerm=100)
+  gdm.varImp(e.r.sitepair, geo=T, parallel=T, nPerm=1000)
 }
 
 # Environmental function, only takes climate/npp data, (no distance matrices)
@@ -107,7 +99,7 @@ gdm.fun.e <- function (r, e) {
 # A function to select the best model from a permutated bunch,
 # based on most variance explained with fewest predictors
 modsel <- function(model){
-  best <- (model[[1]][2,] - sort(1:ncol(model[[1]]), decreasing=T)) %>% which.max #best model
+  best <- (model[[1]][2,] - sort(1:ncol(model[[1]]), decreasing = T)) %>% which.max #best model
   na.omit(model[[2]][,best])
 }
 
@@ -133,16 +125,16 @@ plot(gdm.fun(r = par_unifs, e = pe, d = pd), plot.layout = c(2,4)) #visualize fu
 
 # Permute model to test importance of predictor variables
 
-gdm_p_bc <- p.gdm.fun(r = par_bc, e = pe, d = pd) #full model Bray-Curtis
-gdm_p_uf <- p.gdm.fun(r = par_unifs, e = pe, d = pd) #full model generalized unifracs
+gdm_par_bc <- p.gdm.fun(r = par_bc, e = pe, d = pd) #full model Bray-Curtis
+gdm_par_uf <- p.gdm.fun(r = par_unifs, e = pe, d = pd) #full model generalized unifracs
 
 # Save models as R objects because they took a long ass time to run
-sapply(c("gdm_p_bc", "gdm_p_uf"), function (x)
-  saveRDS(get(x), file=paste("./GDM_results/", x, ".Rdata", sep="")))
+sapply(c("gdm_par_bc", "gdm_par_uf"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results/", x, ".rds", sep="")))
 
 # What factors are in the best models?
-modsel(gdm_p_bc) #Distance, Precip, Host turnover
-modsel(gdm_p_uf) #Distance, Precip, Host richness, Elevation
+modsel(gdm_par_bc) #Distance, Precip, Host turnover
+modsel(gdm_par_uf) #Distance, Precip, Host richness, Elevation
 
 
 # Best models; model select and then just run the GDM with the predictors we care about.
@@ -153,6 +145,9 @@ gdm_b_par_spp <- gdm.fun(r = par_bc,
 gdm_b_par_phy <- gdm.fun.e(r = par_unifs,
                            e = c("community.number", "community.Lat", "community.Long",
                                  names(modsel(gdm_p_uf))[-1]))
+
+saveRDS(gdm_b_par_spp, file = "GDM_results/gdm_b_par_spp.rds")
+saveRDS(gdm_b_par_phy, file = "GDM_results/gdm_b_par_phy.rds")
 
 #
 # GDM host turnover -------------------------------------------------------------
@@ -171,11 +166,11 @@ plot(gdm.fun(host_ja, e=he, d=hd), plot.layout = c(3,4)) #visualize full models
 plot(gdm.fun(host_unifs, e=he, d=hd), plot.layout = c(3,4))
 
 #Permute models to id most important variables
-gdm_h_ja  <- p.gdm.fun(host_ja, he, hd)
-gdm_h_uf <- p.gdm.fun(host_unifs, he, hd)
+gdm_host_ja  <- p.gdm.fun(host_ja, he, hd)
+gdm_host_uf <- p.gdm.fun(host_unifs, he, hd)
 
-sapply(c("gdm_h_uf", "gdm_h_ja"), function (x) #save models bc permutations take so long
-  saveRDS(get(x), file=paste("./GDM_results/", x, ".Rdata", sep="")))
+sapply(c("gdm_host_uf", "gdm_host_ja"), function (x) #save models bc permutations take so long
+  saveRDS(get(x), file=paste("./GDM_results/", x, ".rds", sep="")))
 
 
 #Best models (after selection)
@@ -188,6 +183,9 @@ gdm_b_host_phy <-  gdm.fun(hostunifs, e = c("community.number",
                                             "community.Long",
                                             names(modsel(gdm_h_uf))[-c(1,6)]), d=hd)
 
+#Write out best models for spline plotting later
+saveRDS(gdm_b_host_spp, file = "GDM_results/gdm_b_host_spp.rds")
+saveRDS(gdm_b_host_phy, file = "GDM_results/gdm_b_host_phy.rds")
 
 #
 
@@ -268,8 +266,8 @@ haemo_results <- list(gdm_h_bc, gdm_h_uf)
 names(haemo_results) <- c("h_gunifs", "h_braycurtis")
 
 #save results
-sapply(c("h_gunifs", "h_braycurtis"), function (x)
-  saveRDS(get(x), file=paste("./GDM_results",x,".Rdata", sep="")))
+sapply(c("gdm_h_bc", "gdm_h_uf"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results/",x,".rds", sep="")))
 
 #LEUCO (permuted)
 gdm_l_bc <- p.gdm.fun.hlp(braycurtis_genera[[2]], pe, pd, 2) #full model bc
@@ -279,8 +277,8 @@ leuco_results <- list(gdm_l_bc, gdm_l_uf)
 names(leuco_results) <- c("l_gunifs", "l_braycurtis")
 
 #save results
-sapply(c("l_gunifs", "l_braycurtis"), function (x)
-  saveRDS(get(x), file=paste("./GDM_results",x,".Rdata", sep="")))
+sapply(c("gdm_l_bc", "gdm_l_uf"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results/",x,".rds", sep="")))
 
 
 #PLASMO
@@ -291,6 +289,9 @@ plasmo_results <- list(gdm_p_bc, gdm_p_uf)
 names(plasmo_results) <- c("p_gunifs", "p_braycurtis")
 
 #save results
-sapply(c("p_gunifs", "p_braycurtis"), function (x)
-  saveRDS(get(x), file=paste("./GDM_results",x,".Rdata", sep="")))
+sapply(c("gdm_p_bc", "gdm_p_uf"), function (x)
+  saveRDS(get(x), file=paste("./GDM_results/",x,".rds", sep="")))
+
+
+
 
