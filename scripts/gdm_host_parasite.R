@@ -177,11 +177,11 @@ sapply(c("gdm_host_uf", "gdm_host_ja"), function (x) #save models bc permutation
 gdm_b_host_spp <-  gdm.fun.e(host_ja, e = c("community.number",
                                            "community.Lat",
                                            "community.Long",
-                                           names(modsel(gdm_h_ja))[-1]))
-gdm_b_host_phy <-  gdm.fun(hostunifs, e = c("community.number",
+                                           names(modsel(gdm_host_ja))[-1]))
+gdm_b_host_phy <-  gdm.fun(host_unifs, e = c("community.number",
                                             "community.Lat",
                                             "community.Long",
-                                            names(modsel(gdm_h_uf))[-c(1,6)]), d=hd)
+                                            names(modsel(gdm_host_uf))[-c(1,6)]), d=hd)
 
 #Write out best models for spline plotting later
 saveRDS(gdm_b_host_spp, file = "GDM_results/gdm_b_host_spp.rds")
