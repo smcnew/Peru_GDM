@@ -1,5 +1,14 @@
+# Script to create result figures based on GDM models.
+# Loads models that were saved as .rds from gdm_host_parasite.R script
 
+library(raster) # for map data
+library(tools) # for quick reading in of models
+library(stringr) # for replacing string names
+library(dplyr)
 
+set.seed(1987)
+
+#
 # Load models  ------------------------------------------------------------
 
 # Permuted models (to generate barplots)
@@ -7,6 +16,7 @@
 # hosts
 gdm_host_ja <- readRDS("GDM_results/gdm_host_ja.rds")
 gdm_host_uf <- readRDS("GDM_results/gdm_host_uf.rds")
+
 
 # parasites
 gdm_par_bc <- readRDS("GDM_results/gdm_par_bc.rds")
@@ -26,6 +36,14 @@ gdm_b_host_spp <- readRDS("GDM_results/gdm_b_host_spp.rds")
 gdm_b_par_phy <- readRDS("GDM_results/gdm_b_par_phy.rds")
 gdm_b_par_spp <- readRDS("GDM_results/gdm_b_par_spp.rds")
 
+# Shortcut code to load everything in GDM_results file (if one's familiar with
+# what's in there, and ignores advice to avoid assigning objects through loops)
+#models <- list.files("GDM_results/")
+#for (i in 1:length(models)) {
+#  assign(file_path_sans_ext(models)[i], readRDS(paste("GDM_results/",
+#  models[i], sep = "")))
+#}
+
 # Load spatial data -------------------------------------------------------
 
 #birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster
@@ -42,19 +60,45 @@ nppRe <- resample(npp, peru_alt, "ngb")
 extent(peru_alt)==extent(precipRe) #should match
 extent(peru_alt)==extent(tempRe) #should match
 
-
+#
 # Barplots ----------------------------------------------------------------
 # Plots of variable importance based on best model of permuted models
-# Model names: gdm_h_ja, gdm_h_
-##Model selected barplot
+
+# Fucntion to create a barplot from the best model based on backwards selection
+# from full model. Arguments: model = full permuted model, title = title
+
+# Choose some good categorical colors
+varcols = c("#332288", "#BBBBBB", "#66CCEE",  "#AA3377",
+            "#CCBB44", "#228833", "#4477AA", "#EE6677")
+
+# Assign colors to predictor variables. Last color gets repeated because it should
+# represent both host richness and parasite richness (i.e. effect of "symbiont richness"
+# on turnover)
+colmatch <- data.frame( cols = c(varcols, varcols[8]), factors = c(c("precipPCA1",
+                                                                     "Geographic",
+                                                                     "community.elev",
+                                                                     "tempPCA1",
+                                                                     "matrix_1",
+                                                                     "npp.raster",
+                                                                     "shannonD",
+                                                                     "total.host",
+                                                                     "parasite.richness"
+)))
+
+
+
 gbarplot2<- function(model, title) {
   par(mar=c(5,5,4,2))
+  # Choose best model based on most variance explained using fewest predictors
   modsel <- function(model){
     best <- (model[[1]][2,] - sort(1:ncol(model[[1]]), decreasing=T)) %>% which.max #best model
     na.omit(model[[2]][,best])
   }
-  vals <- modsel(model)
-  piecols <- colmatch$cols[match(names(sort(vals, decreasing=T)), colmatch$factors)] %>% as.character
+
+  vals <- modsel(model) # Extract variable importance from best model
+  factor_cols <- colmatch$cols[match(names(sort(vals, decreasing=T)),
+                                     colmatch$factors)] %>% as.character # Assign col
+  # Need to rename factor names to make them consistent and clean
   namestring <- str_replace_all(
     names(sort(vals, decreasing=T)),
     c("Geographic" = "Dist",
@@ -62,56 +106,37 @@ gbarplot2<- function(model, title) {
       "precipPCA1" = "Precip",
       "community.elev" = "Elev",
       "total.host" = "Symb rich",
-      "matrix_1" =
-        "Symb turn",
-      "shannonD" =
-        "Samp Effort",
-      "parasite.richness" =
-        "Symb rich",
-      "npp.raster" =
-        "NPP"
+      "matrix_1" = "Symb turn",
+      "shannonD" = "Samp Effort",
+      "parasite.richness" = "Symb rich",
+      "npp.raster" = "NPP"
     )
   )
-  mp <- barplot(as.numeric(scale(sort(vals, decreasing = T), center=F)), col=piecols,
-                main=title, axis=F, axisnames=F, cex.axis=1.4,
-                ylab="Scaled importance", cex.lab=1.5)
+  # Create a barplot of variable importance from most to least important.
+  mp <- barplot(as.numeric(scale(sort(vals, decreasing = T), center=F)), col=factor_cols,
+                main=title, axis=F, axisnames=F, cex.axis=1.1,
+                ylab="Scaled importance", cex.lab=1.3)
   mtext(paste("Variance explained = ", round(model[[1]][2], 2), "%", sep=""),
         side = 3, line = 0.4, cex=0.7)
   text(mp, par("usr")[3], labels=namestring, srt=45, #par("usr")[3] = ymin of plot
        adj=c(1.1,1.1), xpd=T, cex=1.3)
 }
 
-gbarplot2(gdmHUW, "Host species")
+# Probably could clean code by putting models in list
 
 pdf("./output_plots/colored_bar_scaled.pdf", width=5, height=11)
 par(mfrow=c(5,2))
-gbarplot2(gdm_h_ja, "Host species")
-gbarplot2(gdmHUW, "Host phylogenetic")
-gbarplot2(gdmBC, "All parasite species")
-gbarplot2(gdmgU, "All parasite phylogenetic")
-gbarplot2(hb, "Haemoproteus species")
-gbarplot2(hg, "Haemoproteus phylogenetic")
-gbarplot2(lb, "Leucocytozoon species")
-gbarplot2(lg, "Leucocytozoon phylogenetic")
-gbarplot2(pb, "Plasmodium species")
-gbarplot2(pg, "Plasmodium phylogenetic")
+gbarplot2(gdm_host_ja, "Host species")
+gbarplot2(gdm_host_uf, "Host phylogenetic")
+gbarplot2(gdm_par_bc, "All parasite species")
+gbarplot2(gdm_par_uf, "All parasite phylogenetic")
+gbarplot2(gdm_h_bc, "Haemoproteus species")
+gbarplot2(gdm_h_uf, "Haemoproteus phylogenetic")
+gbarplot2(gdm_l_bc, "Leucocytozoon species")
+gbarplot2(gdm_l_uf, "Leucocytozoon phylogenetic")
+gbarplot2(gdm_p_bc, "Plasmodium species")
+gbarplot2(gdm_p_uf, "Plasmodium phylogenetic")
 dev.off()
-
-par(mfrow=c(6,2))
-
-gbarplot2(hj, "h")
-gbarplot2(hb, "hb")
-gbarplot2(hu, "hu")
-gbarplot2(hg, "hg")
-gbarplot2(lj, "lj")
-gbarplot2(lb, "lb")
-gbarplot2(lu, "lu")
-gbarplot2(lg, "lg")
-gbarplot2(pj, "pj")
-gbarplot2(pb, "pb")
-gbarplot2(pu, "pu")
-gbarplot2(pg, "pg")
-
 
 
 # Spline plot  ------------------------------------------------------------
