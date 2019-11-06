@@ -4,7 +4,8 @@
 #
 library(dplyr)
 library(mgcv) # the GAM package
-library(raster)
+library(raster) # to deal with spatial data
+library(viridis) # map cols
 
 set.seed(1987)
 
@@ -18,6 +19,7 @@ precipPC1 <- raster("./formatted_data/precipPC1.grd") #precip PCA raster
 tempPC1 <- raster("./formatted_data/tempPC1.grd") #temp PCA raster
 peru_alt <- raster("./raw_data/peru_alt.grd") #read elevation raster
 npp <- raster("./formatted_data/npp.grd")
+birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster
 
 precipRe <- resample(precipPC1, peru_alt, "ngb") #resample to elev grid
 tempRe <- resample(tempPC1, peru_alt, "ngb") #resample to elev grid
@@ -26,6 +28,18 @@ nppRe <- resample(npp, peru_alt, "ngb")
 
 extent(peru_alt)==extent(precipRe) #should match
 extent(peru_alt)==extent(tempRe) #should match
+
+CommunitySpatial <- SpatialPointsDataFrame(
+  matrix(c(
+    metadata$community.Long, metadata$community.Lat
+  ), ncol = 2),
+  data.frame(
+    ID = 1:nrow(metadata),
+    community = metadata$community,
+    community.elev = metadata$community.elev
+  ),
+  proj4string = CRS("+init=epsg:4326")
+)
 
 
 
@@ -55,8 +69,7 @@ par(mfrow=c(2,2))
 gam_h <- gam(total.host ~ s(community.elev, k=3) + #s(community.Lat) +
                #               s(tempPCA1, k=3) + s(precipPCA1, k=3) +
                s(npp.raster, k=3),
-             data = metadata,  method = "REML", family="nb")
-summary(gam_h)
+             data = metadata,  method = "REML", family="nb") # use a negative binomial because var > mean
 
 pdf("./output_plots/host_gam.pdf", useDingbats = F, height=9, width=7)
 par(mfrow=c(4,2), mar=c(4,5,3,5))
@@ -71,18 +84,25 @@ dev.off()
 #can we predict gam onto raster?
 gamhrast <- brick(addLayer(peru_alt, nppRe))
 names(gamhrast) <- c("community.elev", "npp.raster")
-rastTrans <- predict(gamhrast, gam_h)
+rastTrans <-
+  predict(gamhrast, gam_h) #predictions come as log(richness) because of neg binom model
 
 
 pdf("./output_plots/host_map_GAM_communities.pdf", useDingbats = F)
-par(mfrow=c(1,1))
-plot(exp(rastTrans), col=viridis(100))
-plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+par(mfrow = c(1, 1))
+plot(exp(rastTrans), col = viridis(100)) #exp. to back transform from log-link (negative binomial)
+plot(
+  CommunitySpatial,
+  add = T,
+  pch = 21,
+  bg = "white",
+  cex = 1.3
+)
 dev.off()
 
-plot(birdrast, col=viridis(100))
+plot(birdrast, col = viridis(100))
 head(gam_h)
-cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host)
 
+cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # highly corrleated with our estimation of richness
 
 

@@ -40,11 +40,11 @@ gdm_b_par_spp <- readRDS("GDM_results/gdm_b_par_spp.rds")
 
 # Shortcut code to load everything in GDM_results file (if one's familiar with
 # what's in there, and ignores advice to avoid assigning objects through loops)
-#models <- list.files("GDM_results/")
-#for (i in 1:length(models)) {
-#  assign(file_path_sans_ext(models)[i], readRDS(paste("GDM_results/",
-#  models[i], sep = "")))
-#}
+models <- list.files("GDM_results/")
+for (i in 1:length(models)) {
+  assign(file_path_sans_ext(models)[i], readRDS(paste("GDM_results/",
+  models[i], sep = "")))
+}
 
 # Load spatial data -------------------------------------------------------
 
@@ -446,6 +446,7 @@ enviroTable_host_phy <-
   )
 
 map_gdm_host_phy <- gdm(enviroTable_host_phy, geo=T)
+mapfun(gdm_b_host_phy, rasterdatah)
 
 #results:
 pdf("./output_plots/host_phylo_turnover_map.pdf")
@@ -478,28 +479,45 @@ rastDatH <- na.omit(getValues(rast_trans_host))
 pcaSampH <- prcomp(rastDatH)
 pcaRastH <- predict(rast_trans_host, pcaSampH, index = 1:4)
 metadata <- cbind(metadata, extract(pcaRastH, CommunitySpatial))
-plot(pcaRastH)
 
-#PARASITES PHYLO: based on GDMs of parasite Unifs. Most important variables include
+
+#PARASITES PHYLO: based on GDMs of parasite unifs. Most important variables include
 #elevation (by a lot), host species richness, precip, and geographic distance.
 
 #raster stack
 rasterdatap <- brick(addLayer(precipRe, peru_alt, birdrast))
 
 #select metadata
-enviroMeta <- dplyr::select(metadata, community.number, community.Lat,
-                            community.Long, precipPCA1, community.elev, total.host) %>%
+enviroMeta <-
+  dplyr::select(
+    metadata,
+    community.number,
+    community.Lat,
+    community.Long,
+    precipPCA1,
+    community.elev,
+    total.host
+  ) %>%
   as.data.frame(.) %>%
-  mutate(., community.number=1:18) %>% as.matrix(.)
+  mutate(., community.number = 1:18) %>% as.matrix(.)
 
 #create site pair table
-enviroTableP<- formatsitepair(bioData = parWunifracs, bioFormat = 3, #bioFormat = 3 means distance matrix
-                              XColumn= "community.Long", YColumn = "community.Lat", #required: lat and long columns (in one or both response/predictors)
-                              siteColumn = "community.number", #required: community (site) ID, should be same in both matrices
-                              predData = enviroMeta, weightType="equal") #predictor data =metadata
+enviroTableP <-
+  formatsitepair(
+    bioData = par_unifs,
+    bioFormat = 3,
+    XColumn = "community.Long",
+    YColumn = "community.Lat",
+    #required: lat and long columns (in one or both response/predictors)
+    siteColumn = "community.number",
+    #required: community (site) ID, should be same in both matrices
+    predData = enviroMeta,
+    weightType = "equal"
+  ) #predictor data =metadata
 
 pgdm <- gdm(enviroTableP, geo=T)
 
+mapfun(gdm_b_par_phy, rasterdatap)
 pdf("./output_plots/parasite_phylo_turnover_map.pdf")
 mapfun(pgdm, rasterdatap) #plot results
 dev.off()
