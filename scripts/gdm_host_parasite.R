@@ -292,6 +292,6 @@ names(plasmo_results) <- c("p_gunifs", "p_braycurtis")
 sapply(c("gdm_p_bc", "gdm_p_uf"), function (x)
   saveRDS(get(x), file=paste("./GDM_results/",x,".rds", sep="")))
 
-
+gdm_p_bc[[1]]
 
 
