@@ -45,7 +45,7 @@ library(gdm)
 
 1. prep_distance_matrices.R
 + generates distance matrices (i.e. quantifies turnover) based on presence/absence or abundance data.
-2. map_prep.R
+2. prep_spatial_dat.R
   + formats spatial data for our climatic predictors (i.e. temp/precip)
 3. bird_species_richness_map.R  
   + creates a raster of bird abundance over study area. You will need to procure
