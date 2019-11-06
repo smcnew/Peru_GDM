@@ -54,15 +54,18 @@ tempPC1 <- raster("./formatted_data/tempPC1.grd") #temp PCA raster
 peru_alt <- raster("./raw_data/peru_alt.grd") #read elevation raster
 npp <- raster("./formatted_data/npp.grd")
 
-precipRe <- resample(precipPC1, peru_alt, "ngb") #resample to elev grid
-tempRe <- resample(tempPC1, peru_alt, "ngb") #resample to elev grid
+precip_re <- resample(precipPC1, peru_alt, "ngb") #resample to elev grid
+temp_re <- resample(tempPC1, peru_alt, "ngb") #resample to elev grid
 birdrast <- resample(birdrast, peru_alt, "ngb") #resample to elev grid
-nppRe <- resample(npp, peru_alt, "ngb")
+npp_re <- resample(npp, peru_alt, "ngb")
 
-extent(peru_alt) == extent(precipRe) #should match
-extent(peru_alt) == extent(tempRe) #should match
+extent(peru_alt) == extent(precip_re) #should match
+extent(peru_alt) == extent(temp_re) #should match
 
+# Community metadata
 metadata <- read.csv("./formatted_data/GDM_metadata.csv")
+
+# Create spatial object of locations of communities
 CommunitySpatial <- SpatialPointsDataFrame(
   matrix(c(
     metadata$community.Long, metadata$community.Lat
@@ -74,6 +77,19 @@ CommunitySpatial <- SpatialPointsDataFrame(
   ),
   proj4string = CRS("+init=epsg:4326")
 )
+
+# Load distance matrices (for maps) -------------------------------------------------------
+#Host distance matrices
+host_ja <- read.csv("./formatted_data/hostjaccard.csv") %>%
+  rename(community.number = X) %>% mutate(community.number = 1:18) #Jaccard
+
+host_unifs <- read.csv("./formatted_data/hostUnifrac.csv") %>%
+  rename(community.number = X) %>% mutate(community.number = 1:18) #Unifracs (unweighted)
+
+#Parasite distance matrices
+par_bc <- read.csv("./formatted_data/parasitebraycurtis.csv") %>% rename(., community.number=X) #Bray curtis
+par_unifs <- read.csv("./formatted_data/malaria.generalized.unifracs.csv") %>%
+  rename(., community.number=X) #Unifracs (generalized)
 
 #
 # Barplots ----------------------------------------------------------------
@@ -395,9 +411,12 @@ dev.off()
 #
 # Maps --------------------------------------------------------------------
 
-#create visualization function, takes a GDM model and a stack of raster layers
-#and projects the model data back onto the layers to create a map. Similar colors
-#on the map indicate similar communities.
+# Create visualization function, takes a GDM model and a stack of raster layers
+# and projects the model data back onto the layers to create a map. Similar colors
+# on the map indicate similar communities. Instead of using saved models
+# we'll make them again because it's *very important* that the predictors
+# and the raster layers are in the same order.
+
 
 mapfun <- function(model, rasterdata) {
   rastTrans <- gdm.transform(model, rasterdata)
@@ -418,9 +437,9 @@ mapfun <- function(model, rasterdata) {
 #HOSTS PHYLOGENETIC TURNOVER: GDMs suggest best predictors of
 #host turnover are precip, temp, elev and distance and npp.
 
-rasterdatah <- brick(addLayer(precipRe, tempRe, peru_alt, nppRe))
+rasterdata_h <- brick(addLayer(precip_re, temp_re, peru_alt, npp_re))
 
-enviroMeta <-
+enviro_meta_h <-
   dplyr::select(
     metadata,
     community.number,
@@ -434,61 +453,66 @@ enviroMeta <-
   as.data.frame(.) %>%
   mutate(., community.number = 1:18) %>% as.matrix(.)
 
-enviroTable_host_phy <-
+enviro_table_host_phy <-
   formatsitepair(
     bioData = host_unifs,
     bioFormat = 3, #bioFormat = 3 means distance matrix
     XColumn = "community.Long",
     YColumn = "community.Lat",
     siteColumn = "community.number",
-    predData = enviroMeta,
+    predData = enviro_meta_h,
     weightType = "equal"
   )
 
-map_gdm_host_phy <- gdm(enviroTable_host_phy, geo=T)
-mapfun(gdm_b_host_phy, rasterdatah)
+map_gdm_host_phy <- gdm(enviro_table_host_phy, geo=T)
+
 
 #results:
 pdf("./output_plots/host_phylo_turnover_map.pdf")
-mapfun(map_gdm_host_phy, rasterdatah)
+mapfun(map_gdm_host_phy, rasterdata_h)
 dev.off()
 
 #HOSTS SPECIES TURNOVER: best predictors of
 #host turnover are precip, temp, elev and distance and npp.
-enviroTable_host_spp <-
+enviro_table_host_spp <-
   formatsitepair(
     bioData = host_ja,
     bioFormat = 3,
     XColumn = "community.Long",
     YColumn = "community.Lat",
     siteColumn = "community.number",
-    predData = enviroMeta,
+    predData = enviro_meta_h,
     weightType = "equal"
   )
 
-map_gdm_host_spp <- gdm(enviroTable_host_spp, geo = T)
+map_gdm_host_spp <- gdm(enviro_table_host_spp, geo = T)
 
 pdf("./output_plots/host_spp_turnover_map.pdf")
-mapfun(map_gdm_host_spp, rasterdatah)
+mapfun(map_gdm_host_spp, rasterdata_h)
 dev.off()
 
-#CREATE HOST SPECIES TURNOVER RASTER FOR PREDICTING PARASITE SPP TURNOVER
+# Host turnover was a significant predictor of parasite species turnover
+# To create a map of parasite species turnover we will need a raster of
+# host turnover. Approach: transform environmental spatial predictors using the
+# host turnover model. Extract values from those rasters and PCA them to produce
+# principle components
 
-rast_trans_host <- gdm.transform(map_gdm_host_spp, rasterdatah)
-rastDatH <- na.omit(getValues(rast_trans_host))
-pcaSampH <- prcomp(rastDatH)
-pcaRastH <- predict(rast_trans_host, pcaSampH, index = 1:4)
-metadata <- cbind(metadata, extract(pcaRastH, CommunitySpatial))
 
+rast_trans_host <- gdm.transform(map_gdm_host_spp, rasterdata_h)
+rast_dat_h <- na.omit(getValues(rast_trans_host)) #pulls values for each square of each raster
+pca_samp_h <- prcomp(rast_dat_h) # reduce dimensions to distill 6 predictors to PCs
+pca_rast_h <- predict(rast_trans_host, pca_samp_h, index = 1:4) # predict vals based on PC xs
+metadata <- cbind(metadata, extract(pca_rast_h, CommunitySpatial)) # extract values to use as predictors
+pca_samp_h %>% summary()
 
 #PARASITES PHYLO: based on GDMs of parasite unifs. Most important variables include
-#elevation (by a lot), host species richness, precip, and geographic distance.
+#elevation (by a lot), precipitation, host species richness, and geographic distance.
 
 #raster stack
-rasterdatap <- brick(addLayer(precipRe, peru_alt, birdrast))
+rasterdata_p <- brick(addLayer(precip_re, peru_alt, birdrast))
 
 #select metadata
-enviroMeta <-
+enviro_meta_p_p <-
   dplyr::select(
     metadata,
     community.number,
@@ -502,45 +526,57 @@ enviroMeta <-
   mutate(., community.number = 1:18) %>% as.matrix(.)
 
 #create site pair table
-enviroTableP <-
+enviro_table_p <-
   formatsitepair(
     bioData = par_unifs,
     bioFormat = 3,
     XColumn = "community.Long",
     YColumn = "community.Lat",
-    #required: lat and long columns (in one or both response/predictors)
     siteColumn = "community.number",
-    #required: community (site) ID, should be same in both matrices
-    predData = enviroMeta,
+    predData = enviro_meta_p_p,
     weightType = "equal"
-  ) #predictor data =metadata
+  )
 
-pgdm <- gdm(enviroTableP, geo=T)
+map_gdm_par_phy <- gdm(enviro_table_p, geo=T)
 
-mapfun(gdm_b_par_phy, rasterdatap)
 pdf("./output_plots/parasite_phylo_turnover_map.pdf")
-mapfun(pgdm, rasterdatap) #plot results
+mapfun(map_gdm_par_phy, rasterdata_p) #plot results
 dev.off()
 
-#PARASITE SPP: Precip, elevation, host spp turnover, not distance
+#PARASITE SPP: Precip, elevation, host spp turnover (PC1 and PC2), not distance
 
-rasterdataps <- brick(addLayer(precipRe, peru_alt, pcaRastH))
+rasterdata_p_s <- brick(addLayer(precip_re, peru_alt, pca_rast_h[[1:2]]))
 
 #select metadata
-enviroMeta <- dplyr::select(metadata, community.number, community.Lat,
-                            community.Long, precipPCA1, community.elev, layer.1,
-                            layer.2, layer.3, layer.4) %>%
+enviro_meta_p_s <-
+  dplyr::select(
+    metadata,
+    community.number,
+    community.Lat,
+    community.Long,
+    precipPCA1,
+    community.elev,
+    layer.1,
+    layer.2
+    #layer.3,
+    #layer.4
+  ) %>%
   as.data.frame(.) %>%
-  mutate(., community.number=1:18) %>% as.matrix(.)
+  mutate(., community.number = 1:18) %>% as.matrix(.)
 
 #create site pair table
-enviroTablePs<- formatsitepair(bioData = parBC, bioFormat = 3, #bioFormat = 3 means distance matrix
-                               XColumn= "community.Long", YColumn = "community.Lat", #required: lat and long columns (in one or both response/predictors)
-                               siteColumn = "community.number", #required: community (site) ID, should be same in both matrices
-                               predData = enviroMeta, weightType="equal") #predictor data =metadata
+enviro_table_p_s <- formatsitepair(
+  bioData = par_bc,
+  bioFormat = 3,
+  XColumn = "community.Long",
+  YColumn = "community.Lat",
+  siteColumn = "community.number",
+  predData = enviro_meta_p_s,
+  weightType = "equal"
+)
 
-psgdm <- gdm(enviroTablePs, geo=F)
+map_gdm_par_spp <- gdm(enviro_table_p_s, geo=F) #distance not an important predictor
 
 pdf("./output_plots/parasite_species_turnover_map.pdf")
-mapfun(psgdm, rasterdataps) #plot results
+mapfun(map_gdm_par_spp, rasterdata_p_s) #plot results
 dev.off()
