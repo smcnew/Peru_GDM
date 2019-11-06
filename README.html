@@ -186,15 +186,16 @@ summary {
 <h2>Author: Sabrina McNew</h2>
 <hr />
 <hr />
-<div id="code-and-data-for-generalized-dissimilarity-modeling" class="section level3">
-<h3>Code and data for Generalized Dissimilarity Modeling</h3>
-<div id="file-structure" class="section level4">
-<h4>File structure</h4>
+<div id="code-and-data-for-generalized-dissimilarity-modeling" class="section level4">
+<h4>Code and data for Generalized Dissimilarity Modeling</h4>
+</div>
+<div id="file-structure" class="section level3">
+<h3>File structure</h3>
 <p>The code and files are set up to be run as a <a href="https://r4ds.had.co.nz/workflow-projects.html">project</a> in RStudio. This means file paths are relative within the script (for ex. “raw_data” will be a subdirectory within whatever working directory you place the project in).</p>
 <p>Two directories were not synced to GitHub: “formatted_data” and “output_plots”, because their contents are too large. You should create them before starting.</p>
 </div>
-<div id="a-fairly-complete-list-of-packages-needed" class="section level4">
-<h4>A fairly complete list of packages needed:</h4>
+<div id="a-fairly-complete-list-of-packages-needed" class="section level3">
+<h3>A fairly complete list of packages needed:</h3>
 <pre><code>
 # Data wrangling 
 library(dplyr) 
@@ -222,8 +223,8 @@ library(gdm)
 
 </code></pre>
 </div>
-<div id="guide-to-scripts-more-or-less-in-the-order-they-should-be-run" class="section level4">
-<h4>Guide to scripts (more or less in the order they should be run)</h4>
+<div id="guide-to-scripts-more-or-less-in-the-order-they-should-be-run" class="section level3">
+<h3>Guide to scripts (more or less in the order they should be run)</h3>
 <ol style="list-style-type: decimal">
 <li>prep_distance_matrices.R</li>
 </ol>
@@ -237,22 +238,26 @@ library(gdm)
 <li>formats spatial data for our climatic predictors (i.e. temp/precip)</li>
 </ul>
 <ol start="3" style="list-style-type: decimal">
-<li>bird_species_richness_map.R</li>
+<li>bird_species_richness_map.R<br />
+</li>
 </ol>
 <ul>
-<li>creates a raster of bird abundance over study area. You will need to procure shapefiles from BirdLife; they’re too big to upload and store easily.</li>
+<li>creates a raster of bird abundance over study area. You will need to procure shapefiles from BirdLife; they’re too big to upload and store easily.<br />
+</li>
 </ul>
 <ol start="4" style="list-style-type: decimal">
 <li>gdm_host_parasite.R</li>
 </ol>
 <ul>
-<li>Run and save GDM models</li>
+<li>Run and save GDM models.<br />
+</li>
 </ul>
 <ol start="5" style="list-style-type: decimal">
 <li>gdm_result_plots.R</li>
 </ol>
 <ul>
-<li>Plot and format GDM results</li>
+<li>Plot and format GDM results.<br />
+</li>
 </ul>
 <ol start="6" style="list-style-type: decimal">
 <li>gam_host_parasite_richness.R</li>
@@ -260,7 +265,6 @@ library(gdm)
 <ul>
 <li>Model spatial variation in host and parasite richness using generalized additive models (GAMs)</li>
 </ul>
-</div>
 </div>
 </div>
 </div>
