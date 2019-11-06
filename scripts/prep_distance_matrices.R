@@ -273,8 +273,6 @@ metadata1$parasite.observed <- outA$AsyEst$Observed[outA$AsyEst$Diversity=="Spec
 write.csv(metadata1, file = "./formatted_data/GDM_metadata.csv",
           row.names=F)
 
-
-
 # Heatmaps of distance matrices -----------------------------------------------------------
 
 pdf("./output_plots/heat_map_HostU.pdf")

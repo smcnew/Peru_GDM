@@ -44,5 +44,15 @@ library(gdm)
 #### Guide to scripts (more or less in the order they should be run)
 
 1. prep_distance_matrices.R
-+ script generates distance matrices (i.e. quantifies turnover) based on presence/absence or abundance data.
-2. 
++ generates distance matrices (i.e. quantifies turnover) based on presence/absence or abundance data.
+2. map_prep.R
++ formats spatial data for our climatic predictors (i.e. temp/precip)
+3. bird_species_richness_map.R 
++ creates a raster of bird abundance over study area. You will need to procure
+shapefiles from BirdLife; they're too big to upload and store easily. 
+4. gdm_host_parasite.R
++ Run and save GDM models 
+5. gdm_result_plots.R
++ Plot and format GDM results 
+6. gam_host_parasite_richness.R 
++ Model spatial variation in host and parasite richness using generalized additive models (GAMs)
