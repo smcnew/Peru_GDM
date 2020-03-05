@@ -162,7 +162,8 @@ gbarplot2 <- function(model, title) {
   # Create a barplot of variable importance from most to least important.
   mp <-
     barplot(
-      as.numeric(scale(sort(vals, decreasing = T), center = F)),
+      as.numeric(scale(sort(vals, decreasing = T), center = F)), #scale variables
+      #as.numeric(sort(vals, decreasing = T)),
       col = factor_cols,
       main = title,
       axis = F,
@@ -190,6 +191,7 @@ gbarplot2 <- function(model, title) {
 }
 
 # Probably could clean code by putting models in list
+
 
 pdf("./output_plots/colored_bar_scaled.pdf",
     width = 5,
@@ -580,3 +582,11 @@ map_gdm_par_spp <- gdm(enviro_table_p_s, geo=F) #distance not an important predi
 pdf("./output_plots/parasite_species_turnover_map.pdf")
 mapfun(map_gdm_par_spp, rasterdata_p_s) #plot results
 dev.off()
+
+
+
+# Model exploration -------------------------------------------------------
+
+gdm_par_bc[[3]][,6]
+plot(gdm_b_par_spp)
+gdm_host_uf
