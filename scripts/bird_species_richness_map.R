@@ -50,8 +50,10 @@ writeRaster(mask(PAM_birds$Richness_Raster, mask=peru), "birdrichness.grd",
             overwrite=T) #save
 birdrast <- raster("birdrichness.grd")
 
+
 write.csv(PAM_birds$Presence_and_Absence_Matrix, "bird_spp_richness_matrix.csv")
 
-pdf("./output_plots/bird_richness.pdf")
+pdf("./output_plots/bird_richness2.pdf")
 plot(birdrast, col=viridis(100))
+addscalebar(plotepsg = 4326)
 dev.off()

@@ -6,6 +6,7 @@ library(tools) # for quick reading in of models
 library(stringr) # for replacing string names
 library(gdm) #to extract splines
 library(scales) #for alpha of colors
+library(prettymapr) #for scale
 library(dplyr)
 
 set.seed(1987)
@@ -434,6 +435,7 @@ mapfun <- function(model, rasterdata) {
     (pcaRast[[3]]@data@max - pcaRast[[3]]@data@min) * 255
   par(mfrow = c(1, 1))
   plotRGB(pcaRast, r = 1, g = 2, b = 3)
+  addscalebar(plotepsg = 4326)
 }
 
 #HOSTS PHYLOGENETIC TURNOVER: GDMs suggest best predictors of

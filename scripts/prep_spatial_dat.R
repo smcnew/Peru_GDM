@@ -5,6 +5,8 @@
 library(raster)
 library(rgdal)
 library(RStoolbox)
+library(prettymapr)
+library(viridis)
 set.seed(1987)
 
 # Load data-------------------------------------------------------
@@ -90,6 +92,8 @@ with(metadata1, plot(precip, precipPCA1)) #highly correlated
 writeRaster(tempPCA$map$PC1, "./formatted_data/tempPC1.grd", overwrite=T)
 writeRaster(precipPCA$map$PC1, "./formatted_data/precipPC1.grd", overwrite=T)
 
+#Bird richness
+birdrast <- raster("formatted_data/birdrichness.grd")
 
 # Net Primary Productivity  -----------------------------------------------
 
@@ -120,7 +124,7 @@ plot(npp, col=viridis(100)) ### NPP are in kg carbon /m2 *10000
 
 metadata1$npp.raster <- extract(npp, CommunitySpatial) #pull vals for communities
 writeRaster(npp, "./formatted_data/npp.grd", overwrite=T)
-
+npp <- raster("./formatted_data/npp.grd")
 
 # Maps for figures --------------------------------------------------------
 
@@ -128,6 +132,7 @@ writeRaster(npp, "./formatted_data/npp.grd", overwrite=T)
 pdf("./output_plots/samplingmap.pdf", useDingbats = F)
 plot(perualt2, col= viridis(100))
 plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+addscalebar(plotepsg = 4326)
 #with(CommunitySpatial, text(CommunitySpatial,
 #  labels=CommunitySpatial$ID, pos=4, cex=1.3))
 
@@ -135,14 +140,80 @@ dev.off()
 
 
 #plot our abiotic maps for export
-pdf("./output_plots/elev_temp_precip_npp_raster.pdf", height=7, width=7)
-par(mfcol=c(2,2))
-plot(perualt2, col= viridis(100), cex.axis=1.5, main="Elevation (m)")
-plot(tempPCA$map$PC1, col=viridis(100), cex.axis=1.5, main= "Temperature index")
-plot(precipPCA$map$PC1, col=viridis(100), cex.axis=1.5, main="Precipitation index")
-plot(npp/10000, col=viridis(100), cex.axis=1.5, main="Net Primary Productivity\n(kg C/m2)")
+pdf("./output_plots/rich_temp_precip_npp_raster_scaleb.pdf",
+    useDingbats = F, height = 8, width = 5.5)
+par(mfcol=c(3,2), mar = c(1,1,4,2))
+plot(perualt2, col= viridis(100), xaxt = "n", yaxt = "n", # cex.axis=1.5,
+     main="Elevation (m)")
+plot(perualt2, col= viridis(100), xaxt = "n", yaxt = "n", # cex.axis=1.5,
+     main="Elevation (m)", cex.main = 1.6)
+addscalebar(plotepsg = 4326)
+plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+
+plot(tempPCA$map$PC1, col=viridis(100), xaxt = "n", yaxt = "n", # cex.axis=1.5,
+     main= "Temperature", cex.main = 1.6)
+addscalebar(plotepsg = 4326)
+plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+
+plot(precipPCA$map$PC1, col=viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+     main="Precipitation", cex.main = 1.6)
+addscalebar(plotepsg = 4326)
+plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+plot(npp/10000, col=viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+     main="Net Primary Productivity\n(kg C/m2)", cex.main = 1.6)
+addscalebar(plotepsg = 4326)
+plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+plot(birdrast, col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+     main = "Bird species richness", cex.main = 1.6)
+addscalebar(plotepsg = 4326)
+plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
 dev.off()
 
+
+# A bigger regional map ---------------------------------------------------
+countries = c("PER", "BOL", "ECU", "COL", "VEN") #download more countries just for visualization sake
+region = do.call("bind", lapply(countries,
+                                function(x)
+                                  raster::getData('GADM', country = x, level = 0)))
+
+peru_alt <- raster::getData('alt', country = "PER", mask=F) #elevation data
+bol_alt <- raster::getData('alt', country = "BOL", mask=F)
+col_alt <- raster::getData('alt', country = "COL", mask=F)
+vez_alt <- raster::getData('alt', country = "VEN", mask = T)
+brazil_alt <- raster::getData('alt', country = "BRA", mask = T)
+reg_alt <- merge(bol_alt, peru_alt, brazil_alt, col_alt, vez_alt)
+proj4string(reg_alt) <- CRS("+init=epsg:4326")
+
+
+
+
+
+# crop to create square based on rough google image
+# xmin = -81.6
+# xmax = -59.51
+# y min = -18.9
+# y max = 4.43
+
+#crop raster and country lines to a smaller box
+ex <- extent(c(-81.6, -62.5, -18.9, 4.43))
+reg_alt <- crop(reg_alt, ex)
+
+
+pdf("output_plots/region_map.pdf", height = 8, width = 8)
+plot(reg_alt, col= viridis(100), cex.axis=1.5)
+plot(region, add=T, lwd = 1.5)
+plot(peru, add = T, border = "white", lwd = 1.8)
+addscalebar(plotepsg = 4326, label.cex = 2)
+dev.off()
+
+
+extent(reg_alt)
+
+
+pdf("output_plots/peru_outline.pdf", height=15, width = 15)
+plot(region)
+addscalebar(plotepsg = 4326)
+dev.off()
 
 # Shannon richness of host community (index of sampling effort)-----------------
 # We want to use sampling effort as a predictor in parasite GDMs.

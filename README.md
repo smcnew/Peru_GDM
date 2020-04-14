@@ -56,3 +56,12 @@ shapefiles from BirdLife; they're too big to upload and store easily.
   + Plot and format GDM results.  
 6. gam_host_parasite_richness.R 
 + Model spatial variation in host and parasite richness using generalized additive models (GAMs)
+
+### Output information
+The folder turnover_rasters contains rasters of species and phylogenetic turnover
+for both hosts and parasites. The rasters can be read into R using the stack()
+function from the Raster package. Each stack contains 3 layers, corresponding
+to the first 3 PC axes of the dimension-reduced best model (see gdm_result_plots
+or GDM vignette for more information). Maps are created using the plotRGB()
+function where the red, green, and blue channels correspond to the first 3  
+pc axes. 
