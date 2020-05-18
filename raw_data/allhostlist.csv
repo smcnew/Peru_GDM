@@ -1,1345 +1,1346 @@
-hostphylogeny_taxon,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
-Aburria_aburri,1,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Accipiter_bicolor,1,0,1,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0
-Accipiter_collaris,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Accipiter_poliogaster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Accipiter_striatus,0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0
-Accipiter_superciliosus,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
-Actitis_macularius,1,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0
-Adelomyia_melanogenys,0,1,1,1,1,0,0,2,1,0,0,0,0,0,1,0,0,0
-Aegolius_harrisii,0,1,0,0,0,1,0,0,1,1,0,0,1,0,1,0,0,1
-Aeronautes_andecolus,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1
-Aeronautes_montivagus,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0
-Agamia_agami,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Agelasticus_thilius,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Aglaeactis_castelnaudii,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
-Aglaeactis_cupripennis,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
-Aglaiocercus_kingi,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
-Agriornis_albicauda,0,1,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0
-Agriornis_montanus,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0
-Aimophila_stolzmanni,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-Amaurolimnas_concolor,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Amazilia_amazilia,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Amazilia_chionogaster,0,1,1,2,1,0,0,1,1,0,0,0,1,0,0,0,0,0
-Amazilia_fimbriata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Amazilia_franciae,0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0
-Amazilia_lactea,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0
-Amazilia_viridicauda,0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0
-Amazona_amazonica,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Amazona_farinosa,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Amazona_mercenaria,0,0,1,0,1,0,0,2,0,0,0,0,0,0,1,0,0,0
-Amazona_ochrocephala,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Amblycercus_holosericeus,0,2,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0
-Ammodramus_aurifrons,1,0,1,0,0,0,0,2,0,0,1,1,1,0,0,0,0,0
-Ampelioides_tschudii,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Ampelion_rubrocristatus,0,2,0,0,1,2,1,0,2,2,0,0,0,0,0,1,0,2
-Ampelion_rufaxilla,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Anabacerthia_striaticollis,0,1,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Anabazenops_dorsalis,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Anairetes_agraphia,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0
-Anairetes_alpinus,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Anairetes_flavirostris,0,0,0,1,0,0,2,0,2,1,0,0,0,0,0,0,0,1
-Anairetes_nigrocristatus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Anairetes_parulus,0,1,1,1,1,0,0,0,2,0,0,0,0,0,1,0,0,0
-Anairetes_reguloides,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-Anas_bahamensis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Anas_cyanoptera,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-Anas_flavirostris,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0
-Anas_georgica,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Anas_platalea,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Anas_puna,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0
-Ancistrops_strigilatus,1,0,0,0,0,1,1,0,1,1,1,0,0,0,1,0,0,1
-Andigena_hypoglauca,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0
-Anhima_cornuta,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Anhinga_anhinga,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Anisognathus_igniventris,0,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0
-Anisognathus_lacrymosus,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
-Anisognathus_somptuosus,1,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0
-Anthracothorax_nigricollis,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Anthus_bogotensis,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,1
-Anthus_correndera,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Anthus_furcatus,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Anthus_lutescens,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Anurolimnas_castaneiceps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Anurolimnas_fasciatus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Anurolimnas_viridis,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Ara_ararauna,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Ara_chloropterus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Ara_macao,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ara_militaris,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Ara_severus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Aramides_cajanea,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Aramus_guarauna,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Aratinga_erythrogenys,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
-Aratinga_leucophthalma,1,0,1,0,0,0,0,2,0,0,1,1,2,0,0,0,0,0
-Aratinga_mitrata,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0
-Aratinga_wagleri,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Aratinga_weddellii,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Ardea_cocoi,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Arremon_abeillei,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Arremon_aurantiirostris,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Arremon_brunneinucha,0,1,1,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0
-Arremon_castaneiceps,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Arremon_taciturnus,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Arremon_torquatus,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,0,1
-Asio_flammeus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Asio_stygius,0,0,0,2,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Asthenes_berlepschi,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Asthenes_dorbignyi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Asthenes_flammulata,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Asthenes_humilis,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Asthenes_modesta,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Asthenes_ottonis,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0
-Asthenes_pudibunda,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Asthenes_urubambensis,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Asthenes_virgata,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-Asthenes_wyatti,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Athene_cunicularia,0,1,0,0,0,0,2,0,0,2,0,0,0,1,0,0,1,0
-Atlapetes_canigenis,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-Atlapetes_forbesi,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1
-Atlapetes_latinuchus,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1
-Atlapetes_melanolaemus,0,1,0,0,1,0,1,1,2,1,0,0,0,0,0,1,0,1
-Atlapetes_melanopsis,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,1
-Atlapetes_nationi,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-Atlapetes_rufigenis,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Atlapetes_schistaceus,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Atlapetes_seebohmi,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1
-Atlapetes_tricolor,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Atticora_fasciata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Attila_bolivianus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Attila_cinnamomeus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Attila_citriniventris,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Attila_spadiceus,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0
-Aulacorhynchus_atrogularis,0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
-Aulacorhynchus_coeruleicinctis,0,0,1,1,1,0,0,1,0,0,0,0,1,0,0,1,0,0
-Aulacorhynchus_cyanolaemus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Aulacorhynchus_derbianus,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
-Automolus_infuscatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Automolus_melanopezus,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Automolus_ochrolaemus,1,0,0,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0
-Automolus_rubiginosus,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Automolus_rufipileatus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Bartramia_longicauda,1,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
-Baryphthengus_martii,1,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,0,0
-Basileuterus_bivittatus,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0
-Basileuterus_chrysogaster,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Basileuterus_coronatus,0,1,0,0,1,0,0,2,1,0,1,1,0,0,1,0,0,0
-Basileuterus_luteoviridis,0,2,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0
-Basileuterus_nigrocristatus,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0
-Basileuterus_signatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Basileuterus_trifasciatus,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,1
-Basileuterus_tristriatus,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-Berlepschia_rikeri,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Boissonneaua_matthewsii,0,1,0,1,2,0,0,0,0,0,0,0,0,0,1,0,0,0
-Bolborhynchus_lineola,0,2,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0
-Bolborhynchus_orbygnesius,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Brachygalba_albogularis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Brotogeris_cyanoptera,2,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Brotogeris_sanctithomae,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Bubo_magellanicus,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
-Bubo_virginianus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
-Bubulcus_ibis,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Bucco_capensis,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Bucco_macrodactylus,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
-Busarellus_nigricollis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Buteo_albigula,0,1,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
-Buteo_albonotatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Buteo_brachyurus,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
-Buteo_leucorrhous,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
-Buteo_magnirostris,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Buteo_nitidus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Buteo_platypterus,1,1,1,1,1,0,0,0,1,0,1,1,1,0,1,0,0,0
-Buteo_polyosoma,0,0,0,1,0,1,1,0,0,1,0,0,0,1,1,1,1,1
-Buteo_swainsoni,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Buteogallus_meridionalis,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Buteogallus_urubitinga,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Buthraupis_aureodorsalis,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Buthraupis_montana,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Butorides_striata,1,0,0,0,0,1,0,1,1,1,1,1,1,1,0,1,1,1
-Cacicus_cela,1,0,0,0,0,0,0,1,0,0,1,2,1,0,0,0,0,0
-Cacicus_chrysonotus,0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0
-Cacicus_haemorrhous,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cacicus_leucoramphus,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Cacicus_solitarius,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Cacicus_uropygialis,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cairina_moschata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Calidris_bairdii,0,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1
-Calidris_fuscicollis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Calidris_himantopus,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Calidris_melanotos,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Calidris_minutilla,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Calidris_pusilla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Calliphlox_amethystina,0,0,1,1,0,0,0,2,0,0,1,1,0,0,0,0,0,0
-Calochaetes_coccineus,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Campephilus_gayaquilensis,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Campephilus_haematogaster,1,1,1,1,0,0,0,2,1,0,1,1,1,0,1,0,0,0
-Campephilus_melanoleucos,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Campephilus_pollens,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Campephilus_rubricollis,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0
-Camptostoma_obsoletum,2,0,0,1,0,1,0,1,0,0,1,1,1,1,1,0,1,1
-Campylopterus_largipennis,2,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0
-Campylopterus_villaviscensio,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Campylorhamphus_pucherani,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Campylorhamphus_pusillus,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Campylorhamphus_trochilirostris,2,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0
-Campylorhynchus_fasciatus,1,0,0,1,0,1,0,0,0,1,0,0,0,1,0,0,1,1
-Campylorhynchus_turdinus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Capito_auratus,1,0,0,0,0,1,0,0,0,0,1,1,0,0,1,1,0,1
-Capito_wallacei,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Caprimulgus_anthonyi,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Caprimulgus_maculicaudus,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Caprimulgus_nigrescens,1,0,0,0,0,0,0,1,0,0,1,2,0,0,0,0,0,0
-Caprimulgus_sericocaudatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Caracara_cheriway,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Carduelis_atrata,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-Carduelis_crassirostris,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Carduelis_magellanica,1,1,0,0,0,1,1,0,1,0,0,1,0,0,1,1,1,1
-Carduelis_olivacea,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Carduelis_psaltria,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1
-Carduelis_uropygialis,1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Casiornis_rufus,2,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Casmerodius_albus,1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1
-Catamblyrhynchus_diadema,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,1,0,0
-Catamenia_analis,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1,1,0,0
-Catamenia_homochroa,0,0,0,1,2,0,0,0,2,0,0,0,0,0,0,0,0,0
-Catamenia_inornata,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0
-Cathartes_aura,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Cathartes_melambrotus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Catharus_dryas,0,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0
-Catharus_fuscater,1,1,1,0,1,0,0,1,1,0,1,1,1,0,1,1,0,0
-Catharus_fuscescens,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Catharus_minimus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Catharus_ustulatus,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0
-Celeus_elegans,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
-Celeus_flavus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Celeus_grammicus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Celeus_spectabilis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Celeus_torquatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cephalopterus_ornatus,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Cercomacra_cinerascens,1,0,0,0,0,0,0,0,0,0,1,2,1,0,0,0,0,0
-Cercomacra_manu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cercomacra_serva,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Cercomacroides_fuscicauda,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cercomacra_nigrescens,0,2,1,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0
-Chaetocercus_bombus,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Chaetocercus_mulsant,0,1,1,0,1,1,0,0,1,0,0,0,0,0,1,1,0,1
-Chaetura_brachyura,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Chaetura_chapmani,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Chaetura_cinereiventris,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Chaetura_egregia,1,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1,0
-Chaetura_meridionalis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Chaetura_pelagica,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
-Chalcostigma_herrani,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Chalcostigma_olivaceum,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Chalcostigma_ruficeps,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
-Chalcostigma_stanleyi,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,1
-Chamaepetes_goudotii,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
-Chamaeza_campanisona,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0
-Chamaeza_mollissima,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
-Chamaeza_nobilis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Charadrius_alticola,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Charadrius_collaris,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Charadrius_vociferus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Chauna_torquata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Chelidoptera_tenebrosa,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Chiroxiphia_boliviana,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
-Chiroxiphia_pareola,2,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0
-Chloephaga_melanoptera,0,2,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0
-Chloroceryle_aenea,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Chloroceryle_amazona,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Chloroceryle_americana,1,0,1,1,0,0,0,1,2,0,1,1,1,1,1,0,1,0
-Chloroceryle_inda,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Chlorochrysa_calliparaea,1,0,1,0,0,0,0,1,0,0,1,2,1,0,0,0,0,0
-Chlorochrysa_fulgentissima,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Chlorophanes_spiza,2,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Chlorophonia_cyanea,0,0,1,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0
-Chlorophonia_pyrrhophrys,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Chlorornis_riefferii,1,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
-Chlorospingus_canigularis,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Chlorospingus_flavigularis,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
-Chlorospingus_ophthalmicus,0,1,1,0,1,0,0,1,1,0,0,1,0,0,1,0,0,0
-Chlorospingus_parvirostris,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
-Chlorostilbon_mellisugus,1,0,0,0,0,0,0,2,0,0,1,1,1,0,0,0,0,0
-Chondrohierax_uncinatus,1,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
-Chordeiles_acutipennis,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
-Chordeiles_minor,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Chrysuronia_oenone,2,0,1,0,0,0,0,0,0,0,2,1,1,0,0,0,0,0
-Cinclodes_albidiventris,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
-Cinclodes_albiventris,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1
-Cinclodes_aricomae,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Cinclodes_atacamensis,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
-Cinclus_leucocephalus,0,1,1,1,1,2,1,1,0,0,0,1,1,0,1,2,0,0
-Cinnycerthia_fulva,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Cinnycerthia_olivascens,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
-Cinnycerthia_peruana,0,1,0,2,1,0,0,1,0,0,0,1,0,0,0,0,0,0
-Cinnycerthia_unirufa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Circus_cinereus,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Cissopis_leverianus,2,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Cistothorus_platensis,1,0,0,1,1,1,0,0,0,0,0,1,1,0,0,1,0,1
-Claravis_mondetoura,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
-Claravis_pretiosa,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0
-Cnemarchus_erythropygius,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0
-Cnemoscopus_chrysogaster,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cnemoscopus_rubrirostris,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1
-Cnemotriccus_fuscatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cnipodectes_subbrunneus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cnipodectes_superrufus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coccycua_cinerea,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coccycua_minuta,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Coccyzus_americanus,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Coccyzus_erythropthalmus,1,0,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0
-Coccyzus_melacoryphus,1,0,1,1,1,1,0,0,1,0,1,1,1,1,1,0,1,1
-Cochlearius_cochlearius,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Coeligena_albicaudata,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Coeligena_coeligena,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coeligena_dichroura,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Coeligena_inca,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Coeligena_iris,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1
-Coeligena_torquata,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1
-Coereba_flaveola,0,1,1,0,1,0,0,0,0,0,0,1,1,0,0,1,0,1
-Colaptes_atriceps,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Colaptes_atricollis,1,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,1
-Colaptes_cinereicappilus,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1
-Colaptes_punctigula,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Colaptes_rivolii,0,1,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,1
-Colaptes_rubiginosus,1,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0,1,1
-Colaptes_rupicola,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-Colibri_coruscans,0,0,1,2,1,1,1,0,0,1,0,0,0,0,1,1,0,1
-Colibri_delphinae,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Colibri_thalassinus,1,0,1,1,1,0,0,0,0,0,1,1,0,0,1,0,0,0
-Colonia_colonus,2,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,1,0
-Columbina_cruziana,0,0,1,2,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Columbina_minuta,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Columbina_picui,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Columbina_talpacoti,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Conioptilon_mcilhennyi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Conirostrum_albifrons,0,1,0,1,1,0,0,2,1,0,0,0,0,0,1,0,0,0
-Conirostrum_cinereum,0,0,0,0,1,2,0,0,0,1,0,0,0,2,1,1,2,1
-Conirostrum_ferrugineiventre,0,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0
-Conirostrum_sitticolor,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,2,0,1
-Conirostrum_speciosum,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Conopias_cinchoneti,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Conopias_trivirgatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Conopophaga_ardesiaca,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Conopophaga_castaneiceps,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Conopophaga_peruviana,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0
-Conothraupis_speculigera,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
-Contopus_cinereus,0,1,0,1,1,1,1,0,1,0,0,0,0,0,0,1,0,0
-Contopus_cooperi,0,1,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0
-Contopus_fumigatus,1,1,1,1,1,0,0,1,0,0,1,0,0,0,1,0,0,0
-Contopus_nigrescens,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Contopus_punensis,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1
-Contopus_sordidulus,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Contopus_virens,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Coragyps_atratus,1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,1,1
-Coryphospingus_cucullatus,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0
-Corythopis_torquatus,1,1,0,0,0,1,1,0,1,1,1,1,0,0,0,0,1,1
-Cotinga_cayana,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Cotinga_cotinga,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Cotinga_maynana,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cranioleuca_albicapilla,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Cranioleuca_antisiensis,0,1,0,0,1,1,1,0,1,2,0,0,0,0,0,1,0,2
-Cranioleuca_baroni,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cranioleuca_curtata,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Cranioleuca_gutturata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cranioleuca_marcapatae,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-Creurgops_dentatus,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1
-Creurgops_verticalis,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1
-Crotophaga_ani,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Crotophaga_major,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Crotophaga_sulcirostris,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,0,2,1
-Crypturellus_bartletti,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Crypturellus_cinereus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Crypturellus_obsoletus,0,0,1,0,1,0,0,2,1,0,0,1,1,0,1,0,0,0
-Crypturellus_parvirostris,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Crypturellus_soui,2,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Crypturellus_strigulosus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Crypturellus_undulatus,1,0,0,1,0,0,0,1,1,0,1,0,0,0,0,1,0,0
-Crypturellus_variegatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cyanerpes_caeruleus,1,0,0,0,0,1,1,0,1,0,1,1,0,0,0,0,0,1
-Cyanerpes_cyaneus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cyanerpes_nitidus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Cyanocompsa_cyanoides,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Cyanocorax_mystacalis,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
-Cyanocorax_violaceus,1,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0
-Cyanocorax_yncas,0,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Cyanolyca_viridicyanus,0,1,0,2,2,0,1,0,2,0,0,0,0,0,0,0,0,0
-Cyclarhis_gujanensis,0,0,1,1,1,0,0,0,1,0,2,1,1,0,1,0,0,0
-Cymbilaimus_lineatus,2,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0
-Cymbilaimus_sanctaemariae,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Cyphorhinus_arada,1,0,0,1,0,1,1,0,1,1,1,0,0,0,0,0,0,1
-Cyphorhinus_dichrous,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Cyphorhinus_thoracicus,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
-Cypseloides_cryptus,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Dacnis_albiventris,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Dacnis_cayana,1,0,1,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0
-Dacnis_flaviventer,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-Dacnis_lineata,1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Daptrius_ater,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Deconychura_longicauda,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Deconychura_stictolaema,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Delothraupis_castaneoventris,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0
-Dendrexetastes_rufigula,1,0,0,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0
-Dendrocincla_fuliginosa,2,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Dendrocincla_merula,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Dendrocincla_tyrannina,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,0,0,0
-Dendrocolaptes_certhia,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
-Dendrocolaptes_picumnus,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
-Dendroica_cerulea,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-Dendroica_fusca,0,0,1,1,1,0,0,1,1,0,0,1,1,0,1,0,0,0
-Dendroica_striata,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Dendroplex_picus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Dichrozona_cincta,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Diglossa_albilatera,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0
-Diglossa_brunneiventris,0,2,0,1,1,1,0,1,2,1,0,0,0,0,0,0,0,1
-Diglossa_caerulescens,0,1,1,0,1,0,0,2,0,0,0,0,0,0,1,0,0,0
-Diglossa_cyanea,0,1,0,0,1,0,0,1,0,1,0,0,0,0,1,1,0,0
-Diglossa_glauca,0,1,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0
-Diglossa_humeralis,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0
-Diglossa_lafresnayii,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Diglossa_mystacalis,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0
-Diglossa_sittoides,0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0
-Discosura_langsdorffi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Discosura_popelairii,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Diuca_speculifera,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-Dives_warszewiczi,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,1,2
-Dolichonyx_oryzivorus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Donacobius_atricapilla,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Doryfera_johannae,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Doryfera_ludovicae,1,1,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0
-Dromococcyx_pavoninus,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Dromococcyx_phasianellus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Drymophila_caudata,0,0,1,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0
-Drymophila_devillei,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Dubusia_stictocephala,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Dubusia_taeniata,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0
-Dysithamnus_mentalis,0,1,2,2,1,0,0,0,0,0,1,1,1,0,1,0,0,0
-Egretta_caerulea,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Egretta_thula,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,1
-Elaenia_albiceps,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,0,1
-Elaenia_chiriquensis,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Elaenia_flavogaster,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Elaenia_gigas,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Elaenia_obscura,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Elaenia_pallatangae,0,1,0,0,1,0,0,1,1,0,1,1,0,0,1,0,0,0
-Elaenia_parvirostris,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Elaenia_spectabilis,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0
-Elaenia_strepera,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Elanoides_forficatus,1,1,1,1,0,0,0,1,1,0,1,1,1,0,1,0,0,0
-Electron_platyrhynchum,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
-Empidonax_alnorum,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Empidonomus_aurantioatrocristatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Empidonomus_varius,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Ensifera_ensifera,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,1,0,0
-Entomodestes_leucotis,0,1,1,1,1,0,0,2,1,0,1,0,0,0,0,0,0,0
-Epinecrophylla_erythrura,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Epinecrophylla_haematonota,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0
-Epinecrophylla_leucophthalma,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Epinecrophylla_ornata,1,0,2,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Epinecrophylla_spodionota,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Eriocnemis_alinae,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Eriocnemis_luciani,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
-Eubucco_richardsoni,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Eubucco_tucinkae,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Eubucco_versicolor,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Eucometis_penicillata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Euphonia_chlorotica,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Euphonia_chrysopasta,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Euphonia_cyanocephala,0,0,1,1,1,0,0,1,1,0,0,1,1,0,1,0,0,0
-Euphonia_laniirostris,1,0,0,0,0,0,0,1,0,0,2,0,0,1,0,0,0,0
-Euphonia_mesochrysa,0,0,2,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Euphonia_minuta,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Euphonia_rufiventris,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Euphonia_xanthogaster,1,0,1,1,0,0,0,1,0,0,1,1,2,0,0,0,0,0
-Eurypyga_helias,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Euscarthmus_meloryphus,0,0,0,2,0,1,0,0,0,0,0,0,0,1,1,0,1,0
-Eutoxeres_condamini,0,2,0,1,1,0,0,0,1,0,1,1,1,0,0,1,0,0
-Falco_deiroleucus,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Falco_femoralis,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
-Falco_peregrinus,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1
-Falco_rufigularis,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
-Falco_sparverius,0,1,1,1,1,1,1,2,0,1,0,0,0,1,1,1,1,1
-Florisuga_mellivora,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Fluvicola_albiventer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Formicarius_analis,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
-Formicarius_colma,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-Formicarius_rufipectus,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Formicivora_rufa,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Forpus_coelestis,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
-Forpus_modestus,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Forpus_xanthopterygius,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Frederickena_unduligera,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Fulica_ardesiaca,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Fulica_gigantea,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Furnarius_cinnamomeus,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
-Furnarius_leucopus,2,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Galbalcyrhynchus_leucotis,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Galbalcyrhynchus_purusianus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Galbula_albirostris,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Galbula_chalcothorax,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Galbula_cyanescens,1,0,1,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0
-Galbula_dea,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Gallinago_andina,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1
-Gallinago_imperialis,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-Gallinago_jamesoni,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Gallinago_paraguaiae,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Gallinula_chloropus,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Gampsonyx_swainsonii,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Geositta_crassirostris,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-Geositta_cunicularia,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Geositta_maritima,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Geositta_tenuirostris,0,1,1,1,1,0,2,1,1,0,0,0,0,0,0,1,0,0
-Geothlypis_aequinoctialis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Geothlypis_auricularis,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Geotrygon_frenata,1,2,2,2,2,0,0,2,2,1,1,0,0,0,2,0,0,0
-Geotrygon_montana,1,1,0,0,0,0,1,1,0,1,1,1,1,0,0,0,0,1
-Geranoaetus_melanoleucus,0,1,1,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1
-Geranospiza_caerulescens,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Glaucidium_bolivianum,0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0
-Glaucidium_brasilianum,2,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Glaucidium_hardyi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Glaucidium_jardinii,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1
-Glaucidium_parkeri,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Glaucidium_peruanum,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,1
-Glaucis_hirsutus,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Glyphorynchus_spirurus,1,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0
-Grallaria_albigula,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Grallaria_andicolus,0,1,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0
-Grallaria_blakei,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Grallaria_capitalis,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Grallaria_carrikeri,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Grallaria_erythroleuca,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Grallaria_guatimalensis,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
-Grallaria_hypoleuca,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Grallaria_nuchalis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Grallaria_przewalskii,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1
-Grallaria_quitensis,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Grallaria_ruficapilla,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
-Grallaria_rufula,0,1,0,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0
-Grallaria_squamigera,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-Grallaricula_ferrugineipectus,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Grallaricula_flavirostris,0,0,0,1,0,0,0,2,1,0,0,1,1,0,0,0,0,0
-Grallaricula_nana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Grallaricula_peruviana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Gymnoderus_foetidus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Gymnopithys_leucaspis,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Gymnopithys_lunulatus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Gymnopithys_salvini,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Habia_rubica,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
-Hapalopsittaca_melanotis,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Hapaloptila_castanea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Haplochelidon_andecola,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Haplophaedia_assimilis,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Haplophaedia_aureliae,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0
-Haplospiza_rustica,0,1,1,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0
-Harpagus_bidentatus,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0
-Harpia_harpyja,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Harpyhaliaetus_solitarius,0,1,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0
-Heliangelus_amethysticollis,0,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0
-Heliangelus_micraster,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
-Heliangelus_viola,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Heliodoxa_aurescens,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0
-Heliodoxa_branickii,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Heliodoxa_leadbeateri,0,1,1,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0
-Heliodoxa_rubinoides,0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0
-Heliodoxa_schreibersii,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Heliomaster_longirostris,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0,0,1
-Heliornis_fulica,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Heliothryx_auritus,1,0,1,1,0,0,0,2,0,0,1,1,0,0,0,0,1,0
-Hellmayrea_gularis,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
-Hemispingus_atropileus,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Hemispingus_auricularis,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Hemispingus_frontalis,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
-Hemispingus_melanotis,0,0,1,0,1,0,0,2,0,0,0,0,0,0,1,0,0,0
-Hemispingus_parodii,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Hemispingus_rufosuperciliaris,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Hemispingus_superciliaris,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,1,0,0
-Hemispingus_trifasciatus,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Hemispingus_xanthophthalmus,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0
-Hemithraupis_flavicollis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Hemithraupis_guira,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Hemitriccus_flammulatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Hemitriccus_granadensis,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0
-Hemitriccus_griseipectus,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Hemitriccus_iohannis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Hemitriccus_margaritaceiventer,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0
-Hemitriccus_rufigularis,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Hemitriccus_zosterops,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Henicorhina_leucophrys,0,2,1,1,2,0,1,1,2,0,0,0,0,0,1,0,0,0
-Henicorhina_leucosticta,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Herpetotheres_cachinnans,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Herpsilochmus_axillaris,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Herpsilochmus_rufimarginatus,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Himantopus_himantopus,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0
-Hirundinea_ferruginea,0,1,1,1,0,0,0,1,1,0,0,1,1,0,1,0,0,0
-Hirundo_rustica,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Hydropsalis_climacocerca,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Hylatomus_fuscipennis,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
-Hylatomus_lineatus,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Hylexetastes_stresemanni,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Hylocharis_cyanus,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
-Hyloctistes_subulatus,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Hylopezus_berlepschi,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Hylophilus_hypoxanthus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Hylophilus_ochraceiceps,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,1
-Hylophilus_olivaceus,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Hylophilus_thoracicus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Hylophylax_naevius,2,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Hypocnemis_peruviana,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Hypocnemis_subflava,1,1,0,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0
-Hypocnemoides_maculicauda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ibycter_americanus,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Icterus_cayanensis,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0
-Icterus_chrysocephalus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Icterus_croconotus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Icterus_graceannae,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
-Icterus_mesomelas,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Ictinia_mississippiensis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ictinia_plumbea,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Idiopsar_brachyurus,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-Incaspiza_personata,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-Inezia_inornata,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Iodopleura_isabellae,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Iridophanes_pulcherrimus,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Iridosornis_analis,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Iridosornis_jelskii,0,2,0,1,2,0,0,0,2,0,0,0,0,0,0,0,0,0
-Iridosornis_reinhardti,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
-Ixobrychus_exilis,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1
-Jabiru_mycteria,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Jacamerops_aureus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Jacana_jacana,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Klais_guimeti,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Knipolegus_aterrimus,0,1,0,0,1,0,2,0,1,0,0,0,0,0,0,1,0,0
-Knipolegus_poecilocercus,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Knipolegus_poecilurus,0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
-Knipolegus_signatus,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Lafresnaya_lafresnayi,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Lampropsar_tanagrinus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Lamprospiza_melanoleuca,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Laniisoma_elegans,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Lanio_versicolor,1,0,1,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0
-Laniocera_hypopyrra,1,0,0,0,0,0,0,1,0,0,2,1,0,0,0,0,0,0
-Larus_cirrocephalus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Larus_dominicanus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Larus_serranus,0,1,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,0
-Laterallus_exilis,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Laterallus_jamaicensis,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-Laterallus_melanophaius,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Lathrotriccus_euleri,2,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Lathrotriccus_griseipectus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Legatus_leucophaius,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Lepidocolaptes_albolineatus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Lepidocolaptes_lacrymiger,0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
-Lepidocolaptes_souleyetii,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Lepidothrix_coeruleocapilla,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Lepidothrix_coronata,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
-Lepidothrix_isidorei,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Leptasthenura_pileata,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Leptasthenura_striata,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Leptasthenura_xenothorax,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Leptasthenura_yanacensis,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Leptodon_cayanensis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Leptopogon_albidiventer,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Leptopogon_amaurocephalus,1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0
-Leptopogon_rufipectus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Leptopogon_superciliaris,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Leptopogon_taczanowskii,1,1,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0
-Leptosittaca_branickii,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Leptotila_rufaxilla,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
-Leptotila_verreauxi,0,0,0,1,0,1,0,1,1,0,1,1,1,0,1,0,0,1
-Lesbia_nuna,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1
-Lesbia_victoriae,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
-Lessonia_oreas,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Leucippus_taczanowskii,0,0,1,2,1,1,0,0,0,0,0,0,0,0,1,0,0,1
-Leucopternis_albicollis,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Leucopternis_kuhli,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Leucopternis_schistaceus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Liosceles_thoracicus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Lipaugus_vociferans,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1
-Lochmias_nematura,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
-Loddigesia_mirabilis,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Lophonetta_specularioides,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Lophornis_chalybeus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Lophornis_delattrei,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Lophostrix_cristata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Lophotriccus_eulophotes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-Lophotriccus_pileatus,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Lophotriccus_vitiosus,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Lurocalis_rufiventris,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0
-Lurocalis_semitorquatus,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Machaeropterus_pyrocephalus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0
-Machaeropterus_regulus,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Malacoptila_fulvogularis,0,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Malacoptila_fusca,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Malacoptila_semicincta,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Manacus_manacus,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1,0,0
-Margarornis_squamiger,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0
-Mecocerculus_calopterus,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Mecocerculus_leucophrys,0,1,0,0,1,1,1,0,1,0,0,0,0,0,1,1,0,1
-Mecocerculus_minor,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
-Mecocerculus_poecilocercus,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,1
-Mecocerculus_stictopterus,0,2,0,0,2,0,0,0,1,0,0,0,0,0,0,1,0,0
-Megaceryle_torquata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Megarynchus_pitangua,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Megascops_albogularis,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Megascops_choliba,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Megascops_guatemalae,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Megascops_ingens,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0
-Megascops_koepckeae,0,0,0,2,0,1,1,0,1,1,0,0,0,0,0,1,0,1
-Megascops_petersoni,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Megascops_roboratus,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Megascops_watsonii,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Melanerpes_cruentatus,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Melanopareia_elegans,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Merganetta_armata,1,1,1,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0
-Mesembrinibis_cayennensis,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Metallura_aeneocauda,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Metallura_eupogon,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Metallura_phoebe,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
-Metallura_theresiae,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
-Metallura_tyrianthina,0,1,0,0,2,0,2,0,1,0,0,0,0,0,1,2,0,0
-Metopothrix_aurantiaca,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Metriopelia_ceciliae,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,1,0,1
-Metriopelia_melanoptera,0,1,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0
-Micrastur_buckleyi,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Micrastur_gilvicollis,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Micrastur_mirandollei,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Micrastur_ruficollis,1,0,0,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0
-Micrastur_semitorquatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Microcerculus_marginatus,1,0,0,0,0,0,0,1,0,0,1,2,0,0,0,0,0,0
-Micromonacha_lanceolata,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Microrhopias_quixensis,1,0,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0
-Milvago_chimachima,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Mimus_longicaudatus,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0
-Mionectes_macconnelli,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Mionectes_oleagineus,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Mionectes_olivaceus,0,1,0,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0
-Mionectes_striaticollis,1,0,1,1,2,0,0,2,1,0,0,0,1,0,1,1,0,0
-Mitrephanes_olivaceus,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Mitu_tuberosum,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Mniotilta_varia,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Molothrus_bonariensis,1,0,0,0,0,1,0,1,0,0,1,2,2,1,1,0,1,1
-Molothrus_oryzivorus,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Momotus_aequatorialis,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,0,0,1
-Momotus_momota,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
-Monasa_flavirostris,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Monasa_morphoeus,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Monasa_nigrifrons,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Morphnus_guianensis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Muscigralla_brevicauda,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,1
-Muscisaxicola_albifrons,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Muscisaxicola_albilora,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0
-Muscisaxicola_cinereus,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1
-Muscisaxicola_flavinucha,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Muscisaxicola_fluviatilis,0,0,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,0
-Muscisaxicola_frontalis,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Muscisaxicola_griseus,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0
-Muscisaxicola_juninensis,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Muscisaxicola_maclovianus,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
-Muscisaxicola_maculirostris,1,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0
-Muscisaxicola_rufivertex,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,1,0,1
-Myadestes_ralloides,0,1,1,0,1,1,1,1,2,0,0,0,0,0,2,1,0,1
-Mycteria_americana,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0
-Myiarchus_cephalotes,0,1,1,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0
-Myiarchus_ferox,1,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0
-Myiarchus_phaeocephalus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Myiarchus_semirufus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Myiarchus_swainsoni,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiarchus_tuberculifer,1,1,1,2,2,0,0,1,1,0,1,1,1,0,1,0,0,0
-Myiarchus_tyrannulus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiobius_atricaudus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiobius_barbatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiobius_villosus,1,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Myioborus_melanocephalus,0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
-Myioborus_miniatus,0,1,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1
-Myiodynastes_bairdii,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Myiodynastes_chrysocephalus,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Myiodynastes_luteiventris,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Myiodynastes_maculatus,2,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Myiopagis_caniceps,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiopagis_gaimardii,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Myiopagis_subplacens,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Myiopagis_viridicata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Myiophobus_crypterythrus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Myiophobus_fasciatus,1,0,1,0,0,0,0,0,0,0,1,2,2,0,0,0,0,0
-Myiophobus_flavicans,0,2,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0
-Myiophobus_inornatus,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Myiophobus_ochraceiventris,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0
-Myiophobus_pulcher,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Myiophobus_rufescens,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1
-Myiornis_albiventris,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiornis_ecaudatus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Myiotheretes_fumigatus,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Myiotheretes_fuscorufus,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0
-Myiotheretes_striaticollis,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0
-Myiotriccus_ornatus,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Myiozetetes_cayanensis,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
-Myiozetetes_granadensis,1,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0
-Myiozetetes_luteiventris,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myiozetetes_similis,1,0,0,0,0,0,1,0,0,1,1,1,1,0,0,1,0,1
-Myornis_senilis,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
-Myrmeciza_atrothorax,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0
-Myrmeciza_fortis,1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0
-Myrmeciza_goeldii,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Myrmeciza_hemimelaena,1,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0
-Myrmeciza_hyperythra,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myrmeciza_melanoceps,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myrmia_micrura,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
-Myrmoborus_leucophrys,1,0,0,0,0,0,0,2,0,0,1,1,0,0,0,0,0,0
-Myrmoborus_myotherinus,1,0,0,0,0,0,0,2,0,0,1,1,1,1,0,0,1,0
-Myrmothera_campanisona,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Myrmotherula_axillaris,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0
-Myrmotherula_brachyura,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myrmotherula_hauxwelli,2,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Myrmotherula_ignota,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myrmotherula_iheringi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Myrmotherula_longicauda,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Myrmotherula_longipennis,1,1,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0
-Myrmotherula_menetriesii,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myrmotherula_multostriata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Myrmotherula_schisticolor,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1
-Myrmotherula_sclateri,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Myrtis_fanny,0,0,0,1,1,0,1,0,0,1,0,0,0,0,1,1,0,0
-Nannopsittaca_dachilleae,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Nasica_longirostris,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Nemosia_pileata,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Neochelidon_tibialis,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0
-Neochen_jubata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Neocrex_erythrops,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Neoctantes_niger,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Neomorphus_geoffroyi,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Neopelma_sulphureiventer,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Neopipo_cinnamomea,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Nephelornis_oneilli,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Netta_erythrophthalma,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1
-Nonnula_ruficapilla,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1
-Nonnula_sclateri,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Notharchus_hyperrhynchus,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Notharchus_ordii,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Notharchus_tectus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Nothocercus_julius,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Nothocercus_nigrocapillus,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0
-Nothoprocta_curvirostris,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Nothoprocta_ornata,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
-Nothoprocta_pentlandii,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,1,0,1
-Nothoprocta_taczanowskii,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Nothura_darwinii,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Notiochelidon_flavipes,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Notiochelidon_murina,0,1,1,1,2,1,1,0,0,0,0,0,0,0,1,1,0,1
-Numenius_phaeopus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Nyctibius_aethereus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Nyctibius_bracteatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Nyctibius_grandis,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Nyctibius_griseus,1,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0
-Nyctibius_maculosus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Nycticorax_nycticorax,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1
-Nyctidromus_albicollis,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0
-Nyctiphrynus_ocellatus,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Nystalus_striolatus,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-Ochthoeca_cinnamomeiventris,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
-Ochthoeca_diadema,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Ochthoeca_frontalis,0,2,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1
-Ochthoeca_fumicolor,0,0,0,0,1,0,1,0,1,1,0,0,0,0,1,0,0,1
-Ochthoeca_jelskii,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,1
-Ochthoeca_leucophrys,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,1
-Ochthoeca_oenanthoides,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0
-Ochthoeca_piurae,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1
-Ochthoeca_pulchella,0,1,0,0,1,0,0,1,0,0,0,1,1,0,0,0,0,0
-Ochthoeca_rufipectoralis,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0
-Ochthoeca_thoracica,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ochthornis_littoralis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Ocreatus_underwoodii,0,0,0,1,0,0,0,1,0,0,0,0,2,0,0,0,0,0
-Odontophorus_balliviani,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Odontophorus_gujanensis,1,0,0,0,0,0,0,2,0,0,1,0,0,1,0,0,0,0
-Odontophorus_speciosus,0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
-Odontophorus_stellatus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Odontorchilus_branickii,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
-Onychorhynchus_coronatus,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0
-Opisthocomus_hoazin,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Oporornis_agilis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Oreomanes_fraseri,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0
-Oreonympha_nobilis,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-Oreotrochilus_estella,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Oreotrochilus_melanogaster,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-Oreotrochilus_stolzmanni,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ornithion_inerme,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Ortalis_guttata,2,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0
-Orthopsittaca_manilata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Oryzoborus_angolensis,2,0,0,0,0,0,0,1,0,0,2,2,0,0,0,0,0,0
-Oryzoborus_atrirostris,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Oxyruncus_cristatus,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Oxyura_jamaicensis,0,1,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,1
-Pachyramphus_albogriseus,1,0,1,0,0,0,0,0,0,0,0,0,0,2,1,0,1,0
-Pachyramphus_castaneus,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Pachyramphus_marginatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pachyramphus_minor,1,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0
-Pachyramphus_polychopterus,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-Pachyramphus_validus,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Pachyramphus_versicolor,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Pachyramphus_viridis,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Pachyramphus_xanthogenys,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Pandion_haliaetus,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
-Panyptila_cayennensis,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Parabuteo_unicinctus,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Pardirallus_maculatus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Pardirallus_nigricans,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Pardirallus_sanguinolentus,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0
-Parkerthraustes_humeralis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Paroaria_gularis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Parula_pitiayumi,0,0,1,0,0,0,0,1,1,0,1,1,1,1,0,0,0,0
-Passer_domesticus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0
-Patagioenas_cayennensis,1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Patagioenas_fasciata,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1
-Patagioenas_maculosa,0,0,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,1
-Patagioenas_plumbea,2,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Patagioenas_speciosa,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Patagioenas_subvinacea,1,0,1,0,0,0,0,1,0,0,2,1,1,0,0,0,0,0
-Patagona_gigas,0,0,0,0,0,1,1,0,0,2,0,0,0,0,1,1,0,2
-Penelope_barbata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Penelope_jacquacu,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0
-Penelope_montagnii,0,0,0,0,0,0,0,2,1,0,0,2,1,0,0,0,0,0
-Percnostola_lophotes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Petrochelidon_pyrrhonota,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Petrochelidon_rufocollaris,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Phacellodomus_rufifrons,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Phacellodomus_striaticeps,0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
-Phaeomyias_murina,1,0,0,0,0,0,0,0,2,0,1,1,1,0,0,0,0,0
-Phaeomyias_tumbezana,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Phaeothlypis_fulvicauda,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0
-Phaethornis_atrimentalis,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0
-Phaethornis_bourcieri,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Phaethornis_guy,0,1,1,0,0,0,0,2,1,0,0,1,1,0,0,0,0,0
-Phaethornis_hispidus,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Phaethornis_koepckeae,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Phaethornis_malaris,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Phaethornis_philippii,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
-Phaethornis_ruber,1,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0
-Phaethornis_stuarti,0,0,0,1,0,0,0,2,0,0,0,1,1,0,0,0,0,0
-Phaethornis_syrmatophorus,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Phalacrocorax_brasilianus,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-Phalcoboenus_megalopterus,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
-Pharomachrus_antisianus,0,1,1,2,0,0,0,0,1,0,0,1,2,0,1,0,0,0
-Pharomachrus_auriceps,0,1,1,1,1,0,0,1,1,0,0,1,1,1,1,0,0,0
-Pharomachrus_pavoninus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Phegornis_mitchellii,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Pheucticus_aureoventris,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0
-Pheucticus_chrysogaster,0,1,0,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0
-Philydor_erythrocercum,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Philydor_erythropterum,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Philydor_pyrrhodes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Philydor_ruficaudatum,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Philydor_rufum,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Phlegopsis_nigromaculata,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Phleocryptes_melanops,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1
-Phlogophilus_harterti,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Phoenicircus_nigricollis,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Phoenicopterus_chilensis,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Phrygilus_alaudinus,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0
-Phrygilus_fruticeti,0,0,0,0,0,2,1,0,0,1,0,0,0,0,0,0,0,2
-Phrygilus_plebejus,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1
-Phrygilus_punensis,0,1,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,1
-Phrygilus_unicolor,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,1,0,0
-Phyllomyias_cinereiceps,0,1,1,0,0,0,0,2,1,0,0,0,0,0,1,0,0,0
-Phyllomyias_griseiceps,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Phyllomyias_nigrocapillus,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
-Phyllomyias_plumbeiceps,0,2,1,1,1,0,0,0,2,0,0,0,0,0,1,0,0,0
-Phyllomyias_sclateri,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Phyllomyias_uropygialis,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Phylloscartes_ophthalmicus,0,0,1,1,1,0,0,2,1,0,0,0,0,0,0,0,0,0
-Phylloscartes_orbitalis,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Phylloscartes_parkeri,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Phylloscartes_poecilotis,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0
-Phylloscartes_ventralis,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Phytotoma_raimondii,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Piaya_cayana,1,0,1,0,1,0,1,1,1,0,1,1,1,0,0,0,0,0
-Piaya_melanogaster,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Picoides_fumigatus,0,0,1,1,1,0,0,0,0,0,0,1,1,0,1,0,1,0
-Piculus_chrysochloros,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Piculus_flavigula,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Piculus_leucolaemus,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Picumnus_aurifrons,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Picumnus_dorbignyanus,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Picumnus_lafresnayi,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Picumnus_rufiventris,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Picumnus_subtilis,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Piezorhina_cinerea,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Pilherodius_pileatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pionites_leucogaster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Pionus_menstruus,1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0
-Pionus_seniloides,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
-Pionus_sordidus,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
-Pionus_tumultuosus,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Pipile_cumanensis,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Pipra_chloromeros,1,0,1,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0
-Pipra_erythrocephala,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pipra_fasciicauda,1,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0
-Pipra_pipra,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Pipra_rubrocapilla,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Pipraeidea_melanonota,0,0,1,1,1,0,0,1,0,0,0,1,1,1,1,0,0,0
-Pipreola_arcuata,0,1,1,0,1,1,0,1,0,0,0,0,0,1,1,0,1,1
-Pipreola_chlorolepidota,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Pipreola_frontalis,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Pipreola_intermedia,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-Pipreola_lubomirskii,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Pipreola_pulchra,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Pipreola_riefferii,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
-Piprites_chloris,1,0,1,1,0,0,0,0,0,0,1,2,2,0,0,0,0,0
-Piranga_flava,1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
-Piranga_hepatica,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,1
-Piranga_leucoptera,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Piranga_olivacea,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Piranga_rubra,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Piranga_rubriceps,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Pitangus_lictor,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pitangus_sulphuratus,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Pithys_albifrons,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Platyrinchus_coronatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Platyrinchus_flavigularis,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0
-Platyrinchus_mystaceus,0,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,0,0
-Platyrinchus_platyrhynchos,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Plegadis_ridgwayi,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Pluvialis_dominica,1,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0
-Podiceps_major,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Podiceps_occipitalis,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
-Poecilotriccus_latirostris,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1
-Poecilotriccus_luluae,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Poecilotriccus_plumbeiceps,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Poecilotriccus_pulchellus,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Polioptila_maior,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Polioptila_plumbea,1,0,0,0,0,0,0,2,1,0,2,2,2,0,0,0,1,0
-Polioxolmis_rufipennis,0,0,0,1,1,1,1,0,1,1,0,0,0,0,1,0,0,2
-Polyonymus_caroli,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1
-Poospiza_alticola,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Poospiza_caesar,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
-Poospiza_hispaniolensis,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0
-Poospiza_rubecula,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Porphyrio_flavirostris,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Porphyrio_martinica,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0
-Porphyrolaema_porphyrolaema,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Premnoplex_brunnescens,0,2,1,1,2,0,1,1,2,0,0,0,0,0,1,0,0,0
-Premnornis_guttuligera,0,1,1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0
-Primolius_couloni,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Progne_chalybea,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Progne_elegans,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Progne_murphyi,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Progne_subis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Progne_tapera,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Psarocolius_angustifrons,1,0,0,0,0,0,0,1,0,0,1,1,1,0,1,0,0,0
-Psarocolius_atrovirens,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Psarocolius_bifasciatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Psarocolius_decumanus,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Pseudelaenia_leucospodia,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
-Pseudocolaptes_boissonneautii,0,2,1,1,2,1,0,0,1,0,0,0,0,0,1,2,0,1
-Pseudocolopteryx_acutipennis,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Pseudotriccus_ruficeps,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Pseudotriccus_simplex,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Psilopsiagon_aurifrons,1,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,1,0
-Psophia_leucoptera,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pteroglossus_azara,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0
-Pteroglossus_beauharnaesii,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pteroglossus_castanotis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
-Pteroglossus_inscriptus,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,1
-Pterophanes_cyanopterus,0,2,0,1,2,0,0,0,1,0,0,0,0,0,0,0,0,0
-Pulsatrix_melanota,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,1,0
-Pulsatrix_perspicillata,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
-Pygiptila_stellaris,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pygochelidon_cyanoleuca,0,0,1,1,1,1,0,1,1,1,1,1,2,1,1,1,1,1
-Pyriglena_leuconota,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Pyrilia_barrabandi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Pyrocephalus_rubinus,1,0,1,2,2,1,0,0,1,0,1,1,1,1,1,0,1,1
-Pyroderus_scutatus,0,1,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Pyrrhomyias_cinnamomeus,0,1,1,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0
-Pyrrhura_melanura,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Pyrrhura_parvifrons,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Pyrrhura_roseifrons,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Pyrrhura_rupicola,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Querula_purpurata,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,1
-Ramphastos_ambiguus,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Ramphastos_tucanus,1,0,0,0,0,0,0,2,0,0,1,1,1,0,0,0,0,0
-Ramphastos_vitellinus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Ramphocaenus_melanurus,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-Ramphocelus_carbo,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1
-Ramphocelus_melanogaster,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Ramphocelus_nigrogularis,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Ramphotrigon_fuscicauda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ramphotrigon_megacephalum,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Ramphotrigon_ruficauda,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Recurvirostra_andina,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Rhegmatorhina_melanosticta,1,0,1,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0
-Rhodopis_vesper,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Rhynchocyclus_fulvipectus,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Rhynchocyclus_olivaceus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Rhytipterna_simplex,1,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Riparia_riparia,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
-Rollandia_rolland,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1
-Rostrhamus_sociabilis,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Rupicola_peruvianus,0,1,1,1,0,0,0,2,1,0,0,0,0,0,0,0,0,0
-Rynchops_niger,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Sakesphorus_bernardi,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1
-Saltator_aurantiirostris,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Saltator_cinctus,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1
-Saltator_coerulescens,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Saltator_grossus,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Saltator_maximus,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Saltator_striatipectus,0,0,0,2,0,0,0,0,0,0,0,0,1,1,0,0,1,0
-Sarcoramphus_papa,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0
-Sarkidiornis_melanotos,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Satrapa_icterophrys,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Sayornis_nigricans,1,1,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,1
-Schiffornis_major,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Schiffornis_turdina,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
-Schistes_geoffroyi,0,1,1,0,0,0,0,1,1,0,0,2,2,0,1,0,0,0
-Schistochlamys_melanopis,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
-Schistocichla_brunneiceps,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Schistocichla_leucostigma,1,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0
-Schizoeaca_fuliginosa,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0
-Schizoeaca_helleri,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
-Schizoeaca_palpebralis,0,1,1,1,1,1,0,1,1,0,0,0,1,0,0,0,0,1
-Sclateria_naevia,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
-Sclerurus_albigularis,1,0,1,0,0,0,0,2,0,0,2,1,1,0,0,0,0,0
-Sclerurus_caudacutus,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0
-Sclerurus_mexicanus,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0,1,1
-Sclerurus_rufigularis,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Scytalopus_acutirostris,0,2,1,1,1,1,1,1,1,1,0,0,0,0,1,0,1,1
-Scytalopus_altirostris,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Scytalopus_atratus,1,2,1,1,0,1,1,1,1,1,1,0,1,1,1,0,1,1
-Scytalopus_femoralis,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Scytalopus_latrans,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Scytalopus_macropus,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Scytalopus_parvirostris,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Scytalopus_schulenbergi,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Scytalopus_simonsi,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0
-Scytalopus_unicolor,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Selenidera_reinwardtii,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1
-Sericossypha_albocristata,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0
-Serpophaga_cinerea,0,1,1,1,1,1,0,1,1,0,0,0,0,0,1,0,0,1
-Setophaga_ruticilla,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0
-Sicalis_flaveola,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0
-Sicalis_luteola,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Sicalis_olivascens,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Sicalis_uropygialis,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Simoxenops_ucayalae,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Sirystes_sibilator,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Sittasomus_griseicapillus,1,1,0,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0
-Snowornis_cryptolophus,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Snowornis_subalaris,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Spizaetus_isidori,0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
-Spizaetus_melanoleucus,1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Spizaetus_ornatus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Spizaetus_tyrannus,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Sporophila_bouvronides,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Sporophila_caerulescens,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Sporophila_castaneiventris,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Sporophila_lineola,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Sporophila_luctuosa,1,1,1,1,1,1,0,1,1,0,0,1,1,0,1,0,0,1
-Sporophila_nigricollis,0,0,1,1,0,0,0,0,0,0,0,2,2,0,0,0,0,0
-Sporophila_peruviana,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Sporophila_schistacea,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Sporophila_simplex,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-Sporophila_telasco,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
-Steatornis_caripensis,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
-Steganopus_tricolor,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1
-Stelgidopteryx_ruficollis,1,0,0,1,0,1,0,1,0,0,1,1,0,1,1,1,0,1
-Sterna_superciliaris,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Streptoprocne_rutila,0,1,1,1,1,0,0,1,1,0,1,1,1,0,1,0,0,0
-Streptoprocne_zonaris,1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,0
-Strix_albitarsis,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
-Strix_huhula,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Strix_virgata,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Sturnella_bellicosa,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,1
-Sturnella_militaris,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1
-Sublegatus_modestus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Sublegatus_obscurior,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Synallaxis_albigularis,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Synallaxis_azarae,0,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0
-Synallaxis_cabanisi,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Synallaxis_cherriei,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Synallaxis_courseni,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Synallaxis_gujanensis,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Synallaxis_hypospodia,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Synallaxis_rutilans,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1
-Synallaxis_stictothorax,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-Synallaxis_unirufa,0,1,0,1,2,0,0,0,1,0,0,0,0,0,0,0,0,0
-Synallaxis_zimmeri,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
-Syndactyla_rufosuperciliata,0,1,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0
-Syndactyla_subalaris,1,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
-Systellura_decussata,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-Systellura_longirostris,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0
-Tachornis_squamata,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Tachuris_rubrigastra,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Tachybaptus_dominicus,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Tachycineta_albiventer,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tachycineta_stolzmanni,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Tachyphonus_cristatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tachyphonus_luctuosus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tachyphonus_rufiventer,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Tachyphonus_rufus,0,1,2,1,0,0,0,0,1,0,1,1,2,0,0,0,0,0
-Tachyphonus_surinamus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tangara_arthus,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
-Tangara_atrocoerulea,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tangara_callophrys,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tangara_chilensis,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
-Tangara_chrysotis,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tangara_cyanicollis,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
-Tangara_cyanotis,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tangara_fulvicervix,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
-Tangara_gyrola,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Tangara_labradorides,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Tangara_mexicana,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
-Tangara_nigrocincta,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Tangara_nigroviridis,0,1,1,1,2,0,0,2,2,0,0,0,1,0,0,0,0,0
-Tangara_parzudakii,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Tangara_punctata,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Tangara_ruficervix,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Tangara_schrankii,1,0,1,0,0,0,0,1,0,0,1,1,2,0,0,0,0,0
-Tangara_vassorii,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,1,0,1
-Tangara_velia,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tangara_viridicollis,0,1,1,0,1,0,0,1,1,0,0,0,1,0,1,0,0,0
-Tangara_xanthocephala,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
-Tangara_xanthogastra,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Tapera_naevia,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0
-Taphrospilus_hypostictus,0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
-Taraba_major,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Terenotriccus_erythrurus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0
-Terenura_callinota,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Terenura_humeralis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Terenura_sharpei,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Tersina_viridis,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Thalurania_furcata,2,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Thamnistes_anabatinus,0,1,1,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0
-Thamnomanes_ardesiacus,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
-Thamnomanes_caesius,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Thamnomanes_schistogynus,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Thamnophilus_aethiops,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0
-Thamnophilus_amazonicus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Thamnophilus_caerulescens,0,0,0,1,0,0,0,2,1,0,0,0,0,0,0,0,0,0
-Thamnophilus_doliatus,1,1,0,0,1,0,0,0,1,0,1,1,1,0,0,1,0,0
-Thamnophilus_murinus,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
-Thamnophilus_palliatus,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Thamnophilus_ruficapillus,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Thamnophilus_schistaceus,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0
-Thamnophilus_tenuepunctatus,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1
-Thamnophilus_unicolor,0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
-Thaumastura_cora,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
-Theristicus_melanopis,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
-Thinocorus_orbignyianus,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
-Thinocorus_rumicivorus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-Thlypopsis_inornata,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Thlypopsis_ornata,1,0,0,1,1,1,0,0,0,0,1,0,0,0,1,1,0,1
-Thlypopsis_ruficeps,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0
-Thlypopsis_sordida,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Thraupis_bonariensis,0,3,0,1,3,0,2,0,3,0,0,0,0,0,0,2,0,0
-Thraupis_cyanocephala,0,1,0,1,2,0,0,1,1,0,0,0,1,0,1,0,0,0
-Thraupis_episcopus,1,0,1,1,1,0,0,1,1,0,1,1,1,1,0,0,0,0
-Thraupis_palmarum,1,0,0,0,0,0,0,0,0,0,2,1,1,0,0,0,0,0
-Thraupis_sayaca,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Threnetes_leucurus,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0
-Thripadectes_flammulatus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Thripadectes_holostictus,0,1,0,0,0,0,0,2,0,0,1,1,1,0,1,0,0,0
-Thripadectes_melanorhynchus,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-Thripadectes_scrutator,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-Thryothorus_coraya,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Thryothorus_eisenmanni,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Thryothorus_euophrys,0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,0,1,1
-Thryothorus_genibarbis,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
-Thryothorus_leucotis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Thryothorus_superciliaris,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0
-Tiaris_obscurus,0,1,1,1,0,1,0,2,0,0,1,1,1,0,1,0,1,0
-Tigrisoma_fasciatum,0,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0
-Tigrisoma_lineatum,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Tinamotis_pentlandii,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-Tinamus_guttatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tinamus_major,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Tinamus_osgoodi,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Tinamus_tao,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Tityra_cayana,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
-Tityra_inquisitor,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tityra_semifasciata,1,0,1,1,0,0,0,1,0,0,2,2,1,0,0,0,0,0
-Todirostrum_chrysocrotaphum,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Todirostrum_cinereum,0,1,1,0,1,1,1,1,1,0,1,1,1,0,0,1,0,1
-Todirostrum_maculatum,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tolmomyias_assimilis,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Tolmomyias_poliocephalus,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0
-Tolmomyias_sulphurescens,0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
-Tolmomyias_viridiceps,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Touit_huetii,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Trichothraupis_melanops,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0
-Tringa_flavipes,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Tringa_melanoleuca,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Tringa_solitaria,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
-Troglodytes_aedon,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1
-Troglodytes_solstitialis,0,1,0,0,1,0,0,0,1,1,0,0,0,0,2,0,1,1
-Trogon_caligatus,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-Trogon_collaris,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-Trogon_curucui,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Trogon_melanurus,2,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0
-Trogon_personatus,0,1,1,0,1,0,0,1,1,0,1,0,0,0,1,1,0,0
-Trogon_rufus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Trogon_violaceus,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Trogon_viridis,1,1,0,1,0,0,0,2,1,0,1,1,0,0,0,0,0,1
-Tryngites_subruficollis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tumbezia_salvini,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Turdus_albicollis,1,0,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0
-Turdus_amaurochalinus,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
-Turdus_chiguanco,0,0,0,1,2,0,1,0,0,1,0,0,0,0,1,0,0,0
-Turdus_fulviventris,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Turdus_fuscater,0,1,0,1,1,1,0,1,1,0,0,0,1,0,1,1,0,1
-Turdus_hauxwelli,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Turdus_ignobilis,2,0,1,0,0,1,0,2,0,0,1,1,0,0,0,0,1,1
-Turdus_lawrencii,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Turdus_leucops,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-Turdus_maranonicus,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Turdus_nigriceps,0,0,1,0,0,0,0,1,0,0,0,1,2,0,0,0,0,0
-Turdus_reevei,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
-Turdus_serranus,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
-Tyranneutes_stolzmanni,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tyrannopsis_sulphurea,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tyrannulus_elatus,2,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Tyrannus_albogularis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tyrannus_melancholicus,1,0,0,1,0,1,0,1,1,0,1,2,2,1,1,0,1,0
-Tyrannus_savana,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Tyrannus_tyrannus,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
-Tyto_alba,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-Upucerthia_serrana,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
-Upucerthia_validirostris,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
-Uropsalis_lyra,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Uropsalis_segmentata,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
-Urosticte_ruficrissa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
-Vanellus_cayanus,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
-Vanellus_chilensis,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Vanellus_resplendens,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
-Veniliornis_affinis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Veniliornis_callonotus,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-Veniliornis_nigriceps,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-Veniliornis_passerinus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Vireo_flavoviridis,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Vireo_leucophrys,0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
-Vireo_olivaceus,1,0,0,0,0,0,0,1,1,0,2,1,1,0,1,0,0,0
-Vireolanius_leucotis,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
-Volatinia_jacarina,1,0,1,1,0,1,1,1,1,0,1,1,1,1,0,0,1,1
-Vultur_gryphus,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
-Willisornis_poecilinotus,1,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
-Wilsonia_canadensis,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
-Xenodacnis_parina,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
-Xenopipo_holochlora,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Xenopipo_unicolor,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-Xenops_milleri,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Xenops_minutus,1,0,0,0,0,0,0,0,0,0,1,2,1,0,0,0,0,0
-Xenops_rutilans,0,1,1,2,1,0,0,1,0,0,0,0,0,0,1,0,0,0
-Xenops_tenuirostris,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Xiphocolaptes_promeropirhynchus,1,2,1,0,1,0,1,1,1,0,1,1,1,0,1,1,0,0
-Xiphorhynchus_elegans,1,0,0,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0
-Xiphorhynchus_guttatus,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-Xiphorhynchus_obsoletus,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-Xiphorhynchus_ocellatus,2,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
-Xiphorhynchus_triangularis,0,1,1,0,1,0,0,2,0,0,0,1,0,0,1,0,0,0
-Zaratornis_stresemanni,0,1,0,0,0,0,1,0,0,2,0,0,0,0,0,0,0,0
-Zebrilus_undulatus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Zenaida_auriculata,0,1,0,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1
-Zenaida_meloda,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0
-Zimmerius_bolivianus,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0
-Zimmerius_chrysops,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-Zimmerius_cinereicapilla,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Zimmerius_gracilipes,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-Zimmerius_viridiflavus,0,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0
-Zonotrichia_capensis,0,1,1,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1
+"hostphylogeny.taxon","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"
+"Aburria aburri",0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Accipiter bicolor",1,0,1,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0
+"Accipiter collaris",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Accipiter poliogaster",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Accipiter striatus",0,1,1,1,1,0,0,1,0,0,0,0,1,0,1,1,0,0
+"Accipiter superciliosus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Actitis macularius",1,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0
+"Adelomyia melanogenys",0,1,1,1,1,1,0,1,1,0,0,0,1,0,1,0,0,1
+"Aegolius harrisii",0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+"Aeronautes andecolus",0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1
+"Aeronautes montivagus",0,1,1,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Agamia agami",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Agelasticus thilius",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Aglaeactis castelnaudii",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Aglaeactis cupripennis",0,1,0,0,1,1,1,0,1,1,0,0,0,0,1,0,0,1
+"Aglaiocercus kingi",0,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Agriornis albicauda",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Agriornis montanus",0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0
+"Aimophila stolzmanni",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Amaurolimnas concolor",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Amazilia amazilia",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0
+"Amazilia chionogaster",0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Amazilia fimbriata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Amazilia franciae",0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Amazilia lactea",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Amazilia viridicauda",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Amazona amazonica",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Amazona farinosa",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Amazona mercenaria",0,0,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Amazona ochrocephala",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Amblycercus holosericeus",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Ammodramus aurifrons",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Ampelioides tschudii",0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"Ampelion rubrocristatus",0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,1,0,1
+"Ampelion rufaxilla",0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Anabacerthia striaticollis",0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Anabazenops dorsalis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Anairetes agraphia",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Anairetes alpinus",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Anairetes flavirostris",0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,0,1
+"Anairetes nigrocristatus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Anairetes parulus",0,1,1,1,1,0,1,0,1,0,0,0,0,0,1,1,0,0
+"Anairetes reguloides",0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1
+"Anas bahamensis",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Anas cyanoptera",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Anas flavirostris",0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Anas georgica",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Anas platalea",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Anas puna",0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+"Ancistrops strigilatus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Andigena hypoglauca",0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Anhima cornuta",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Anhinga anhinga",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Anisognathus igniventris",0,1,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Anisognathus lacrymosus",0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0
+"Anisognathus somptuosus",0,1,1,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0
+"Anthracothorax nigricollis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Anthus bogotensis",0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,1
+"Anthus correndera",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Anthus furcatus",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Anthus lutescens",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Anurolimnas castaneiceps",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Anurolimnas fasciatus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Anurolimnas viridis",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ara ararauna",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Ara chloropterus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ara macao",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ara militaris",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Ara severus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Aramides cajanea",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Aramus guarauna",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Aratinga erythrogenys",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Aratinga leucophthalma",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Aratinga mitrata",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Aratinga wagleri",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Aratinga weddellii",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ardea cocoi",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Arremon abeillei",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Arremon aurantiirostris",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Arremon brunneinucha",0,1,1,1,1,0,0,1,1,0,0,0,1,0,1,1,0,0
+"Arremon castaneiceps",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Arremon taciturnus",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Arremon torquatus",0,1,0,1,1,1,0,1,1,0,0,0,0,0,0,1,0,1
+"Asio flammeus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Asio stygius",0,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Asthenes berlepschi",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Asthenes dorbignyi",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Asthenes flammulata",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Asthenes humilis",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Asthenes modesta",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Asthenes ottonis",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Asthenes pudibunda",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+"Asthenes urubambensis",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Asthenes virgata",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Asthenes wyatti",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Athene cunicularia",0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0
+"Atlapetes canigenis",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Atlapetes forbesi",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Atlapetes latinuchus",0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,1
+"Atlapetes melanolaemus",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Atlapetes melanopsis",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Atlapetes nationi",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Atlapetes rufigenis",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Atlapetes schistaceus",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Atlapetes seebohmi",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+"Atlapetes tricolor",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Atticora fasciata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Attila bolivianus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Attila cinnamomeus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Attila citriniventris",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Attila spadiceus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Aulacorhynchus atrogularis",0,0,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Aulacorhynchus coeruleicinctis",0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Aulacorhynchus cyanolaemus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Aulacorhynchus derbianus",0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0
+"Automolus infuscatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Automolus melanopezus",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Automolus ochrolaemus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Automolus rubiginosus",0,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Automolus rufipileatus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Bartramia longicauda",1,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
+"Baryphthengus martii",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Basileuterus bivittatus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Basileuterus chrysogaster",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Basileuterus coronatus",0,1,0,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0
+"Basileuterus luteoviridis",0,3,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Basileuterus nigrocristatus",0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,1
+"Basileuterus signatus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Basileuterus trifasciatus",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+"Basileuterus tristriatus",0,1,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+"Berlepschia rikeri",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Boissonneaua matthewsii",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Bolborhynchus lineola",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Bolborhynchus orbygnesius",0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1
+"Brachygalba albogularis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Brotogeris cyanoptera",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Brotogeris sanctithomae",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Bubo magellanicus",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Bubo virginianus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+"Bubulcus ibis",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Bucco capensis",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Bucco macrodactylus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Busarellus nigricollis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Buteo albigula",0,1,0,1,1,0,0,1,1,1,0,0,0,0,1,1,0,0
+"Buteo albonotatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Buteo brachyurus",1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"Buteo leucorrhous",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Buteo magnirostris",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Buteo nitidus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Buteo platypterus",1,1,1,1,1,0,0,0,1,0,1,1,1,0,1,0,0,0
+"Buteo polyosoma",0,0,0,1,0,1,1,0,0,1,0,0,0,1,1,1,1,1
+"Buteo swainsoni",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Buteogallus meridionalis",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Buteogallus urubitinga",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"Buthraupis aureodorsalis",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Buthraupis montana",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Butorides striata",1,0,0,0,0,1,0,1,1,1,1,1,1,1,0,1,1,1
+"Cacicus cela",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Cacicus chrysonotus",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Cacicus haemorrhous",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cacicus leucoramphus",0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Cacicus solitarius",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Cacicus uropygialis",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cairina moschata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Calidris bairdii",0,1,1,1,1,1,1,0,0,1,0,0,1,1,1,1,1,1
+"Calidris fuscicollis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Calidris himantopus",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Calidris melanotos",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Calidris minutilla",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Calidris pusilla",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Calliphlox amethystina",0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Calochaetes coccineus",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Campephilus gayaquilensis",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Campephilus haematogaster",0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Campephilus melanoleucos",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Campephilus pollens",0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Campephilus rubricollis",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Camptostoma obsoletum",1,0,0,1,0,1,0,1,0,0,1,1,1,1,1,0,1,1
+"Campylopterus largipennis",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Campylopterus villaviscensio",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Campylorhamphus pucherani",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Campylorhamphus pusillus",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Campylorhamphus trochilirostris",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Campylorhynchus fasciatus",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1
+"Campylorhynchus turdinus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Capito auratus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Capito wallacei",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Caprimulgus anthonyi",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Caprimulgus maculicaudus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Caprimulgus nigrescens",0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"Caprimulgus sericocaudatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Caracara cheriway",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Carduelis atrata",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Carduelis crassirostris",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Carduelis magellanica",0,1,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1
+"Carduelis olivacea",0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Carduelis psaltria",0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+"Carduelis uropygialis",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+"Casiornis rufus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Casmerodius albus",1,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1
+"Catamblyrhynchus diadema",0,1,0,0,1,1,0,0,1,0,0,0,0,0,1,1,0,1
+"Catamenia analis",0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,1
+"Catamenia homochroa",0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Catamenia inornata",0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,1
+"Cathartes aura",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Cathartes melambrotus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Catharus dryas",0,1,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+"Catharus fuscater",0,1,1,1,1,1,0,1,1,0,0,0,0,0,1,1,0,0
+"Catharus fuscescens",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Catharus minimus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Catharus ustulatus",0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0
+"Celeus elegans",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Celeus flavus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Celeus grammicus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Celeus spectabilis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Celeus torquatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cephalopterus ornatus",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Cercomacra cinerascens",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Cercomacra manu",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cercomacra nigrescens",0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0
+"Cercomacra serva",0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Cercomacroides fuscicauda",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Chaetocercus bombus",0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Chaetocercus mulsant",0,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1
+"Chaetura brachyura",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Chaetura chapmani",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Chaetura cinereiventris",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Chaetura egregia",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Chaetura meridionalis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Chaetura pelagica",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
+"Chalcostigma herrani",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Chalcostigma olivaceum",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Chalcostigma ruficeps",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Chalcostigma stanleyi",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Chamaepetes goudotii",0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Chamaeza campanisona",0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Chamaeza mollissima",0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Chamaeza nobilis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Charadrius alticola",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Charadrius collaris",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"Charadrius vociferus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Chauna torquata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Chelidoptera tenebrosa",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Chiroxiphia boliviana",0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Chiroxiphia pareola",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Chloephaga melanoptera",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Chloroceryle aenea",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Chloroceryle amazona",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Chloroceryle americana",1,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,1,0
+"Chloroceryle inda",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Chlorochrysa calliparaea",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Chlorochrysa fulgentissima",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Chlorophanes spiza",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Chlorophonia cyanea",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Chlorophonia pyrrhophrys",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Chlorornis riefferii",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Chlorospingus canigularis",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Chlorospingus flavigularis",0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Chlorospingus ophthalmicus",0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Chlorospingus parvirostris",0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Chlorostilbon mellisugus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Chondrohierax uncinatus",1,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Chordeiles acutipennis",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Chordeiles minor",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"Chrysuronia oenone",1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Cinclodes albidiventris",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Cinclodes albiventris",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Cinclodes aricomae",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Cinclodes atacamensis",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Cinclus leucocephalus",0,1,1,1,1,1,1,1,0,1,0,1,1,0,1,1,0,0
+"Cinnycerthia fulva",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Cinnycerthia olivascens",0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Cinnycerthia peruana",0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cinnycerthia unirufa",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Circus cinereus",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Cissopis leverianus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Cistothorus platensis",0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1
+"Claravis mondetoura",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Claravis pretiosa",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Cnemarchus erythropygius",0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Cnemoscopus chrysogaster",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cnemoscopus rubrirostris",0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Cnemotriccus fuscatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cnipodectes subbrunneus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cnipodectes superrufus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Coccycua cinerea",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Coccycua minuta",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Coccyzus americanus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Coccyzus erythropthalmus",1,0,1,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0
+"Coccyzus melacoryphus",1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,0,1,1
+"Cochlearius cochlearius",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Coeligena albicaudata",0,1,0,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Coeligena coeligena",0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Coeligena dichroura",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Coeligena inca",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Coeligena iris",0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1
+"Coeligena torquata",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Coereba flaveola",0,0,1,0,0,0,0,1,0,0,0,1,1,1,0,0,1,0
+"Colaptes atriceps",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Colaptes atricollis",0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1
+"Colaptes cinereicappillus",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1
+"Colaptes punctigula",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Colaptes rivolii",0,1,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0
+"Colaptes rubiginosus",0,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,0
+"Colaptes rupicola",0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
+"Colibri coruscans",0,0,1,1,1,1,1,0,1,1,0,0,0,0,1,1,0,1
+"Colibri delphinae",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Colibri thalassinus",0,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0
+"Colonia colonus",1,0,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0
+"Columbina cruziana",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Columbina minuta",0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Columbina picui",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Columbina talpacoti",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Conioptilon mcilhennyi",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Conirostrum albifrons",0,1,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Conirostrum cinereum",0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1,1
+"Conirostrum ferrugineiventre",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Conirostrum sitticolor",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Conirostrum speciosum",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Conopias cinchoneti",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Conopias trivirgatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Conopophaga ardesiaca",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Conopophaga castaneiceps",0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0
+"Conopophaga peruviana",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Conothraupis speculigera",1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+"Contopus cinereus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+"Contopus cooperi",0,1,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0
+"Contopus fumigatus",0,1,1,1,1,0,0,1,0,0,0,0,1,0,1,0,0,0
+"Contopus nigrescens",0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Contopus punensis",0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1
+"Contopus sordidulus",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Contopus virens",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Coragyps atratus",1,1,1,1,1,1,0,1,1,0,1,1,1,1,1,0,1,1
+"Coryphospingus cucullatus",1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Corythopis torquatus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Cotinga cayana",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Cotinga cotinga",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Cotinga maynana",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cranioleuca albicapilla",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Cranioleuca antisiensis",0,1,0,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1
+"Cranioleuca baroni",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cranioleuca curtata",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Cranioleuca gutturata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cranioleuca marcapatae",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Creurgops dentatus",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Creurgops verticalis",0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Crotophaga ani",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Crotophaga major",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Crotophaga sulcirostris",0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,1
+"Crypturellus bartletti",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Crypturellus cinereus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Crypturellus obsoletus",1,0,1,0,1,0,0,1,1,0,0,1,1,0,1,0,0,0
+"Crypturellus parvirostris",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Crypturellus soui",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Crypturellus strigulosus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Crypturellus undulatus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Crypturellus variegatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cyanerpes caeruleus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Cyanerpes cyaneus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cyanerpes nitidus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cyanocompsa cyanoides",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Cyanocorax mystacalis",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Cyanocorax violaceus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Cyanocorax yncas",0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Cyanolyca viridicyanus",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Cyclarhis gujanensis",0,0,1,1,1,1,0,0,1,0,1,1,1,0,1,0,0,1
+"Cymbilaimus lineatus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Cymbilaimus sanctaemariae",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Cyphorhinus arada",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Cyphorhinus dichrous",0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Cyphorhinus thoracicus",0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Cypseloides cryptus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Dacnis albiventris",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Dacnis cayana",1,0,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Dacnis flaviventer",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Dacnis lineata",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Daptrius ater",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Deconychura longicauda",1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Deconychura stictolaema",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Delothraupis castaneoventris",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Dendrexetastes rufigula",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Dendrocincla fuliginosa",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Dendrocincla merula",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Dendrocincla tyrannina",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Dendrocolaptes certhia",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Dendrocolaptes picumnus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Dendroica cerulea",0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"Dendroica fusca",0,0,1,1,1,0,0,1,1,0,0,1,1,0,1,0,0,0
+"Dendroica striata",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Dendroplex picus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Dichrozona cincta",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Diglossa albilatera",0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Diglossa brunneiventris",0,1,0,0,1,1,1,0,1,1,0,0,0,0,0,0,0,1
+"Diglossa caerulescens",0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Diglossa cyanea",0,1,0,1,1,0,1,1,1,0,0,0,0,0,1,1,0,0
+"Diglossa glauca",0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Diglossa humeralis",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+"Diglossa lafresnayii",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Diglossa mystacalis",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Diglossa sittoides",0,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,0,1
+"Discosura langsdorffi",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Discosura popelairii",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Diuca speculifera",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Dives warszewiczi",0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,1,1
+"Dolichonyx oryzivorus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Donacobius atricapilla",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Doryfera johannae",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Doryfera ludovicae",0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Dromococcyx pavoninus",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Dromococcyx phasianellus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Drymophila caudata",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Drymophila devillei",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Dubusia stictocephala",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Dubusia taeniata",0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0
+"Dysithamnus mentalis",0,1,1,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0
+"Egretta caerulea",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Egretta thula",1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,1
+"Elaenia albiceps",0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1
+"Elaenia chiriquensis",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Elaenia flavogaster",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Elaenia gigas",0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Elaenia obscura",0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Elaenia pallatangae",0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,1,0,0
+"Elaenia parvirostris",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Elaenia spectabilis",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Elaenia strepera",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Elanoides forficatus",1,1,1,1,0,0,0,1,1,0,1,1,1,0,1,0,0,0
+"Electron platyrhynchum",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Empidonax alnorum",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Empidonomus aurantioatrocristatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Empidonomus varius",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ensifera ensifera",0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0
+"Entomodestes leucotis",0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Epinecrophylla erythrura",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Epinecrophylla haematonota",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Epinecrophylla leucophthalma",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Epinecrophylla ornata",1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"Epinecrophylla spodionota",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Eriocnemis alinae",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Eriocnemis luciani",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Eubucco richardsoni",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Eubucco tucinkae",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Eubucco versicolor",0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Eucometis penicillata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Euphonia chlorotica",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Euphonia chrysopasta",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Euphonia cyanocephala",0,0,1,1,1,0,0,1,1,0,0,1,1,0,1,0,0,0
+"Euphonia laniirostris",1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"Euphonia mesochrysa",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Euphonia minuta",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Euphonia rufiventris",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Euphonia xanthogaster",1,0,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Eurypyga helias",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Euscarthmus meloryphus",0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0
+"Eutoxeres condamini",0,1,0,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
+"Falco deiroleucus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Falco femoralis",0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Falco peregrinus",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1
+"Falco rufigularis",1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+"Falco sparverius",0,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1
+"Florisuga mellivora",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Fluvicola albiventer",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Formicarius analis",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Formicarius colma",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Formicarius rufipectus",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Formicivora rufa",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Forpus coelestis",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Forpus modestus",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Forpus xanthopterygius",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Frederickena unduligera",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Fulica ardesiaca",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Fulica gigantea",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Furnarius cinnamomeus",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
+"Furnarius leucopus",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"Galbalcyrhynchus leucotis",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Galbalcyrhynchus purusianus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Galbula albirostris",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Galbula chalcothorax",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Galbula cyanescens",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Galbula dea",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Gallinago andina",0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1
+"Gallinago imperialis",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Gallinago jamesoni",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Gallinago paraguaiae",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Gallinula chloropus",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Gampsonyx swainsonii",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Geositta crassirostris",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Geositta cunicularia",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Geositta maritima",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Geositta tenuirostris",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Geothlypis aequinoctialis",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+"Geothlypis auricularis",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Geotrygon frenata",0,1,1,3,1,0,0,1,1,0,0,0,1,0,1,0,0,0
+"Geotrygon montana",1,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Geranoaetus melanoleucus",0,1,1,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1
+"Geranospiza caerulescens",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"Glaucidium bolivianum",0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Glaucidium brasilianum",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Glaucidium hardyi",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Glaucidium jardinii",0,1,0,1,1,0,1,0,1,0,0,0,0,0,1,0,0,0
+"Glaucidium parkeri",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Glaucidium peruanum",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
+"Glaucis hirsutus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Glyphorynchus spirurus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Grallaria albigula",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Grallaria andicolus",0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Grallaria blakei",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grallaria capitalis",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grallaria carrikeri",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grallaria erythroleuca",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Grallaria guatimalensis",0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"Grallaria hypoleuca",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Grallaria nuchalis",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Grallaria przewalskii",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grallaria quitensis",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grallaria ruficapilla",0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+"Grallaria rufula",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0
+"Grallaria squamigera",0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Grallaricula ferrugineipectus",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Grallaricula flavirostris",0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Grallaricula nana",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Grallaricula peruviana",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Gymnoderus foetidus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Gymnopithys leucaspis",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Gymnopithys lunulatus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Gymnopithys salvini",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Habia rubica",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Hapalopsittaca melanotis",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Hapaloptila castanea",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Haplochelidon andecola",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Haplophaedia assimilis",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Haplophaedia aureliae",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Haplospiza rustica",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Harpagus bidentatus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Harpia harpyja",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Harpyhaliaetus solitarius",0,1,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0
+"Heliangelus amethysticollis",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Heliangelus micraster",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+"Heliangelus viola",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1
+"Heliodoxa aurescens",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Heliodoxa branickii",0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Heliodoxa leadbeateri",0,1,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+"Heliodoxa rubinoides",0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Heliodoxa schreibersii",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Heliomaster longirostris",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+"Heliornis fulica",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Heliothryx auritus",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Hellmayrea gularis",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Hemispingus atropileus",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Hemispingus auricularis",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hemispingus frontalis",0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Hemispingus melanotis",0,1,1,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0
+"Hemispingus parodii",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Hemispingus rufosuperciliaris",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hemispingus superciliaris",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0
+"Hemispingus trifasciatus",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Hemispingus xanthophthalmus",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Hemithraupis flavicollis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Hemithraupis guira",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Hemitriccus flammulatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Hemitriccus granadensis",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Hemitriccus griseipectus",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Hemitriccus iohannis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hemitriccus margaritaceiventer",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hemitriccus rufigularis",0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Hemitriccus zosterops",0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Henicorhina leucophrys",0,1,1,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0
+"Henicorhina leucosticta",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Herpetotheres cachinnans",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Herpsilochmus axillaris",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Herpsilochmus rufimarginatus",0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Himantopus himantopus",0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0
+"Hirundinea ferruginea",0,1,1,1,0,0,0,1,1,0,0,1,1,0,1,0,0,0
+"Hirundo rustica",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Hydropsalis climacocerca",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Hylatomus fuscipennis",1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+"Hylatomus lineatus",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Hylexetastes stresemanni",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hylocharis cyanus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Hyloctistes subulatus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Hylopezus berlepschi",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Hylophilus hypoxanthus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Hylophilus ochraceiceps",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Hylophilus olivaceus",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Hylophilus thoracicus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Hylophylax naevius",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Hypocnemis peruviana",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Hypocnemis subflava",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Hypocnemoides maculicauda",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ibycter americanus",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Icterus cayanensis",1,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
+"Icterus chrysocephalus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Icterus croconotus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Icterus graceannae",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Icterus mesomelas",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Ictinia mississippiensis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ictinia plumbea",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Idiopsar brachyurus",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Incaspiza personata",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Inezia inornata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Iodopleura isabellae",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Iridophanes pulcherrimus",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Iridosornis analis",0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Iridosornis jelskii",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Iridosornis reinhardti",0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ixobrychus exilis",0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1,1
+"Jabiru mycteria",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Jacamerops aureus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Jacana jacana",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Klais guimeti",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Knipolegus aterrimus",0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Knipolegus poecilocercus",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Knipolegus poecilurus",0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Knipolegus signatus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Lafresnaya lafresnayi",0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,1
+"Lampropsar tanagrinus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Lamprospiza melanoleuca",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Laniisoma elegans",0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Lanio versicolor",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Laniocera hypopyrra",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Larus cirrocephalus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Larus dominicanus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Larus serranus",0,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+"Laterallus exilis",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Laterallus jamaicensis",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Laterallus melanophaius",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Lathrotriccus euleri",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Lathrotriccus griseipectus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Legatus leucophaius",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Lepidocolaptes albolineatus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Lepidocolaptes lacrymiger",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Lepidocolaptes souleyetii",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Lepidothrix coeruleocapilla",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Lepidothrix coronata",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Lepidothrix isidorei",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Leptasthenura pileata",0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1
+"Leptasthenura striata",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Leptasthenura xenothorax",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Leptasthenura yanacensis",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Leptodon cayanensis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Leptopogon albidiventer",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Leptopogon amaurocephalus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Leptopogon rufipectus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Leptopogon superciliaris",0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Leptopogon taczanowskii",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Leptosittaca branickii",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Leptotila rufaxilla",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Leptotila verreauxi",1,0,0,1,0,1,0,1,1,0,0,1,1,0,1,0,1,1
+"Lesbia nuna",0,0,0,1,1,1,1,0,1,0,0,0,0,0,1,1,0,1
+"Lesbia victoriae",0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0
+"Lessonia oreas",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Leucippus taczanowskii",0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1
+"Leucopternis albicollis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Leucopternis kuhli",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Leucopternis schistaceus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Liosceles thoracicus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Lipaugus vociferans",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Lochmias nematura",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Loddigesia mirabilis",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Lophonetta specularioides",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Lophornis chalybeus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Lophornis delattrei",0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Lophostrix cristata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Lophotriccus eulophotes",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Lophotriccus pileatus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Lophotriccus vitiosus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Lurocalis rufiventris",0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Lurocalis semitorquatus",1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Machaeropterus pyrocephalus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Machaeropterus regulus",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Malacoptila fulvogularis",0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Malacoptila fusca",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Malacoptila semicincta",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Manacus manacus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Margarornis squamiger",0,1,0,1,1,0,1,0,1,0,0,0,0,0,1,1,0,0
+"Mecocerculus calopterus",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Mecocerculus leucophrys",0,1,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,1
+"Mecocerculus minor",0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Mecocerculus poecilocercus",0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Mecocerculus stictopterus",0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0
+"Megaceryle torquata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Megarynchus pitangua",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Megascops albogularis",0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Megascops choliba",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Megascops guatemalae",0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Megascops ingens",0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Megascops koepckeae",0,0,0,1,0,1,1,0,1,1,0,0,0,0,0,1,0,1
+"Megascops petersoni",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Megascops roboratus",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Megascops watsonii",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Melanerpes cruentatus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Melanopareia elegans",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Merganetta armata",0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0
+"Mesembrinibis cayennensis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Metallura aeneocauda",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Metallura eupogon",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Metallura phoebe",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+"Metallura theresiae",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Metallura tyrianthina",0,1,0,0,1,0,1,0,1,1,0,0,0,0,1,1,0,1
+"Metopothrix aurantiaca",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Metriopelia ceciliae",0,0,0,0,1,1,1,0,1,1,0,0,0,0,0,1,0,1
+"Metriopelia melanoptera",0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
+"Micrastur buckleyi",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Micrastur gilvicollis",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Micrastur mirandollei",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Micrastur ruficollis",1,0,0,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Micrastur semitorquatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Microcerculus marginatus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Micromonacha lanceolata",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Microrhopias quixensis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Milvago chimachima",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Mimus longicaudatus",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Mionectes macconnelli",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Mionectes oleagineus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Mionectes olivaceus",0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Mionectes striaticollis",0,0,1,1,1,0,0,1,1,0,0,0,1,0,1,1,0,0
+"Mitrephanes olivaceus",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Mitu tuberosum",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Mniotilta varia",0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Molothrus bonariensis",1,0,0,0,0,1,0,1,0,0,1,1,1,1,1,0,1,1
+"Molothrus oryzivorus",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Momotus aequatorialis",0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Momotus momota",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Monasa flavirostris",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Monasa morphoeus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Monasa nigrifrons",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Morphnus guianensis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Muscigralla brevicauda",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Muscisaxicola albifrons",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Muscisaxicola albilora",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0
+"Muscisaxicola cinereus",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Muscisaxicola flavinucha",0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Muscisaxicola fluviatilis",0,0,0,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
+"Muscisaxicola frontalis",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Muscisaxicola griseus",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Muscisaxicola juninensis",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Muscisaxicola maclovianus",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0
+"Muscisaxicola maculirostris",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Muscisaxicola rufivertex",0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Myadestes ralloides",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Mycteria americana",1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0
+"Myiarchus cephalotes",0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,0,0,0
+"Myiarchus ferox",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Myiarchus phaeocephalus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Myiarchus semirufus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Myiarchus swainsoni",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiarchus tuberculifer",1,1,1,1,1,1,0,1,1,0,1,1,1,0,1,0,0,1
+"Myiarchus tyrannulus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiobius atricaudus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiobius barbatus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiobius villosus",0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Myioborus melanocephalus",0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Myioborus miniatus",0,1,1,1,0,1,0,1,1,0,0,0,1,0,1,0,0,1
+"Myiodynastes bairdii",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Myiodynastes chrysocephalus",0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Myiodynastes luteiventris",0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Myiodynastes maculatus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Myiopagis caniceps",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiopagis gaimardii",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Myiopagis subplacens",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Myiopagis viridicata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myiophobus crypterythrus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Myiophobus fasciatus",1,0,1,0,0,0,0,1,0,0,1,1,1,1,0,0,1,0
+"Myiophobus flavicans",0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myiophobus inornatus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Myiophobus ochraceiventris",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Myiophobus pulcher",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Myiophobus rufescens",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1
+"Myiornis albiventris",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiornis ecaudatus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Myiotheretes fumigatus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myiotheretes fuscorufus",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Myiotheretes striaticollis",0,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0
+"Myiotriccus ornatus",0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Myiozetetes cayanensis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myiozetetes granadensis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Myiozetetes luteiventris",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myiozetetes similis",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Myornis senilis",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myrmeciza atrothorax",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Myrmeciza fortis",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Myrmeciza goeldii",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myrmeciza hemimelaena",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Myrmeciza hyperythra",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmeciza melanoceps",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmia micrura",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Myrmoborus leucophrys",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Myrmoborus myotherinus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Myrmothera campanisona",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Myrmotherula axillaris",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmotherula brachyura",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmotherula hauxwelli",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmotherula ignota",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmotherula iheringi",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myrmotherula longicauda",0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Myrmotherula longipennis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myrmotherula menetriesii",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmotherula multostriata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Myrmotherula schisticolor",0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Myrmotherula sclateri",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Myrtis fanny",0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,0
+"Nannopsittaca dachilleae",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Nasica longirostris",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Nemosia pileata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Neochelidon tibialis",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Neochen jubata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Neocrex erythrops",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Neoctantes niger",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Neomorphus geoffroyi",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Neopelma sulphureiventer",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Neopipo cinnamomea",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Nephelornis oneilli",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Netta erythrophthalma",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1
+"Nonnula ruficapilla",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Nonnula sclateri",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Notharchus hyperrhynchus",1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Notharchus ordii",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Notharchus tectus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Nothocercus julius",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Nothocercus nigrocapillus",0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Nothoprocta curvirostris",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Nothoprocta ornata",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Nothoprocta pentlandii",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1
+"Nothoprocta taczanowskii",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Nothura darwinii",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Notiochelidon flavipes",0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Notiochelidon murina",0,1,0,0,1,1,1,0,1,1,0,0,0,0,1,1,0,1
+"Numenius phaeopus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Nyctibius aethereus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Nyctibius bracteatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Nyctibius grandis",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Nyctibius griseus",1,0,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0
+"Nyctibius maculosus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Nycticorax nycticorax",0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1
+"Nyctidromus albicollis",1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0
+"Nyctiphrynus ocellatus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Nystalus striolatus",1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+"Ochthoeca cinnamomeiventris",0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Ochthoeca diadema",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ochthoeca frontalis",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0
+"Ochthoeca fumicolor",0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0
+"Ochthoeca jelskii",0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1
+"Ochthoeca leucophrys",0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,1
+"Ochthoeca oenanthoides",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Ochthoeca piurae",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1
+"Ochthoeca pulchella",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Ochthoeca rufipectoralis",0,1,0,0,1,0,1,0,1,0,0,0,0,0,1,1,0,0
+"Ochthoeca thoracica",0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ochthornis littoralis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ocreatus underwoodii",0,0,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0
+"Odontophorus balliviani",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Odontophorus gujanensis",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Odontophorus speciosus",0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Odontophorus stellatus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Odontorchilus branickii",0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Onychorhynchus coronatus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Opisthocomus hoazin",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Oporornis agilis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Oreomanes fraseri",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Oreonympha nobilis",0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Oreotrochilus estella",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1
+"Oreotrochilus melanogaster",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Oreotrochilus stolzmanni",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ornithion inerme",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Ortalis guttata",1,0,0,0,0,0,0,0,1,0,1,1,1,0,1,0,0,0
+"Orthopsittaca manilata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Oryzoborus angolensis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Oryzoborus atrirostris",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Oxyruncus cristatus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Oxyura jamaicensis",0,1,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,1
+"Pachyramphus albogriseus",0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0
+"Pachyramphus castaneus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Pachyramphus marginatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pachyramphus minor",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pachyramphus polychopterus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Pachyramphus validus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Pachyramphus versicolor",0,0,1,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0
+"Pachyramphus viridis",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Pachyramphus xanthogenys",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Pandion haliaetus",0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
+"Panyptila cayennensis",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Parabuteo unicinctus",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Pardirallus maculatus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Pardirallus nigricans",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Pardirallus sanguinolentus",0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0
+"Parkerthraustes humeralis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Paroaria gularis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Parula pitiayumi",0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
+"Passer domesticus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+"Patagioenas cayennensis",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Patagioenas fasciata",0,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1
+"Patagioenas maculosa",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Patagioenas plumbea",1,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Patagioenas speciosa",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Patagioenas subvinacea",1,0,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Patagona gigas",0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1,0,1
+"Penelope barbata",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Penelope jacquacu",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Penelope montagnii",0,0,0,0,1,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Percnostola lophotes",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Petrochelidon pyrrhonota",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Petrochelidon rufocollaris",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Phacellodomus rufifrons",0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Phacellodomus striaticeps",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Phaeomyias murina",1,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,1,1
+"Phaeomyias tumbezana",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Phaeothlypis fulvicauda",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Phaethornis atrimentalis",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Phaethornis bourcieri",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Phaethornis guy",0,1,1,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Phaethornis hispidus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Phaethornis koepckeae",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Phaethornis malaris",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Phaethornis philippii",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Phaethornis ruber",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Phaethornis stuarti",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Phaethornis syrmatophorus",0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Phalacrocorax brasilianus",1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+"Phalcoboenus megalopterus",0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+"Pharomachrus antisianus",0,1,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0
+"Pharomachrus auriceps",0,1,1,1,1,0,0,1,1,0,0,1,1,0,1,0,0,0
+"Pharomachrus pavoninus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Phegornis mitchellii",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Pheucticus aureoventris",0,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Pheucticus chrysogaster",1,0,0,1,0,1,0,1,0,1,0,0,0,1,0,1,0,1
+"Philydor erythrocercum",1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Philydor erythropterum",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Philydor pyrrhodes",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Philydor ruficaudatum",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Philydor rufum",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Phlegopsis nigromaculata",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Phleocryptes melanops",0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1
+"Phlogophilus harterti",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Phoenicircus nigricollis",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Phoenicopterus chilensis",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Phrygilus alaudinus",0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0
+"Phrygilus fruticeti",0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1
+"Phrygilus plebejus",0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,1,0,1
+"Phrygilus punensis",0,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1
+"Phrygilus unicolor",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0
+"Phyllomyias cinereiceps",0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Phyllomyias griseiceps",0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Phyllomyias nigrocapillus",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Phyllomyias plumbeiceps",0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Phyllomyias sclateri",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Phyllomyias uropygialis",0,1,0,0,1,1,1,0,1,0,0,0,0,0,0,1,0,0
+"Phylloscartes ophthalmicus",0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Phylloscartes orbitalis",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Phylloscartes parkeri",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Phylloscartes poecilotis",0,1,1,1,0,0,0,1,1,0,0,0,1,0,1,0,0,0
+"Phylloscartes ventralis",0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Phytotoma raimondii",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Piaya cayana",1,0,1,1,1,0,0,1,1,0,1,1,1,0,0,0,0,0
+"Piaya melanogaster",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Picoides fumigatus",0,0,1,1,1,1,0,0,0,0,0,1,1,0,1,1,0,1
+"Piculus chrysochloros",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Piculus flavigula",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Piculus leucolaemus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Picumnus aurifrons",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Picumnus dorbignyanus",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Picumnus lafresnayi",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Picumnus rufiventris",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Picumnus subtilis",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Piezorhina cinerea",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Piezorina cinerea",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Pilherodius pileatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pionites leucogaster",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Pionus menstruus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Pionus seniloides",0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+"Pionus sordidus",0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Pionus tumultuosus",0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Pipile cumanensis",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Pipra chloromeros",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Pipra erythrocephala",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pipra fasciicauda",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Pipra pipra",0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Pipra rubrocapilla",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Pipraeidea melanonota",0,0,1,1,1,0,0,1,0,0,0,1,1,0,1,1,0,0
+"Pipreola arcuata",0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Pipreola chlorolepidota",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Pipreola frontalis",0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Pipreola intermedia",0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Pipreola lubomirskii",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Pipreola pulchra",0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Pipreola riefferii",0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Piprites chloris",1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Piranga flava",0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1
+"Piranga hepatica",0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,1
+"Piranga leucoptera",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Piranga olivacea",0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Piranga rubra",0,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Piranga rubriceps",0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Pitangus lictor",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pitangus sulphuratus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Pithys albifrons",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Platyrinchus coronatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Platyrinchus flavigularis",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Platyrinchus mystaceus",0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Platyrinchus platyrhynchos",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Plegadis ridgwayi",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Pluvialis dominica",1,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0
+"Podiceps major",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Podiceps occipitalis",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Poecilotriccus latirostris",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Poecilotriccus luluae",0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Poecilotriccus plumbeiceps",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Poecilotriccus pulchellus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Polioptila maior",0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Polioptila plumbea",1,0,0,0,0,0,0,1,1,0,1,1,1,1,0,0,1,0
+"Polioxolmis rufipennis",0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Polyonymus caroli",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+"Poospiza alticola",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Poospiza caesar",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Poospiza hispaniolensis",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Poospiza rubecula",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Porphyrio flavirostris",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Porphyrio martinica",1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0
+"Porphyrolaema porphyrolaema",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Premnoplex brunnescens",0,1,1,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0
+"Premnornis guttuligera",0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Primolius couloni",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Progne chalybea",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Progne elegans",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Progne murphyi",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Progne subis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Progne tapera",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Psarocolius angustifrons",1,0,0,1,0,0,0,1,0,0,1,1,1,0,1,0,0,0
+"Psarocolius atrovirens",0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Psarocolius bifasciatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Psarocolius decumanus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Pseudelaenia leucospodia",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Pseudocolaptes boissonneautii",0,1,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0
+"Pseudocolopteryx acutipennis",0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Pseudotriccus ruficeps",0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Pseudotriccus simplex",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Psilopsiagon aurifrons",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0
+"Psophia leucoptera",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pteroglossus azara",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Pteroglossus beauharnaesii",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Pteroglossus castanotis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pteroglossus inscriptus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pterophanes cyanopterus",0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0
+"Pulsatrix melanota",0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Pulsatrix perspicillata",1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0
+"Pygiptila stellaris",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pygochelidon cyanoleuca",0,0,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1
+"Pyriglena leuconota",0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Pyrilia barrabandi",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Pyrocephalus rubinus",1,0,1,1,1,1,0,0,0,0,1,1,1,1,1,0,1,1
+"Pyroderus scutatus",0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Pyrrhomyias cinnamomeus",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Pyrrhura melanura",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Pyrrhura parvifrons",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Pyrrhura roseifrons",1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Pyrrhura rupicola",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Querula purpurata",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Ramphastos ambiguus",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Ramphastos tucanus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Ramphastos vitellinus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Ramphocaenus melanurus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ramphocelus carbo",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Ramphocelus melanogaster",0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Ramphocelus nigrogularis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Ramphotrigon fuscicauda",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ramphotrigon megacephalum",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Ramphotrigon ruficauda",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Recurvirostra andina",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Rhegmatorhina melanosticta",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Rhodopis vesper",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Rhynchocyclus fulvipectus",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Rhynchocyclus olivaceus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Rhytipterna simplex",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Riparia riparia",1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0
+"Rollandia rolland",0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1
+"Rostrhamus sociabilis",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Rupicola peruvianus",0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Rynchops niger",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Sakesphorus bernardi",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Saltator aurantiirostris",0,1,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0,1
+"Saltator cinctus",0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1
+"Saltator coerulescens",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Saltator grossus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Saltator maximus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Saltator striatipectus",0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Sarcoramphus papa",1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+"Sarkidiornis melanotos",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Satrapa icterophrys",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sayornis nigricans",0,1,1,1,1,1,0,1,1,0,0,1,1,1,1,0,0,1
+"Schiffornis major",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Schiffornis turdina",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Schistes geoffroyi",0,1,1,1,0,0,0,1,1,0,0,1,1,0,1,0,0,0
+"Schistochlamys melanopis",0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Schistocichla brunneiceps",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Schistocichla leucostigma",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Schizoeaca fuliginosa",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Schizoeaca helleri",0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+"Schizoeaca palpebralis",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sclateria naevia",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Sclerurus albigularis",0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Sclerurus caudacutus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Sclerurus mexicanus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Sclerurus rufigularis",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Scytalopus acutirostris",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Scytalopus altirostris",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Scytalopus atratus",0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Scytalopus femoralis",0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Scytalopus latrans",0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Scytalopus macropus",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Scytalopus parvirostris",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Scytalopus schulenbergi",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Scytalopus simonsi",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Scytalopus unicolor",0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+"Selenidera reinwardtii",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Sericossypha albocristata",0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Serpophaga cinerea",0,1,1,1,1,1,0,1,1,0,0,0,0,0,1,0,0,1
+"Setophaga ruticilla",0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0
+"Sicalis flaveola",0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0
+"Sicalis luteola",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+"Sicalis olivascens",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+"Sicalis uropygialis",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Simoxenops ucayalae",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sirystes sibilator",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Sittasomus griseicapillus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Snowornis cryptolophus",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Snowornis subalaris",0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Spizaetus isidori",0,1,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Spizaetus melanoleucus",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Spizaetus ornatus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Spizaetus tyrannus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Sporophila bouvronides",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Sporophila caerulescens",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Sporophila castaneiventris",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Sporophila lineola",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Sporophila luctuosa",0,1,1,1,1,1,0,1,1,0,0,1,1,0,1,0,0,1
+"Sporophila nigricollis",0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Sporophila peruviana",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Sporophila schistacea",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sporophila simplex",0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+"Sporophila telasco",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Steatornis caripensis",0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Steganopus tricolor",0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,1,1,1
+"Stelgidopteryx ruficollis",1,0,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0
+"Sterna superciliaris",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Streptoprocne rutila",0,1,1,0,0,0,0,1,1,0,1,1,1,0,1,0,0,0
+"Streptoprocne zonaris",1,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,0
+"Strix albitarsis",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Strix huhula",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Strix virgata",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sturnella bellicosa",0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,1
+"Sturnella militaris",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sublegatus modestus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Sublegatus obscurior",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Synallaxis albigularis",0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Synallaxis azarae",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,1
+"Synallaxis cabanisi",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Synallaxis cherriei",0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+"Synallaxis courseni",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Synallaxis gujanensis",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Synallaxis hypospodia",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Synallaxis rutilans",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Synallaxis stictothorax",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Synallaxis unirufa",0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Synallaxis zimmeri",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+"Syndactyla rufosuperciliata",0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Syndactyla subalaris",0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Systellura decussata",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Systellura longirostris",0,1,0,0,0,1,1,0,1,1,0,0,0,0,1,1,1,1
+"Tachornis squamata",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Tachuris rubrigastra",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Tachybaptus dominicus",1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Tachycineta albiventer",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tachycineta stolzmanni",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Tachyphonus cristatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tachyphonus luctuosus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tachyphonus rufiventer",0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Tachyphonus rufus",0,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Tachyphonus surinamus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tangara arthus",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Tangara atrocoerulea",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tangara callophrys",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tangara chilensis",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Tangara chrysotis",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tangara cyanicollis",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Tangara cyanotis",0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tangara fulvicervix",0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Tangara gyrola",0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Tangara labradorides",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Tangara mexicana",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tangara nigrocincta",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Tangara nigroviridis",0,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Tangara parzudakii",0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Tangara punctata",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Tangara ruficervix",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Tangara schrankii",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Tangara vassorii",0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,0,1
+"Tangara velia",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tangara viridicollis",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Tangara xanthocephala",0,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Tangara xanthogastra",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Tapera naevia",1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+"Taphrospilus hypostictus",0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Taraba major",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Terenotriccus erythrurus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Terenura callinota",0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Terenura humeralis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Terenura sharpei",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Tersina viridis",1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Thalurania furcata",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Thamnistes anabatinus",0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+"Thamnomanes ardesiacus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Thamnomanes caesius",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Thamnomanes schistogynus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Thamnophilus aethiops",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Thamnophilus amazonicus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Thamnophilus caerulescens",0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Thamnophilus doliatus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Thamnophilus murinus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Thamnophilus palliatus",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Thamnophilus ruficapillus",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Thamnophilus schistaceus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Thamnophilus tenuepunctatus",0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+"Thamnophilus unicolor",0,1,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Thaumastura cora",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
+"Theristicus melanopis",0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+"Thinocorus orbignyianus",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1
+"Thinocorus rumicivorus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Thlypopsis inornata",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Thlypopsis ornata",0,1,0,1,1,1,0,0,0,1,0,0,0,0,1,1,0,1
+"Thlypopsis ruficeps",0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0
+"Thlypopsis sordida",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Thraupis bonariensis",0,1,0,0,1,1,3,0,3,1,0,0,0,0,0,1,1,1
+"Thraupis cyanocephala",0,1,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Thraupis episcopus",1,0,1,1,0,0,0,1,0,0,1,1,1,1,0,0,0,0
+"Thraupis palmarum",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Thraupis sayaca",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Threnetes leucurus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Thripadectes flammulatus",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Thripadectes holostictus",0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Thripadectes melanorhynchus",0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Thripadectes scrutator",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Thryothorus coraya",0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Thryothorus eisenmanni",0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Thryothorus euophrys",0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Thryothorus genibarbis",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Thryothorus leucotis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Thryothorus superciliaris",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Tiaris obscurus",0,0,1,1,0,0,0,1,0,0,1,1,1,0,1,0,1,0
+"Tigrisoma fasciatum",0,0,1,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0
+"Tigrisoma lineatum",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Tinamotis pentlandii",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+"Tinamus guttatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tinamus major",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Tinamus osgoodi",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Tinamus tao",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Tityra cayana",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tityra inquisitor",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tityra semifasciata",1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Todirostrum chrysocrotaphum",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Todirostrum cinereum",0,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Todirostrum maculatum",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tolmomyias assimilis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Tolmomyias poliocephalus",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Tolmomyias sulphurescens",0,0,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,0
+"Tolmomyias viridiceps",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Touit huetii",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Trichothraupis melanops",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Tringa flavipes",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Tringa melanoleuca",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Tringa solitaria",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+"Troglodytes aedon",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Troglodytes solstitialis",0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Trogon caligatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Trogon collaris",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Trogon curucui",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Trogon melanurus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Trogon personatus",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0
+"Trogon rufus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Trogon violaceus",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Trogon viridis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Tryngites subruficollis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tumbezia salvini",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+"Turdus albicollis",1,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Turdus amaurochalinus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Turdus chiguanco",0,0,0,0,1,0,1,0,1,1,0,0,0,0,1,1,0,1
+"Turdus fulviventris",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Turdus fuscater",0,1,0,0,1,1,1,0,1,0,0,0,0,0,1,1,0,1
+"Turdus hauxwelli",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Turdus ignobilis",1,0,1,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Turdus lawrencii",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Turdus leucops",0,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+"Turdus maranonicus",0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Turdus nigriceps",0,0,1,1,0,0,0,1,1,0,0,1,1,0,0,0,0,0
+"Turdus reevei",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+"Turdus serranus",0,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Tyranneutes stolzmanni",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tyrannopsis sulphurea",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tyrannulus elatus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Tyrannus albogularis",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Tyrannus melancholicus",1,0,0,1,0,1,0,0,1,0,1,1,1,1,1,0,1,0
+"Tyrannus savana",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Tyrannus tyrannus",1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+"Tyto alba",1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+"Upucerthia serrana",0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+"Upucerthia validirostris",0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Uropsalis lyra",0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Uropsalis segmentata",0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+"Urosticte ruficrissa",0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+"Vanellus cayanus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Vanellus chilensis",0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Vanellus resplendens",0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0
+"Veniliornis affinis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Veniliornis callonotus",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+"Veniliornis nigriceps",0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+"Veniliornis passerinus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Vireo flavoviridis",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Vireo leucophrys",0,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0
+"Vireo olivaceus",1,0,1,0,0,0,0,1,1,0,1,1,1,0,1,0,0,0
+"Vireolanius leucotis",1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+"Volatinia jacarina",1,0,1,1,0,0,0,1,0,0,1,1,1,1,0,0,1,0
+"Vultur gryphus",0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1
+"Willisornis poecilinotus",1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+"Wilsonia canadensis",0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+"Xenodacnis parina",0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0
+"Xenopipo holochlora",0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Xenopipo unicolor",0,0,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+"Xenops milleri",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Xenops minutus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Xenops rutilans",0,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0
+"Xenops tenuirostris",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Xiphocolaptes promeropirhynchus",1,1,1,1,0,0,0,1,1,0,1,1,1,0,1,0,0,0
+"Xiphorhynchus elegans",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Xiphorhynchus guttatus",1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+"Xiphorhynchus obsoletus",1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+"Xiphorhynchus ocellatus",1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+"Xiphorhynchus triangularis",0,1,1,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0
+"Zaratornis stresemanni",0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1
+"Zebrilus undulatus",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Zenaida auriculata",0,1,0,1,1,1,1,0,0,1,0,0,0,1,1,1,1,1
+"Zenaida meloda",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+"Zimmerius bolivianus",0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+"Zimmerius chrysops",0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+"Zimmerius cinereicapilla",0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Zimmerius gracilipes",1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+"Zimmerius viridiflavus",0,1,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0
+"Zonotrichia capensis",0,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1

@@ -19,7 +19,6 @@ precipPC1 <- raster("./formatted_data/precipPC1.grd") #precip PCA raster
 tempPC1 <- raster("./formatted_data/tempPC1.grd") #temp PCA raster
 peru_alt <- raster("./raw_data/peru_alt.grd") #read elevation raster
 npp <- raster("./formatted_data/npp.grd")
-birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster
 
 precipRe <- resample(precipPC1, peru_alt, "ngb") #resample to elev grid
 tempRe <- resample(tempPC1, peru_alt, "ngb") #resample to elev grid
@@ -48,7 +47,7 @@ CommunitySpatial <- SpatialPointsDataFrame(
 # Parasite richness
 par(mfrow=c(3,3))
 gam_pNULL <- gam(parasite.richness ~  s(shannonD, k=3) + s(npp.raster, k=3) +
-                   s(precipPCA1, k=3) + s(tempPCA1, k=3),
+                   s(precipPCA1, k=3) + s(tempPCA1, k=3) + s(total.host),
                  data = metadata,  method = "REML", family="nb")
 summary(gam_pNULL)
 
@@ -105,4 +104,5 @@ head(gam_h)
 
 cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # highly corrleated with our estimation of richness
 
-
+# Save raster
+writeRaster(exp(rastTrans), "./formatted_data/gam_bird_rich.grd", overwrite=T)

@@ -39,6 +39,7 @@ gdm_b_host_spp <- readRDS("GDM_results/gdm_b_host_spp.rds")
 gdm_b_par_phy <- readRDS("GDM_results/gdm_b_par_phy.rds")
 gdm_b_par_spp <- readRDS("GDM_results/gdm_b_par_spp.rds")
 
+
 # Shortcut code to load everything in GDM_results file (if one's familiar with
 # what's in there, and ignores advice to avoid assigning objects through loops)
 models <- list.files("GDM_results/")
@@ -49,7 +50,8 @@ for (i in 1:length(models)) {
 
 # Load spatial data -------------------------------------------------------
 
-birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster
+birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster from birdlife dist
+birdrast_gam <- raster("./formatted_data/gam_bird_rich.grd") #bird species richness raster from gam model
 precipPC1 <- raster("./formatted_data/precipPC1.grd") #precip PCA raster
 tempPC1 <- raster("./formatted_data/tempPC1.grd") #temp PCA raster
 peru_alt <- raster("./raw_data/peru_alt.grd") #read elevation raster
@@ -59,6 +61,7 @@ precip_re <- resample(precipPC1, peru_alt, "ngb") #resample to elev grid
 temp_re <- resample(tempPC1, peru_alt, "ngb") #resample to elev grid
 birdrast <- resample(birdrast, peru_alt, "ngb") #resample to elev grid
 npp_re <- resample(npp, peru_alt, "ngb")
+birdrast_gam <- resample(birdrast_gam, peru_alt, "ngb")
 
 extent(peru_alt) == extent(precip_re) #should match
 extent(peru_alt) == extent(temp_re) #should match
@@ -287,11 +290,11 @@ fncols <- function(data, cname) {
   if (length(add) != 0)
     data$x[add] <- 0 # add 0s as vals for dummy vars
   data$x <-
-    select(data$x, variables) # Reorder columns so they're the same for each model
+    dplyr::select(data$x, variables) # Reorder columns so they're the same for each model
   add <- cname[!cname %in% names(data$y)] # do same for y vals.
   if (length(add) != 0)
     data$y[add] <- 0
-  data$y <- select(data$y, variables)
+  data$y <- dplyr::select(data$y, variables)
   data
 }
 variables <-
@@ -310,7 +313,7 @@ lapply(modlist, function (i) colnames(i$x)) # should all be the same now
 lapply(modlist, function (i) (i$x)[1, ]) # factors not in best model should have 0s
 
 # Plot it all up
-pdf("./output_plots/spline_bestmodels.pdf",
+pdf("./output_plots/spline_bestmodels_April.pdf",
     height = 11,
     width = 7)
 namestring <- colnames(modlist[[1]]$x)
@@ -351,7 +354,10 @@ for (i in 1:ncol(modlist[[1]]$x)) {
     l = c(1, 2, 1, 2) # line type = species or phylo turnover
   )
 }
+dev.off()
 
+
+pdf("output_plots/spline_legend.pdf")
 # Legend
 plot(
   NA,
@@ -365,16 +371,16 @@ plot(
 legend(
   "center",
   legend = c(
-    "Parasite species",
-    "Parasite phylogenetic",
     "Host species",
-    "Host phylogenetic"
+    "Parasite species",
+    "Host phylogenetic",
+    "Parasite phylogenetic"
   ),
-  col = varcols[c(7, 7, 4, 4)],
+  col = varcols[c(4, 7, 4, 7)],
   lwd = 3,
   cex = 1.5,
   title = "Turnover model",
-  lty = c(1, 2, 1, 2)
+  lty = c(1, 1, 2, 2)
 )
 dev.off()
 
@@ -423,7 +429,7 @@ dev.off()
 
 mapfun <- function(model, rasterdata) {
   rastTrans <- gdm.transform(model, rasterdata)
-  plot(rastTrans)
+  #plot(rastTrans)
   rastDat <- na.omit(getValues(rastTrans))
   pcaSamp <- prcomp(rastDat)
   pcaRast <- predict(rastTrans, pcaSamp, index = 1:3)
@@ -433,8 +439,9 @@ mapfun <- function(model, rasterdata) {
     (pcaRast[[2]]@data@max - pcaRast[[2]]@data@min) * 255
   pcaRast[[3]] <- (pcaRast[[3]] - pcaRast[[3]]@data@min) /
     (pcaRast[[3]]@data@max - pcaRast[[3]]@data@min) * 255
+  assign(paste("model","raster", sep="_"), pcaRast, envir = .GlobalEnv)
   par(mfrow = c(1, 1))
-  plotRGB(pcaRast, r = 1, g = 2, b = 3)
+  plotRGB(pcaRast, r = 1, g = 2, b = 3) #can change order of channels if map is hideous because colors don't have a particular value.
   addscalebar(plotepsg = 4326)
 }
 
@@ -470,11 +477,11 @@ enviro_table_host_phy <-
 
 map_gdm_host_phy <- gdm(enviro_table_host_phy, geo=T)
 
-
 #results:
 pdf("./output_plots/host_phylo_turnover_map.pdf")
 mapfun(map_gdm_host_phy, rasterdata_h)
 dev.off()
+writeRaster(model_raster, "turnover_rasters/gdm_host_phy_raster") #save raster
 
 #HOSTS SPECIES TURNOVER: best predictors of
 #host turnover are precip, temp, elev and distance and npp.
@@ -495,6 +502,7 @@ pdf("./output_plots/host_spp_turnover_map.pdf")
 mapfun(map_gdm_host_spp, rasterdata_h)
 dev.off()
 
+writeRaster(model_raster, "turnover_rasters/gdm_host_spp_raster") #save raster
 # Host turnover was a significant predictor of parasite species turnover
 # To create a map of parasite species turnover we will need a raster of
 # host turnover. Approach: transform environmental spatial predictors using the
@@ -541,11 +549,12 @@ enviro_table_p <-
     weightType = "equal"
   )
 
-map_gdm_par_phy <- gdm(enviro_table_p, geo=T)
 
 pdf("./output_plots/parasite_phylo_turnover_map.pdf")
 mapfun(map_gdm_par_phy, rasterdata_p) #plot results
 dev.off()
+writeRaster(model_raster, "turnover_rasters/gdm_par_phy_raster") #save raster for others' use
+
 
 #PARASITE SPP: Precip, elevation, host spp turnover (PC1 and PC2), not distance
 
@@ -585,6 +594,7 @@ pdf("./output_plots/parasite_species_turnover_map.pdf")
 mapfun(map_gdm_par_spp, rasterdata_p_s) #plot results
 dev.off()
 
+writeRaster(model_raster, "turnover_rasters/gdm_par_spp_raster") #save raster for others' use
 
 
 # Model exploration -------------------------------------------------------

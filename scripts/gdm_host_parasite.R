@@ -174,10 +174,10 @@ sapply(c("gdm_host_uf", "gdm_host_ja"), function (x) #save models bc permutation
 
 
 #Best models (after selection)
-gdm_b_host_spp <-  gdm.fun.e(host_ja, e = c("community.number",
+gdm_b_host_spp <-  gdm.fun(host_ja, e = c("community.number",
                                            "community.Lat",
                                            "community.Long",
-                                           names(modsel(gdm_host_ja))[-1]))
+                                           names(modsel(gdm_host_ja))[-c(1,6)]), d = hd)
 gdm_b_host_phy <-  gdm.fun(host_unifs, e = c("community.number",
                                             "community.Lat",
                                             "community.Long",

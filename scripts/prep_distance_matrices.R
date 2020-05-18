@@ -11,6 +11,7 @@ library(gplots) #heatmaps
 library(GUniFrac) #for calculating unifrac distance
 library(ape) #for reading phylogeny
 library(dplyr) #for data organization
+library(stringr) #for renaming strings
 
 # Input data ----------------------------------------------------------------
 
@@ -27,20 +28,15 @@ malariatree <- read.nexus("./raw_data/perumalariatree.nex")
 # presence or absence of that species in that community.
 # Clean data to make binary and then transform and put into df.
 inputhosts <- read.csv("./raw_data/allhostlist.csv", row.names = 1,
-                       col.names=paste("C", 1:18)) %>%
-  decostand(., method = "pa") %>% t(.) %>% as.data.frame(.)
-
-
-#erase this once whe figure out what orientation hosts should be in.
-#read.csv("./raw_data/allhostlist.csv", row.names = 1,
-#         col.names=paste("C", 1:18)) %>% head()
+                       col.names=paste("X", 1:18)) %>%
+                        t(.) %>% as.data.frame(.)
+colnames(inputhosts) <- colnames(inputhosts) %>% str_replace_all(., " ", "_") #replace space with underscore to match phylo
 
 # Tree of hosts from Bird Trees
 hosttree <- read.nexus("./raw_data/host-tree-oct12c.nex")
 
 # Community metadata: each row is a community.
 metadata1 <- read.csv("./raw_data/completemetadata.csv", row.names=1)
-metadata1$andes <- ifelse(metadata1$community.number %in% c(6,10,14,16,17,18), "W", "E")
 
 
 # Host species and phylogenetic turnover ---------------------------------------
@@ -52,17 +48,20 @@ metadata1$andes <- ifelse(metadata1$community.number %in% c(6,10,14,16,17,18), "
 #Are there any tree tips not in host list or vice versa?
 hosttree$tip.label[!(hosttree$tip.label %in% colnames(inputhosts))]
 colnames(inputhosts)[!(colnames(inputhosts) %in% hosttree$tip.label)]
+#"Colaptes_cinereicappillus" "Piezorina_cinerea" spelling need to be changed
+colnames(inputhosts)[colnames(inputhosts) =="Colaptes_cinereicappillus"] <- "Colaptes_cinereicappilus"
+colnames(inputhosts)[colnames(inputhosts) =="Piezorina_cinerea"] <- "Piezorhina_cinerea"
 
 #Unweighted Unifrac:
 hostUnifrac <- GUniFrac(inputhosts, hosttree, alpha=c(0, 0.5, 1)) %>%
   .$unifracs %>% .[, , "d_UW"]
 
 #Jaccard
-hostj <- as.matrix(vegdist(inputhosts, method="jaccard", binary=T, diag=T)) %>%
+hostJ <- as.matrix(vegdist(inputhosts, method="jaccard", binary=T, diag=T)) %>%
   as.data.frame()
 
 #write out files
-write.csv(hostj, "formatted_data/hostjaccard.csv")
+write.csv(hostJ, "formatted_data/hostjaccard.csv")
 write.csv(hostUnifrac, "formatted_data/hostUnifrac.csv")
 
 #
@@ -276,7 +275,7 @@ write.csv(metadata1, file = "./formatted_data/GDM_metadata.csv",
 # Heatmaps of distance matrices -----------------------------------------------------------
 
 pdf("./output_plots/heat_map_HostU.pdf")
-heatmap.2(as.matrix(hostunifs[,-1]),  main="Host UniFracs", trace="none")
+heatmap.2(as.matrix(hostUnifrac[,-1]),  main="Host UniFracs", trace="none")
 dev.off()
 pdf("./output_plots/heat_map_HostJ.pdf")
 heatmap.2(as.matrix(hostJ[,-1]),  main="Host Jaccard", trace="none")
@@ -287,3 +286,4 @@ dev.off()
 pdf("./output_plots/heat_map_ParBC.pdf")
 heatmap.2(as.matrix(parBC[,-1]),  main="Parasite Bray Curtis", trace="none")
 dev.off()
+
