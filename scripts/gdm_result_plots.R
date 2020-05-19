@@ -446,7 +446,7 @@ mapfun <- function(model, rasterdata) {
 }
 
 #HOSTS PHYLOGENETIC TURNOVER: GDMs suggest best predictors of
-#host turnover are precip, temp, elev and distance and npp.
+#host turnover are precip, temp, elev, distance, npp and parasite turnover.
 
 rasterdata_h <- brick(addLayer(precip_re, temp_re, peru_alt, npp_re))
 
@@ -483,6 +483,14 @@ mapfun(map_gdm_host_phy, rasterdata_h)
 dev.off()
 writeRaster(model_raster, "turnover_rasters/gdm_host_phy_raster") #save raster
 
+#look at loadings
+rastTrans <- gdm.transform(map_gdm_host_phy, rasterdata_h)
+rastDat <- na.omit(getValues(rastTrans))
+pcaSamp <- prcomp(rastDat)
+write.csv(pcaSamp$rotation, "GDM_results/gdm_host_phy_pca.csv")
+
+
+
 #HOSTS SPECIES TURNOVER: best predictors of
 #host turnover are precip, temp, elev and distance and npp.
 enviro_table_host_spp <-
@@ -503,6 +511,13 @@ mapfun(map_gdm_host_spp, rasterdata_h)
 dev.off()
 
 writeRaster(model_raster, "turnover_rasters/gdm_host_spp_raster") #save raster
+
+rastTrans <- gdm.transform(map_gdm_host_spp, rasterdata_h)
+rastDat <- na.omit(getValues(rastTrans))
+pcaSamp <- prcomp(rastDat)
+write.csv(pcaSamp$rotation, "GDM_results/gdm_host_spp_pca.csv")
+
+
 # Host turnover was a significant predictor of parasite species turnover
 # To create a map of parasite species turnover we will need a raster of
 # host turnover. Approach: transform environmental spatial predictors using the
@@ -549,14 +564,20 @@ enviro_table_p <-
     weightType = "equal"
   )
 
+map_gdm_par_phy <- gdm(enviro_table_p, geo = T)
 
 pdf("./output_plots/parasite_phylo_turnover_map.pdf")
 mapfun(map_gdm_par_phy, rasterdata_p) #plot results
 dev.off()
 writeRaster(model_raster, "turnover_rasters/gdm_par_phy_raster") #save raster for others' use
 
+#PCA loadings
+rastTrans <- gdm.transform(map_gdm_par_phy, rasterdata_p)
+rastDat <- na.omit(getValues(rastTrans))
+pcaSamp <- prcomp(rastDat)
+write.csv(pcaSamp$rotation, "GDM_results/gdm_par_phy_pca.csv")
 
-#PARASITE SPP: Precip, elevation, host spp turnover (PC1 and PC2), not distance
+#PARASITE SPP: Precip, elevation, host spp turnover (PC1 and PC2), very minor contribution of distance
 
 rasterdata_p_s <- brick(addLayer(precip_re, peru_alt, pca_rast_h[[1:2]]))
 
@@ -588,7 +609,7 @@ enviro_table_p_s <- formatsitepair(
   weightType = "equal"
 )
 
-map_gdm_par_spp <- gdm(enviro_table_p_s, geo=F) #distance not an important predictor
+map_gdm_par_spp <- gdm(enviro_table_p_s, geo=T)
 
 pdf("./output_plots/parasite_species_turnover_map.pdf")
 mapfun(map_gdm_par_spp, rasterdata_p_s) #plot results
@@ -596,9 +617,7 @@ dev.off()
 
 writeRaster(model_raster, "turnover_rasters/gdm_par_spp_raster") #save raster for others' use
 
-
-# Model exploration -------------------------------------------------------
-
-gdm_par_bc[[3]][,6]
-plot(gdm_b_par_spp)
-gdm_host_uf
+rastTrans <- gdm.transform(map_gdm_par_spp, rasterdata_p_s)
+rastDat <- na.omit(getValues(rastTrans))
+pcaSamp <- prcomp(rastDat)
+write.csv(pcaSamp$rotation, "GDM_results/gdm_par_spp_pca.csv")

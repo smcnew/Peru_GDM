@@ -26,17 +26,19 @@ malariatree <- read.nexus("./raw_data/perumalariatree.nex")
 
 # Host data: Each row is a bird species, each column is a community. Values are
 # presence or absence of that species in that community.
-# Clean data to make binary and then transform and put into df.
-inputhosts <- read.csv("./raw_data/allhostlist.csv", row.names = 1,
+# Clean data to make binary and then transform and put into df.Data are in
+# formatted data folder because host lists were compiled in "compiling_hosts.R"
+inputhosts <- read.csv("./formatted_data/allhostlist.csv", row.names = 1,
                        col.names=paste("X", 1:18)) %>%
                         t(.) %>% as.data.frame(.)
 colnames(inputhosts) <- colnames(inputhosts) %>% str_replace_all(., " ", "_") #replace space with underscore to match phylo
+
 
 # Tree of hosts from Bird Trees
 hosttree <- read.nexus("./raw_data/host-tree-oct12c.nex")
 
 # Community metadata: each row is a community.
-metadata1 <- read.csv("./raw_data/completemetadata.csv", row.names=1)
+metadata1 <- read.csv("./raw_data/bare_metadata.csv", row.names=1)
 
 
 # Host species and phylogenetic turnover ---------------------------------------

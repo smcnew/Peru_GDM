@@ -1,4 +1,4 @@
-# Analysis McNew et al. 2019 in prep
+# Analysis McNew et al. 2020 in prep
 ## Author: Sabrina McNew
 ***
 ***
@@ -9,8 +9,10 @@ The code and files are set up to be run as a [project](https://r4ds.had.co.nz/wo
 in RStudio. This means file paths are relative within the script (for ex. "raw_data" will be a subdirectory within 
 whatever working directory you place the project in).  
 
-Two directories were not synced to GitHub: "GDM_results" and "output_plots", because their contents are 
-too large. You should create them before starting. 
+Three directories were not synced to GitHub: "GDM_results" and "output_plots", because their contents are 
+too large. You should create them before starting. "Bird_shapes" is a directory 
+with Birdlife shape files cropped and masked to the study area (Peru). You will need to access them 
+yourself and/or contact SMM for them. 
 
 ### A fairly complete list of packages needed (check beginning of each script
 ### for complete list): 

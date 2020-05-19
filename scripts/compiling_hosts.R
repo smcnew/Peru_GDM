@@ -18,8 +18,8 @@ library(tidyr)
 # Spatial data
 #peru <- raster::getData("GADM", country="PER", level=0) #download country shape
 #projection(peru) <- CRS("+init=epsg:4326")
-peru_alt <- raster("./raw_data/peru_alt.grd") #elev raster
-metadata1 <- read.csv(file = "./formatted_data/GDM_metadata.csv") #locals of communities
+peru_alt <- raster("raw_data/peru_alt.grd") #elev raster
+metadata1 <- read.csv(file = "raw_data/bare_metadata.csv") #locals of communities
 
 CommunitySpatial <- SpatialPointsDataFrame(
   matrix(c(metadata1$community.Long,metadata1$community.Lat), ncol = 2),
@@ -189,7 +189,7 @@ observedhoststable<- observedhoststable[!is.na(observedhoststable$BirdTree.taxon
 
 #Merge taxonomy of BirdLife dataframe
 
-communitydf <- rename(communitydf, Birdlife.taxon = taxon) %>% merge(., taxonomy, all.x=T, all.y=F)
+communitydf <- dplyr::rename(communitydf, Birdlife.taxon = taxon) %>% merge(., taxonomy, all.x=T, all.y=F)
 
 ##combine observed and theoretical lists.
 
@@ -203,14 +203,14 @@ allhostlist <- rbind(df1, df2)
 allhostlist <- ddply(allhostlist, "hostphylogeny.taxon", numcolwise(sum))
 
 
-allhostlist[allhostlist==2] <- 1 #Some cells have 2 where MSB and bird life agree. Change to 1
+allhostlist[allhostlist > 1] <- 1 #Some cells have 2 where MSB and bird life agree. Change to 1
 head(allhostlist)
 
 apply(allhostlist[,2:19], 2, sum) #host richness
 metadata1$total.host <- apply(allhostlist[,2:19], 2, sum) #add host richness to metadata
 
-write.csv(allhostlist, "allhostlist.csv", row.names=FALSE)
-write.csv(metadata1, file = "./formatted_data/GDM_metadata.csv", row.names = F) #updated metadata
+write.csv(allhostlist, "formatted_data/allhostlist.csv", row.names=FALSE)
+write.csv(metadata1, file = "raw_data/bare_metadata.csv", row.names = F) #updated metadata
 
 # Sanity checks -----------------------------------------------------------
 
