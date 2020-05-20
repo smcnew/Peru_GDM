@@ -429,7 +429,7 @@ dev.off()
 
 mapfun <- function(model, rasterdata) {
   rastTrans <- gdm.transform(model, rasterdata)
-  #plot(rastTrans)
+  plot(rastTrans)
   rastDat <- na.omit(getValues(rastTrans))
   pcaSamp <- prcomp(rastDat)
   pcaRast <- predict(rastTrans, pcaSamp, index = 1:3)
@@ -490,7 +490,6 @@ pcaSamp <- prcomp(rastDat)
 write.csv(pcaSamp$rotation, "GDM_results/gdm_host_phy_pca.csv")
 
 
-
 #HOSTS SPECIES TURNOVER: best predictors of
 #host turnover are precip, temp, elev and distance and npp.
 enviro_table_host_spp <-
@@ -536,7 +535,7 @@ pca_samp_h %>% summary()
 #elevation (by a lot), precipitation, host species richness, and geographic distance.
 
 #raster stack
-rasterdata_p <- brick(addLayer(precip_re, peru_alt, birdrast))
+rasterdata_p <- brick(addLayer(peru_alt, birdrast, precip_re))
 
 #select metadata
 enviro_meta_p_p <-
@@ -545,9 +544,9 @@ enviro_meta_p_p <-
     community.number,
     community.Lat,
     community.Long,
-    precipPCA1,
     community.elev,
-    total.host
+    total.host,
+    precipPCA1,
   ) %>%
   as.data.frame(.) %>%
   mutate(., community.number = 1:18) %>% as.matrix(.)
@@ -564,18 +563,21 @@ enviro_table_p <-
     weightType = "equal"
   )
 
-map_gdm_par_phy <- gdm(enviro_table_p, geo = T)
+map_gdm_par_phy <- gdm(enviro_table_p, geo = F) #geographic distance explained 0 variance; removed here.
 
 pdf("./output_plots/parasite_phylo_turnover_map.pdf")
 mapfun(map_gdm_par_phy, rasterdata_p) #plot results
 dev.off()
-writeRaster(model_raster, "turnover_rasters/gdm_par_phy_raster") #save raster for others' use
+
+writeRaster(model_raster, "turnover_rasters/gdm_par_phy_raster", overwrite=TRUE) #save raster for others' use
+
 
 #PCA loadings
-rastTrans <- gdm.transform(map_gdm_par_phy, rasterdata_p)
+rastTrans <- gdm.transform(map_gdm_par_phy, rasterdata_p) #Raster = elev, richness, precip
 rastDat <- na.omit(getValues(rastTrans))
 pcaSamp <- prcomp(rastDat)
 write.csv(pcaSamp$rotation, "GDM_results/gdm_par_phy_pca.csv")
+
 
 #PARASITE SPP: Precip, elevation, host spp turnover (PC1 and PC2), very minor contribution of distance
 

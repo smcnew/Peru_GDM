@@ -255,3 +255,63 @@ metadata1$shannonD <- diversity(hostsurvey, "shannon")
 
 write.csv(metadata1, file = "./formatted_data/GDM_metadata.csv", row.names=F)
 
+
+# Map of sampling localities ----------------------------------------------
+
+head(sampling)
+dev.off()
+
+
+sampling <- inputhaplos %>% select (latlong,
+                     neg.degrees.Lat,
+                     neg.degrees.Long,
+                     Elev,
+                     community.number,
+                     Local) %>%
+  mutate(., latlongcomm = paste(round(neg.degrees.Lat, 2),
+                             round(neg.degrees.Long, 2),
+                             community.number, sep="."))
+
+Ns <- table(sampling$latlongcomm) %>% as.data.frame %>% rename(latlongcomm = Var1)
+sampling <- sampling %>% distinct(latlongcomm, .keep_all=T)
+sampling <- merge(sampling,Ns) %>%
+  mutate( col = cut(
+    Elev,
+    breaks = seq(from = 0, to = 5100, by = 500),
+    dig.lab = 5),
+    size = cut(Freq, breaks = seq(from = 0, to = 120, by = 10)))
+
+max(sampling$Elev, na.rm=T)
+local_spat <- SpatialPointsDataFrame(
+  matrix(c(
+    sampling$neg.degrees.Long, sampling$neg.degrees.Lat), ncol = 2),
+  data.frame(
+    Elev = sampling$Elev,
+    N = sampling$Freq,
+    community.number = sampling$community.number,
+    col = sampling$col,
+    size = sampling$size),
+  proj4string = CRS("+init=epsg:4326")
+)
+
+length(levels(sampling$col))
+cexs <- seq(from = 0.5, to = 1.5, length.out=length(levels(sampling$size)))
+vircols <- viridis_pal(option = "B", end = 0.7)(length(levels(sampling$col)))
+plot(1:11, 1:11, pch = 19, col = vircols)
+
+pdf("output_plots/locals_map2.pdf")
+par(mfrow=c(5,4), mar=c(0,0,0,0))
+for (i in 1:18) {
+  plot(peru_alt, legend = F, axes = F)
+  comm <- local_spat[local_spat$community.number==i,]
+  plot(comm, add=T, pch=1, cex = cexs[comm$size], lwd = 1,
+       col = vircols[comm$col])
+  mtext(i, side = 1, line = -2, adj = 0.1, cex = 1.5)
+}
+plot(NA,NA, axes=F)
+legend("center", legend = levels(sampling$col), title = "Elevation (m)", pch = 19, pt.cex = 2, col = vircols)
+
+plot(NA,NA, axes=F)
+legend("center", legend = levels(sampling$size), title = "Samples (N)", pch = 21, pt.cex = cexs)
+dev.off()
+
