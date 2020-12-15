@@ -596,10 +596,10 @@ sampledhosts$latlong <- as.factor(paste(round(sampledhosts$neg.degrees.Lat,3),
 community.lat.long.list <- unique(dplyr::select(inputhaplos, "latlong", "community.number"))
 sampledhosts <- merge(sampledhosts, community.lat.long.list, all.x=F, by="latlong") #add community numbers to host sampling
 sampledhosts$community.number <- as.factor(sampledhosts$community.number)
+head(sampledhosts)
 
 pdf("output_plots/screened_bird_mass.pdf", width = 9, height = 5)
-boxplot(log(body.mass..g.) ~ community.number, sampledhosts[sampledhosts$family!="Trochilidae",], ylab = "Log body mass (g)", xlab = "Community")
-boxplot(log(body.mass..g.) ~ community.number, sampledhosts, ylab = "Log body mass (g)", xlab = "Community")
+boxplot(log10(body.mass..g.) ~ community.number, sampled_hosts_one, ylab = "Log body mass (g)", xlab = "Community")
 dev.off()
 dunnTest(body.mass..g. ~community.number, sampledhosts, method = "bonferroni") %>% .$res %>% filter(P.adj < 0.05)
 
