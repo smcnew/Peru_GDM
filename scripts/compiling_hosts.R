@@ -3,7 +3,6 @@
 
 library(sp)
 library(rgdal)
-library(geosphere)
 library(maptools)
 library(sf)
 library(raster)

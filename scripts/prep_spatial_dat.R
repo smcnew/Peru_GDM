@@ -8,6 +8,7 @@ library(RStoolbox)
 library(prettymapr)
 library(viridis)
 library(rasterVis)
+library(dplyr)
 set.seed(1987)
 
 # Load data-------------------------------------------------------
@@ -129,7 +130,7 @@ npp <- mask(npp, peru)
 plot(npp, col=viridis(100)) ### NPP are in kg carbon /m2 *10000
 
 
-metadata1$npp.raster <- extract(npp, CommunitySpatial) #pull vals for communities
+metadata1$npp.raster <- raster::extract(npp, CommunitySpatial) #pull vals for communities
 writeRaster(npp, "./formatted_data/npp.grd", overwrite=T)
 npp <- raster("./formatted_data/npp.grd")
 
@@ -184,7 +185,7 @@ dev.off()
 
 # Maps for figures --------------------------------------------------------
 
-#Make a nice map of sampling locations
+#Make a nice map of communities
 pdf("./output_plots/samplingmap.pdf", useDingbats = F)
 plot(perualt2, col= viridis(100))
 plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
@@ -257,29 +258,47 @@ write.csv(metadata1, file = "./formatted_data/GDM_metadata.csv", row.names=F)
 
 
 # Map of sampling localities ----------------------------------------------
-
-head(sampling)
-dev.off()
-
-
 sampling <- inputhaplos %>% select (latlong,
                      neg.degrees.Lat,
                      neg.degrees.Long,
                      Elev,
                      community.number,
-                     Local) %>%
+                     Local,
+                     Dept) %>%
   mutate(., latlongcomm = paste(round(neg.degrees.Lat, 2),
                              round(neg.degrees.Long, 2),
                              community.number, sep="."))
 
+
+#-12.73.-73.96.2
 Ns <- table(sampling$latlongcomm) %>% as.data.frame %>% rename(latlongcomm = Var1)
 sampling <- sampling %>% distinct(latlongcomm, .keep_all=T)
+filter(sampling, is.na(Elev))
+
+#fix missing elevations by manually googling coordinates
+sampling$Elev[sampling$latlongcomm == "-11.47.-74.79.2"] <- 1744
+sampling$Elev[sampling$latlongcomm == "-12.73.-73.96.2"] <- 1837
+sampling$Elev[sampling$latlongcomm == "-10.44.-75.35.2"] <- 2100
+sampling$Elev[sampling$latlongcomm == "-11.51.-74.86.2"] <- 2640
+sampling$Elev[sampling$latlongcomm == "-10.42.-75.32.2"] <- 1398
+sampling$Elev[sampling$latlongcomm == "-12.79.-74.2"] <- 2750
+sampling$Elev[sampling$latlongcomm == "-6.84.-77.49.4"] <- 1909
+sampling$Elev[sampling$latlongcomm == "-6.72.-77.58.4"] <- 1730
+sampling$Elev[sampling$latlongcomm == "-14.49.-69.28.9"] <- 3100
+sampling$Elev[sampling$latlongcomm == "-13.1.-71.57.9"] <- 1963
+sampling$Elev[sampling$latlongcomm == "-13.17.-71.6.9"] <- 2737
+sampling$Elev[sampling$latlongcomm == "-13.16.-71.59.9"] <- 2600
+
+#
+filter(sampling, is.na(Elev))
+
 sampling <- merge(sampling,Ns) %>%
   mutate( col = cut(
     Elev,
     breaks = seq(from = 0, to = 5100, by = 500),
     dig.lab = 5),
     size = cut(Freq, breaks = seq(from = 0, to = 120, by = 10)))
+filter(sampling, community.number ==2)
 
 max(sampling$Elev, na.rm=T)
 local_spat <- SpatialPointsDataFrame(
@@ -294,24 +313,29 @@ local_spat <- SpatialPointsDataFrame(
   proj4string = CRS("+init=epsg:4326")
 )
 
+
 length(levels(sampling$col))
 cexs <- seq(from = 0.5, to = 1.5, length.out=length(levels(sampling$size)))
 vircols <- viridis_pal(option = "B", end = 0.7)(length(levels(sampling$col)))
-plot(1:11, 1:11, pch = 19, col = vircols)
 
-pdf("output_plots/locals_map2.pdf")
+pdf("output_plots/locals_map2.pdf", useDingbats = F)
 par(mfrow=c(5,4), mar=c(0,0,0,0))
 for (i in 1:18) {
-  plot(peru_alt, legend = F, axes = F)
+  plot(perualt2, legend = F, axes = F)
   comm <- local_spat[local_spat$community.number==i,]
   plot(comm, add=T, pch=1, cex = cexs[comm$size], lwd = 1,
        col = vircols[comm$col])
   mtext(i, side = 1, line = -2, adj = 0.1, cex = 1.5)
 }
 plot(NA,NA, axes=F)
-legend("center", legend = levels(sampling$col), title = "Elevation (m)", pch = 19, pt.cex = 2, col = vircols)
+legend("center", legend = levels(sampling$col), title = "Elevation (m)", pch = 19, pt.cex = 2, col = vircols, cex = 0.8)
 
 plot(NA,NA, axes=F)
-legend("center", legend = levels(sampling$size), title = "Samples (N)", pch = 21, pt.cex = cexs)
+legend("center", legend = levels(sampling$size), title = "Samples (N)", pch = 21, pt.cex = cexs, cex = 0.7)
 dev.off()
+
+filter(sampling, community.number ==4 ) %>% select(Local, neg.degrees.Lat, neg.degrees.Long, latlongcomm) %>%
+  select(latlongcomm) %>% distinct
+
+
 

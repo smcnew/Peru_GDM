@@ -143,8 +143,7 @@ gdm_b_par_spp <- gdm.fun(r = par_bc,
 
 # Host turnover not important for phylogenetic turnover so we use gdm.fun.e (no distance matrix predictor)
 gdm_b_par_phy <- gdm.fun.e(r = par_unifs,
-                           e = c("community.number", "community.Lat", "community.Long",
-                                 names(modsel(gdm_p_uf))[-1]))
+                           e = c("community.number", "community.Lat", "community.Long", "precipPCA1", "community.elev", "total.host"))
 
 saveRDS(gdm_b_par_spp, file = "GDM_results/gdm_b_par_spp.rds")
 saveRDS(gdm_b_par_phy, file = "GDM_results/gdm_b_par_phy.rds")

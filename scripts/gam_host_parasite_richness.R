@@ -51,6 +51,8 @@ gam_pNULL <- gam(parasite.richness ~  s(shannonD, k=3) + s(npp.raster, k=3) +
                  data = metadata,  method = "REML", family="nb")
 summary(gam_pNULL)
 
+
+
 gam_p <- gam(parasite.richness ~  s(shannonD, k=3) ,
              data = metadata,  method = "REML", family="nb")
 summary(gam_p)
@@ -106,3 +108,35 @@ cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # hi
 
 # Save raster
 writeRaster(exp(rastTrans), "./formatted_data/gam_bird_rich.grd", overwrite=T)
+
+
+
+
+
+
+# scratch -----------------------------------------------------------------
+
+plot(parasite.richness ~ parasite.observed, metadata, ylab = "estimated parasite richness", xlab = "observed parasite richness")
+metadata
+infections <- peruhaploabun %>% rowSums()
+
+plot(x = infections, y = metadata$parasite.richness, ylab = "estimated parasite richness")
+
+test <- matrix(nrow  = 100, ncol = 18)
+for ( i in 1:100){
+peruspec.rar <- rrarefy(peruhaploabun, 44)
+test[i,] <- peruspec.rar %>% apply(., 1, function(x) sum(x > 0))
+}
+rare_rich <- apply(test, 2, mean)
+
+plot(x = rare_rich, y = metadata$parasite.richness, ylab = "estimated parasite richness",
+     xlab = "Rarefied richness")
+
+gam(rare_rich ~  s(shannonD, k=3),
+    data = metadata,  method = "REML", family="nb") %>% summary()
+
+gam(rare_rich ~  s(total.host),
+    data = metadata,  method = "REML", family="nb") %>% summary()
+gam(rare_rich ~  s(shannonD, k=3) + s(npp.raster, k=3) +
+                   s(precipPCA1, k=3) + s(tempPCA1, k=3) + s(total.host),
+                 data = metadata,  method = "REML", family="nb") %>% summary()

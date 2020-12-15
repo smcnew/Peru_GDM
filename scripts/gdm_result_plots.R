@@ -39,6 +39,8 @@ gdm_b_host_spp <- readRDS("GDM_results/gdm_b_host_spp.rds")
 gdm_b_par_phy <- readRDS("GDM_results/gdm_b_par_phy.rds")
 gdm_b_par_spp <- readRDS("GDM_results/gdm_b_par_spp.rds")
 
+plot(gdm_b_par_spp, plot.layout = c (3,3)) #spot check models to make sure they look right
+
 
 # Shortcut code to load everything in GDM_results file (if one's familiar with
 # what's in there, and ignores advice to avoid assigning objects through loops)
@@ -85,15 +87,16 @@ CommunitySpatial <- SpatialPointsDataFrame(
 # Load distance matrices (for maps) -------------------------------------------------------
 #Host distance matrices
 host_ja <- read.csv("./formatted_data/hostjaccard.csv") %>%
-  rename(community.number = X) %>% mutate(community.number = 1:18) #Jaccard
+  dplyr::rename(community.number = X) %>% mutate(community.number = 1:18) #Jaccard
 
 host_unifs <- read.csv("./formatted_data/hostUnifrac.csv") %>%
-  rename(community.number = X) %>% mutate(community.number = 1:18) #Unifracs (unweighted)
+  dplyr::rename(community.number = X) %>% mutate(community.number = 1:18) #Unifracs (unweighted)
 
 #Parasite distance matrices
-par_bc <- read.csv("./formatted_data/parasitebraycurtis.csv") %>% rename(., community.number=X) #Bray curtis
+par_bc <- read.csv("./formatted_data/parasitebraycurtis.csv") %>%
+  dplyr::rename(., community.number=X) #Bray curtis
 par_unifs <- read.csv("./formatted_data/malaria.generalized.unifracs.csv") %>%
-  rename(., community.number=X) #Unifracs (generalized)
+  dplyr::rename(., community.number=X) #Unifracs (generalized)
 
 #
 # Barplots ----------------------------------------------------------------
@@ -578,7 +581,7 @@ rastDat <- na.omit(getValues(rastTrans))
 pcaSamp <- prcomp(rastDat)
 write.csv(pcaSamp$rotation, "GDM_results/gdm_par_phy_pca.csv")
 
-
+head(rastTrans)
 #PARASITE SPP: Precip, elevation, host spp turnover (PC1 and PC2), very minor contribution of distance
 
 rasterdata_p_s <- brick(addLayer(precip_re, peru_alt, pca_rast_h[[1:2]]))

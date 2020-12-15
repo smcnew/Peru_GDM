@@ -20,7 +20,7 @@ library(stringr) #for renaming strings
 # and "Lineage.name", the parasite species.
 
 inputhaplos <- read.csv("./raw_data/grouped-haplos.csv", row.names = 1)
-
+filter(inputhaplos, community.number ==7)
 #tree of all malaria lineages
 malariatree <- read.nexus("./raw_data/perumalariatree.nex")
 
@@ -32,6 +32,10 @@ inputhosts <- read.csv("./formatted_data/allhostlist.csv", row.names = 1,
                        col.names=paste("X", 1:18)) %>%
                         t(.) %>% as.data.frame(.)
 colnames(inputhosts) <- colnames(inputhosts) %>% str_replace_all(., " ", "_") #replace space with underscore to match phylo
+inputhosts[c(1,7),] %>% apply(., 2, sum) %>% as.data.frame() -> tempdat
+names(tempdat) <- "col1"
+filter(tempdat, col1 == 2) %>% nrow()
+
 
 
 # Tree of hosts from Bird Trees
@@ -288,4 +292,6 @@ dev.off()
 pdf("./output_plots/heat_map_ParBC.pdf")
 heatmap.2(as.matrix(parBC[,-1]),  main="Parasite Bray Curtis", trace="none")
 dev.off()
+
+
 
