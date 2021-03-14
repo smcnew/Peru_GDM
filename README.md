@@ -7,12 +7,14 @@
 ### File structure 
 The code and files are set up to be run as a [project](https://r4ds.had.co.nz/workflow-projects.html)
 in RStudio. This means file paths are relative within the script (for ex. "raw_data" will be a subdirectory within 
-whatever working directory you place the project in).  
+whatever working directory you place the project in).
 
 Three directories were not synced to GitHub: "GDM_results" and "output_plots", because their contents are 
 too large. You should create them before starting. "Bird_shapes" is a directory 
 with Birdlife shape files cropped and masked to the study area (Peru). You will need to access them 
 yourself and/or contact SMM for them. 
+
+Please check out the GDM package and [vignette](https://cran.r-project.org/web/packages/gdm/vignettes/gdmVignette.pdf) for details of GDM modeling. 
 
 ### A fairly complete list of packages needed (check beginning of each script
 ### for complete list): 
