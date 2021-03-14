@@ -1,4 +1,4 @@
-# Analysis McNew et al. 2020 in prep
+# Analysis McNew et al. 2020 PNAS
 ## Author: Sabrina McNew
 ***
 ***
