@@ -6,7 +6,7 @@ library(dplyr)
 library(mgcv) # the GAM package
 library(raster) # to deal with spatial data
 library(viridis) # map cols
-
+library(sjPlot)
 set.seed(1987)
 
 # Data --------------------------------------------------------------------
@@ -19,6 +19,7 @@ precipPC1 <- raster("./formatted_data/precipPC1.grd") #precip PCA raster
 tempPC1 <- raster("./formatted_data/tempPC1.grd") #temp PCA raster
 peru_alt <- raster("./raw_data/peru_alt.grd") #read elevation raster
 npp <- raster("./formatted_data/npp.grd")
+birdrast <- raster("./formatted_data/birdrichness.grd") #bird species richness raster from birdlife dist
 
 precipRe <- resample(precipPC1, peru_alt, "ngb") #resample to elev grid
 tempRe <- resample(tempPC1, peru_alt, "ngb") #resample to elev grid
@@ -50,19 +51,21 @@ gam_pNULL <- gam(parasite.richness ~  s(shannonD, k=3) + s(npp.raster, k=3) +
                    s(precipPCA1, k=3) + s(tempPCA1, k=3) + s(total.host),
                  data = metadata,  method = "REML", family="nb")
 summary(gam_pNULL)
-
+tab_model(gam_pNULL)
 
 
 gam_p <- gam(parasite.richness ~  s(shannonD, k=3) ,
              data = metadata,  method = "REML", family="nb")
+tab_model(gam_p)
 summary(gam_p)
-
 pdf("./output_plots/parasite_gam.pdf", useDingbats = F)
 par(mfrow=c(3,2))
 gam.check(gam_p)
 plot(gam_p, xlab="Sampled host community diversity (Shannon's D)")
 plot(metadata$shannonD, fitted(gam_p), xlab="Sampled host community diversity (Shannon's D)" )
 dev.off()
+
+
 
 # Host richness
 par(mfrow=c(2,2))
@@ -71,15 +74,35 @@ gam_h <- gam(total.host ~ s(community.elev, k=3) + #s(community.Lat) +
                #               s(tempPCA1, k=3) + s(precipPCA1, k=3) +
                s(npp.raster, k=3),
              data = metadata,  method = "REML", family="nb") # use a negative binomial because var > mean
-
+tab_model(gam_h)
+summary(gam_h)
 pdf("./output_plots/host_gam.pdf", useDingbats = F, height=9, width=7)
 par(mfrow=c(4,2), mar=c(4,5,3,5))
 gam.check(gam_h)
 plot(gam_h)
-plot(metadata$community.elev, fitted(gam_h), xlab="Elevation")
-plot(metadata$npp.raster/1000, fitted(gam_h), xlab="Net primary productivity")
+plot(metadata$community.elev, fitted(gam_h), xlab="Elevation (m)")
+plot(metadata$npp.raster/10000, fitted(gam_h), xlab="Net primary productivity Kg C/m2")
 dev.off()
+?plot.gam
 
+#logit
+# inverse logit formula: exp(x)/(1+exp(x))
+x <- -0.5
+exp(x)/(1+exp(x))
+
+logit2prob <- function(logit){
+  odds <- exp(logit)
+  prob <- odds / (1 + odds)
+  return(prob)
+}
+logit2prob(0)
+logit2odds <- function(logit){
+  odds <- exp(logit)
+  return(odds)
+}
+logit2odds(0)
+logit2odds(-.5)
+logit2odds(-1)
 
 # Projected maps  ---------------------------------------------------------
 #can we predict gam onto raster?

@@ -227,9 +227,17 @@ plot(npp/10000, col=viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
 plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
 
 
-plot(birdrast_gam, col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+plot(birdrast, col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
      main = "Bird species richness", cex.main = 1.6, box = FALSE, axes = F)
 plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
+addscalebar(plotepsg = 4326)
+dev.off()
+
+# Create bird richness map alone
+
+pdf("output_plots/bird_richness.pdf")
+plot(birdrast, col = viridis(1000), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+     box = FALSE, axes = F, maxpixels=1e20)
 addscalebar(plotepsg = 4326)
 dev.off()
 
