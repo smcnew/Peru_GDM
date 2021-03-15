@@ -19,4 +19,6 @@ Pdfs of the maps (as seen in figure 4) are uploaded as
 Raster of bird species richness is included as a single layer (birdrichness.grd/gri)
 It can be read into R using raster::raster("path/birdrichness")
 It can be plotted using raster::plot(birdrichness)
-It can be visualized ouside of R by opening the pdf (bird_species_richness.png)
+It can be visualized ouside of R by opening the pdf (bird_richness.pdf). 
+
+Occasionally, pdfs look blurry in mac preview. If this is true for you, try opening in another viewer (e.g. Adobe Illustrator/Reader). 
