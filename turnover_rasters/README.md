@@ -16,7 +16,7 @@ Pdfs of the maps (as seen in figure 4) are uploaded as
 4. parasite_species_turnover_map.pdf
 
 ## Species richness map
-Raster of bird species richness is included as a single layer (gam_bird_rich.grd and .gri)
+Raster of bird species richness is included as a single layer (gam_bird_rich.grd and .gri). This raster was created by projecting the gam model of bird richness onto rasters of net primary productivity and elevation (the two main predictors of bird species richness). 
 It can be read into R using raster::raster("path/gam_bird_rich")
 It can be plotted using raster::plot(birdrichness)
 It can be visualized ouside of R by opening the pdf (bird_richness.pdf). 
