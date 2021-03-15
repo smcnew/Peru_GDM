@@ -124,7 +124,7 @@ plot(
 )
 dev.off()
 
-plot(birdrast, col = viridis(100))
+plot(birdrast, col = viridis(100)) # Species richness from Bird Life intersection
 head(gam_h)
 
 cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # highly corrleated with our estimation of richness
@@ -133,7 +133,13 @@ cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # hi
 writeRaster(exp(rastTrans), "./formatted_data/gam_bird_rich.grd", overwrite=T)
 
 
+# Create bird richness map alone
 
+pdf("output_plots/bird_richness.pdf")
+plot(exp(rastTrans), col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+     box = FALSE, axes = F, maxpixels=1e20)
+addscalebar(plotepsg = 4326)
+dev.off()
 
 
 

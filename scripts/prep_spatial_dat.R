@@ -26,6 +26,9 @@ precipPCA <- raster("./formatted_data/precipPC1.grd") #see below if you need to 
 #Bird richness from Birdlife Distributions
 birdrast <- raster("formatted_data/birdrichness.grd")
 
+# Bird richness based on GAM model
+# This is created in the gam_host_parasite_richness.R script
+# birdrast_gam <- raster("formatted_data/gam_bird_rich.grd")
 
 plot(climate2$bio1) #check and make sure they look as they should (bio1 is temp in C * 10)
 plot(perualt2)
@@ -227,19 +230,13 @@ plot(npp/10000, col=viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
 plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
 
 
-plot(birdrast, col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
+plot(birdrast_gam, col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
      main = "Bird species richness", cex.main = 1.6, box = FALSE, axes = F)
 plot(CommunitySpatial, add=T, pch=21, bg="white", cex=1.3)
 addscalebar(plotepsg = 4326)
 dev.off()
 
-# Create bird richness map alone
 
-pdf("output_plots/bird_richness.pdf")
-plot(birdrast, col = viridis(1000), xaxt = "n", yaxt = "n", #cex.axis=1.5,
-     box = FALSE, axes = F, maxpixels=1e20)
-addscalebar(plotepsg = 4326)
-dev.off()
 
 # Shannon richness of host community (index of sampling effort)-----------------
 # We want to use sampling effort as a predictor in parasite GDMs.
