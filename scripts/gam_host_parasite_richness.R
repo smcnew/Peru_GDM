@@ -100,9 +100,6 @@ logit2odds <- function(logit){
   odds <- exp(logit)
   return(odds)
 }
-logit2odds(0)
-logit2odds(-.5)
-logit2odds(-1)
 
 # Projected maps  ---------------------------------------------------------
 #can we predict gam onto raster?
@@ -111,33 +108,30 @@ names(gamhrast) <- c("community.elev", "npp.raster")
 rastTrans <-
   predict(gamhrast, gam_h) #predictions come as log(richness) because of neg binom model
 
-
-pdf("./output_plots/host_map_GAM_communities.pdf", useDingbats = F)
-par(mfrow = c(1, 1))
-plot(exp(rastTrans), col = viridis(100)) #exp. to back transform from log-link (negative binomial)
-plot(
-  CommunitySpatial,
-  add = T,
-  pch = 21,
-  bg = "white",
-  cex = 1.3
-)
-dev.off()
-
+#Map with communities plotted on top
+plot(exp(rastTrans), col = viridis(100)) # exp to get richness in real numbers
 plot(birdrast, col = viridis(100)) # Species richness from Bird Life intersection
-head(gam_h)
 
-cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # highly corrleated with our estimation of richness
+# compare species richness at each community with the number we estimated
+cor(exp(raster::extract(rastTrans, CommunitySpatial)), metadata$total.host) # highly correleated with our estimation of richness
 
 # Save raster
 writeRaster(exp(rastTrans), "./formatted_data/gam_bird_rich.grd", overwrite=T)
 
 
 # Create bird richness map alone
-
-pdf("output_plots/bird_richness.pdf")
+pdf("output_plots/bird_richness_gam.pdf")
 plot(exp(rastTrans), col = viridis(100), xaxt = "n", yaxt = "n", #cex.axis=1.5,
      box = FALSE, axes = F, maxpixels=1e20)
+#Optional plot community points on top
+#plot(
+#  CommunitySpatial,
+#  add = T,
+#  pch = 21,
+#  bg = "white",
+#  cex = 1.3
+#)
+
 addscalebar(plotepsg = 4326)
 dev.off()
 
